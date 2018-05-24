@@ -16,7 +16,7 @@ DUGUIT Léon, _L’État‎, le droit objectif et la loi positive_, Moderne Fran
 
 BAUDRY-LACANTINERIE Gabriel, _Précis de droit civil_, vol. 1, 14<sup>e</sup> éd., Paris, Sirey, 1926, 914 p.
 
-DALLOZ Édouard, VERGÉ Charles, VERGÉ Charles fils _et al._, _Code des lois politiques et administratives_, tome 2, Bureau de la Jurisprudence
+DALLOZ Édouard, VERGÉ Charles, VERGÉ Charles fils _et al._, _Code des lois politiques et administratives_, vol. 2, Bureau de la Jurisprudence
 Générale, 1891, 1432 p.
 
 ### En note de bas de page
