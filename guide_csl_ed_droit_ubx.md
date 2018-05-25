@@ -30,8 +30,7 @@ Générale, 1891, p. 686-712.
 
 ### Notes
 
-- pour tous les types de documents, les noms des responsabilités secondaires (préfacier, traducteur, directeur, éditeur…) sont en
-minuscules.
+Pour tous les types de documents, les noms des responsabilités secondaires (préfacier, traducteur, directeur, éditeur…) sont en minuscules.
 
 ### Notes CSL
 * si le livre est imprimé, ne pas mentionner d'URL, c'est un critère d'affichage pour la mention `En ligne` des livres électroniques - voir infra
@@ -42,48 +41,45 @@ Ce champ n'existe pas en standard dans Zotero, il faut utiliser le champ `Extra`
 ```
 editorial-director: Moderne || Franck
 ```
-<!--
-Citer un ouvrage numérique
-==========================
+---
+## Citer un ouvrage numérique
 
-Auteur \[NOM prénom\], *Titre de l’ouvrage, complément du titre* \[en
-ligne\], tomaison \[vol. X / t. X\], édition \[X^e^ éd.\], autre
-responsabilité (préface, traduction, éditeur…) \[Nom prénom (préf.,
-trad., éd.)\], ville de publication, éditeur, année
-d’édition, pagination globale (en bibliographie) ou numéro des pages
-concernées (en notes de bas de page), \[consulté le …\], URL
+### Modèle bibliographie
+
+Auteur \[NOM prénom\], *Titre de l’ouvrage, complément du titre* \[en ligne\], tomaison \[vol. X / t. X\], édition \[X^e^ éd.\], autre responsabilité (préface, traduction, éditeur…) \[Nom prénom (préf., trad., éd.)\], ville de publication, éditeur, année d’édition, pagination globale, \[consulté le …\], URL
+
+### Modèle minimal note de bas de page
+
+Auteur \[NOM prénom\], *Titre de l’ouvrage, complément du titre* \[en ligne\], éditeur, année d’édition, pagination globale (en bibliographie) ou numéro des pages
+concernées (en notes de bas de page), \[consulté le …\].
 
 ### Dans la bibliographie
 
-COURBE Patrick et GOUTTENOIRE Adeline, *Droit de la famille* \[en
-ligne\], 7^e^ éd., Paris, Sirey, 2017, 572 p., \[consulté le 9 janvier
-2017\],
-[*http://www.dalloz-bibliotheque.fr/*](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm)
+COURBE Patrick et GOUTTENOIRE Adeline, *Droit de la famille* \[en ligne\], 7<sup>e</sup> éd., Paris, Sirey, 2017, 572 p., \[consulté le 9 janvier
+2017\], [http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm)
 
-MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*,
-34^e^ éd., Paris, Sirey, 2015, 680 p., \[consulté le 20 janvier 2017\],
-[*http://www.dalloz-bibliotheque.fr/*](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_constitutionnel-38072.htm)
+MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*\[en ligne\], 34<sup>e</sup>éd., Paris, Sirey, 2015, 680 p., \[consulté le 20 janvier 2017\],
+[http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_constitutionnel-38072.htm](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_constitutionnel-38072.htm)
 
 ### En note de bas de page
 
-COURBE Patrick et GOUTTENOIRE Adeline, *Droit de la famille* \[[*en
-ligne*](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm)\],
+COURBE Patrick et GOUTTENOIRE Adeline, *Droit de la famille* \[[en ligne](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm)\],
 Sirey, 2017, p. 98-105, \[consulté le 9 janvier 2017\].
 
-MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*
-\[[*en
-ligne*](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_constitutionnel-38072.htm)\],
-Sirey, 2015, spéc. p. 18, 54 et 101-103, \[consulté le 20 janvier
-2017\].
+MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*\[[en ligne](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_constitutionnel-38072.htm)\],
+Sirey, 2015, spéc. p. 18, 54 et 101-103, \[consulté le 20 janvier 2017\].
 
-NB :
+### Notes
 
-- exceptionnellement, pas de point final après l’URL
+* exceptionnellement, pas de point final après l’URL
+* en note de bas de page, il est recommandé que la mention « \[en ligne\] » soit un lien hypertexte reprenant l’URL complète
+* lorsque le document dispose d’un DOI, il se substitue à l’URL
 
-- en note de bas de page, il est recommandé que la mention « \[en
-ligne\] » soit un lien hypertexte reprenant l’URL complète
+### Notes CSL
+* pas possible d'afficher un lien hypertexte dont l'intitulé soit différent de l'URL à laquelle il renvoie : c'est Word qui génèrera l'affichage du lien hypertexte à partir du libellé
+* pas possible que la mention [en ligne] en note de bas de page soit un lien hypertexte reprenant l'URL complète
 
-- lorsque le document dispose d’un DOI, il se substitue à l’URL
+<!--
 
 Citer des travaux universitaires imprimés\
 (thèses et mémoires)
