@@ -21,6 +21,7 @@
   </info>
   <locale xml:lang="fr">
     <terms>
+      <term name="accessed">consulté&#160;le</term>
       <term name="ordinal-99">e</term>
       <term name="ordinal-01" gender-form="feminine">re</term>
       <term name="ordinal-01" gender-form="masculine">er</term>
@@ -82,7 +83,17 @@
   <macro name="title">
     <choose>
       <if type="bill book graphic legal_case legislation report" match="any">
+        <choose>
+        <if variable="URL" match="any">
+          <group delimiter=" ">
+            <text variable="title" text-case="capitalize-first" font-style="italic"/>
+            <text value="[en ligne]"/>
+          </group>
+        </if>
+        <else>
         <text variable="title" text-case="capitalize-first" font-style="italic"/>
+</else>
+      </choose>
       </if>
       <else-if type="article-journal article-newspaper article-magazine" match="any">
         <group>
@@ -136,13 +147,8 @@
   <macro name="yearpage">
     <choose>
       <if type="bill book graphic legal_case legislation manuscript paper-conference report thesis" match="any">
-        <group delimiter=", " font-style="normal">
-          <group>
-            <text term="volume" form="short" suffix="."/>
-            <text variable="number-of-volumes" prefix=". " suffix="/"/>
-            <text variable="volume"/>
-          </group>
-          <date variable="issued">
+<group delimiter=", ">
+            <date variable="issued">
             <date-part name="year"/>
           </date>
           <choose>
@@ -220,11 +226,7 @@
       <if type="bill book graphic legal_case legislation manuscript motion_picture paper-conference report thesis" match="any">
         <group delimiter=", ">
           <group delimiter=", " font-style="normal">
-            <group>
-              <text term="volume" form="short" suffix="."/>
-              <text variable="number-of-volumes" prefix=". " suffix="/"/>
-              <text variable="volume"/>
-            </group>
+
             <date variable="issued">
               <date-part name="year"/>
             </date>
@@ -280,6 +282,12 @@
   <macro name="edition">
     <choose>
       <if type="bill book chapter graphic legal_case legislation motion_picture paper-conference report" match="any">
+<group delimiter=", ">
+  <group>
+    <text term="volume" form="short" suffix="."/>
+    <text variable="number-of-volumes" prefix=". " suffix="/"/>
+    <text variable="volume"/>
+  </group>
         <choose>
           <if is-numeric="edition">
             <group delimiter=" ">
@@ -291,6 +299,7 @@
             <text variable="edition" text-case="capitalize-first" suffix="."/>
           </else>
         </choose>
+      </group>
       </if>
       <else-if type="article-journal article-magazine" match="any">
         <group font-style="normal">
@@ -332,6 +341,29 @@
       </else>
     </choose>
   </macro>
+  <macro name="access">
+    <group prefix="[" suffix="]">
+    <text term="accessed"/>
+    <date variable="accessed">
+      <date-part name="day" prefix="&#160;"/>
+      <date-part name="month" prefix="&#160;"/>
+      <date-part name="year" prefix="&#160;"/>
+    </date>
+  </group>
+</macro>
+<macro name="access-bib">
+<group delimiter=", ">
+<group prefix="[" suffix="]">
+  <text term="accessed"/>
+  <date variable="accessed">
+    <date-part name="day" prefix="&#160;"/>
+    <date-part name="month" prefix="&#160;"/>
+    <date-part name="year" prefix="&#160;"/>
+  </date>
+</group>
+<text variable="URL" text-decoration="underline"/>
+</group>
+</macro>
   <citation>
     <layout suffix="." delimiter="&#160;; ">
       <choose>
@@ -363,9 +395,9 @@
           <group delimiter=", ">
             <text macro="author"/>
             <text macro="title"/>
-            <text macro="edition"/>
             <text macro="publisher"/>
             <text macro="yearpage"/>
+            <text macro="access"/>
           </group>
         </else>
       </choose>
@@ -376,8 +408,9 @@
       <key macro="author" names-min="3" names-use-first="3"/>
       <key variable="issued" sort="descending"/>
     </sort>
-    <layout suffix=".">
+    <layout>
       <group delimiter=", ">
+        <group delimiter=", " suffix=".">
         <text macro="author"/>
         <text macro="title"/>
         <text macro="editor"/>
@@ -387,8 +420,9 @@
         <text macro="pub-place"/>
         <text macro="publisher"/>
         <text macro="yearpage-bib"/>
-        <text variable="URL" text-decoration="underline"/>
       </group>
-    </layout>
+        <text macro="access-bib"/>
+      </group>
+      </layout>
   </bibliography>
 </style>
