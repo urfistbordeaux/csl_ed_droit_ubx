@@ -6,9 +6,9 @@
 
 Auteur \[NOM prénom\], *Titre de l’ouvrage, complément du titre*, tomaison \[vol. X\], édition \[X<sup>e</sup> éd.\], autre responsabilité (préface, traduction, éditeur…) \[Nom prénom (préf., trad., éd.)\], ville de publication, éditeur, année d’édition, pagination globale.
 
-### Modèle minimal note de bas de page
+### Modèle note de bas de page
 
-Auteur \[NOM prénom\], *Titre de l’ouvrage, complément du titre*, éditeur, année d’édition, numéro des pages concernées.
+Auteur \[NOM prénom\], *Titre de l’ouvrage*, éditeur, année d’édition, numéro des pages concernées.
 
 ### Dans la bibliographie
 
@@ -16,8 +16,7 @@ DUGUIT Léon, _L’État‎, le droit objectif et la loi positive_, Moderne Fran
 
 BAUDRY-LACANTINERIE Gabriel, _Précis de droit civil_, vol. 1, 14<sup>e</sup> éd., Paris, Sirey, 1926, 914 p.
 
-DALLOZ Édouard, VERGÉ Charles, VERGÉ Charles fils _et al._, _Code des lois politiques et administratives_, vol. 2, Bureau de la Jurisprudence
-Générale, 1891, 1432 p.
+DALLOZ Édouard, VERGÉ Charles, VERGÉ Charles fils _et al._, _Code des lois politiques et administratives_, vol. 2, Bureau de la Jurisprudence Générale, 1891, 1432 p.
 
 ### En note de bas de page
 
@@ -33,9 +32,9 @@ Générale, 1891, p. 686-712.
 Pour tous les types de documents, les noms des responsabilités secondaires (préfacier, traducteur, directeur, éditeur…) sont en minuscules.
 
 ### Notes CSL
-* si le livre est imprimé, ne pas mentionner d'URL, c'est un critère d'affichage pour la mention `En ligne` des livres électroniques - voir infra
-* s'il n'y a pas d'auteur, Zotero affiche le nom de l'éditeur avec le même formatage que les noms d'auteur, pour prendre en compte le cas des actes publiés d'un colloque = pour colloque ne pas mentionner d'auteur
-* le rôle de préfacier n'existe pas dans Zotero : si applicable, on utilise le rôle `editorial-director`
+* Si le livre est imprimé, ne pas mentionner d'URL, c'est un critère d'affichage pour la mention `En ligne` des livres électroniques - voir _infra_.
+* S'il n'y a pas d'auteur, Zotero affiche le nom de l'éditeur avec le même formatage que les noms d'auteur, pour prendre en compte le cas des actes publiés d'un colloque.
+* Le rôle de préfacier n'existe pas dans Zotero : si applicable, on utilise le rôle `editorial-director`.
 Ce champ n'existe pas en standard dans Zotero, il faut utiliser le champ `Extra` et saisir sous la forme :
 
 ```
@@ -48,26 +47,23 @@ editorial-director: Moderne || Franck
 
 Auteur \[NOM prénom\], *Titre de l’ouvrage, complément du titre* \[en ligne\], tomaison \[vol. X / t. X\], édition \[X^e^ éd.\], autre responsabilité (préface, traduction, éditeur…) \[Nom prénom (préf., trad., éd.)\], ville de publication, éditeur, année d’édition, pagination globale, \[consulté le …\], URL
 
-### Modèle minimal note de bas de page
+### Modèle note de bas de page
 
-Auteur \[NOM prénom\], *Titre de l’ouvrage, complément du titre* \[en ligne\], éditeur, année d’édition, pagination globale (en bibliographie) ou numéro des pages
-concernées (en notes de bas de page), \[consulté le …\].
+Auteur \[NOM prénom\], *Titre de l’ouvrage* \[en ligne\], éditeur, année d’édition, numéro des pages
+concernées \[consulté le …\].
 
 ### Dans la bibliographie
 
-COURBE Patrick et GOUTTENOIRE Adeline, *Droit de la famille* \[en ligne\], 7<sup>e</sup> éd., Paris, Sirey, 2017, 572 p., \[consulté le 9 janvier
-2017\], [http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm)
+COURBE Patrick et GOUTTENOIRE Adeline, *Droit de la famille* \[en ligne\], 7<sup>e</sup> éd., Paris, Sirey, 2017, 572 p., \[consulté le 9 janvier 2017\], [http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm)
 
 MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*\[en ligne\], 34<sup>e</sup>éd., Paris, Sirey, 2015, 680 p., \[consulté le 20 janvier 2017\],
 [http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_constitutionnel-38072.htm](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_constitutionnel-38072.htm)
 
 ### En note de bas de page
 
-COURBE Patrick et GOUTTENOIRE Adeline, *Droit de la famille* \[[en ligne](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm)\],
-Sirey, 2017, p. 98-105, \[consulté le 9 janvier 2017\].
+COURBE Patrick et GOUTTENOIRE Adeline, *Droit de la famille* \[[en ligne](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm)\], Sirey, 2017, p. 98-105, \[consulté le 9 janvier 2017\].
 
-MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*\[[en ligne](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_constitutionnel-38072.htm)\],
-Sirey, 2015, spéc. p. 18, 54 et 101-103, \[consulté le 20 janvier 2017\].
+MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*\[[en ligne](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_constitutionnel-38072.htm)\], Sirey, 2015, spéc. p. 18, 54 et 101-103, \[consulté le 20 janvier 2017\].
 
 ### Notes
 
@@ -76,373 +72,281 @@ Sirey, 2015, spéc. p. 18, 54 et 101-103, \[consulté le 20 janvier 2017\].
 * lorsque le document dispose d’un DOI, il se substitue à l’URL
 
 ### Notes CSL
-* pas possible d'afficher un lien hypertexte dont l'intitulé soit différent de l'URL à laquelle il renvoie : c'est Word qui génèrera l'affichage du lien hypertexte à partir du libellé
-* pas possible que la mention [en ligne] en note de bas de page soit un lien hypertexte reprenant l'URL complète
+* Il n'est pas possible d'afficher un lien hypertexte dont l'intitulé soit différent de l'URL à laquelle il renvoie : c'est Word qui génèrera l'affichage du lien hypertexte à partir du libellé.
+* Il n'est pas possible que la mention [en ligne] en note de bas de page soit un lien hypertexte reprenant l'URL complète.
+*L' affichage du DOI n'est pas paramétré : champ `DOI` pas prévu pour livre + peu probable que DOI soit assigné au niveau d'un livre (plutôt chapitre ; si au niveau document = plutôt rapport).
 
-<!--
+---
 
-Citer des travaux universitaires imprimés\
-(thèses et mémoires)
-==========================================
+## Citer des travaux universitaires imprimés (thèses et mémoires)
 
-Il s’agit ici des éditions de dépôt dans les bibliothèques
-universitaires, c’est-à-dire des éditions non-commerciales. Les éditions
-de thèses et mémoires publiées chez des éditeurs commerciaux sont
-traitées comme des ouvrages.
+Il s’agit ici des éditions de dépôt dans les bibliothèques universitaires, c’est-à-dire des éditions non-commerciales. Les éditions de thèses et mémoires publiées chez des éditeurs commerciaux sont traitées comme des ouvrages.
 
-Auteur \[NOM Prénom\], *Titre, complément du titre*, nom du/des
-directeur(s) \[Nom Prénom (dir.)\], Intitulé du diplôme, discipline, nom
-de l’université, année, pagination globale (en bibliographie) ou numéro
-des pages concernées (en notes de bas de page).
+### Modèle bibliographie
 
-### Dans la bibliographie
+Auteur \[NOM Prénom\], *Titre, complément du titre*, nom du/des directeur(s) \[Nom Prénom (dir.)\], intitulé du diplôme, discipline, nom de l’université, année, pagination globale.
 
-AUBIN Gérard, *La seigneurie en Bordelais au 18^eme^ siècle d'après la
-pratique notariale (1715-1789)*, Jaubert Pierre (dir.), thèse de
-doctorat, droit, université de Bordeaux I, 1981, 958 p.
+### Modèle note de bas de page
 
-RADÉ Christophe, *Le droit à l’insertion dans la loi du 1^er^ décembre
-1988 relative au revenu minimum d’insertion*, Laborde Jean-Pierre
-(dir.), mémoire de DEA, droit social, université de Bordeaux I, 1991, 93
-p.
-
-### En note de bas de page
-
-AUBIN Gérard, *La seigneurie en Bordelais au 18^eme^ siècle d'après la
-pratique notariale (1715-1789)*, thèse de doctorat, droit, université de
-Bordeaux I, 1981, 1^ère^ partie.
-
-RADÉ Christophe, *Le droit à l’insertion dans la loi du 1^er^ décembre
-1988 relative au revenu minimum d’insertion*, mémoire de DEA, droit
-social, 1991, université de Bordeaux I, p. 74.
-
-NB :
-
-- l’intitulé du diplôme, de la discipline et le nom de l’université sont
-repris de la page de titre ou de couverture ;
-
-- le niveau d’étude (par ex. diplôme d’étude approfondi) peut être
-abrégé (DEA).
-
-Citer des travaux universitaires numériques\
-(thèses et mémoires)
-============================================
-
-Auteur \[NOM Prénom\], *Titre, complément du titre* \[en ligne\], nom
-du/des directeur(s) \[Nom Prénom (dir.)\], intitulé du diplôme,
-discipline, nom de l’université, année, pagination globale (en
-bibliographie) ou numéro des pages concernées (en notes de bas de page),
-\[consulté le …\], URL
+Auteur \[NOM Prénom\], *Titre*, intitulé du diplôme, discipline, nom de l’université, année, numéro des pages concernées.
 
 ### Dans la bibliographie
 
-MANGEMATIN Céline, *La faute de fonction en droit privé* \[en ligne\],
-Malabat Valérie (dir.), thèse, droit, université Montesquieu-Bordeaux
-IV, 2012, 770 p., \[consulté le 20 janvier 2017\],
-[*http://www.theses.fr/2012BOR40027*](http://www.theses.fr/2012BOR40027)
+AUBIN Gérard, _La seigneurie en Bordelais au 18<sup>eme</sup> siècle d'après la pratique notariale (1715-1789)_, Jaubert Pierre (dir.), thèse de doctorat, droit, université de Bordeaux I, 1981, 958 p.
 
-LESTRADE Éric, *Les principes directeurs du procès dans la jurisprudence
-du Conseil Constitutionnel* \[en ligne\], Mélin-Soucramanien Ferdinand
-(dir.), thèse, droit, université Montesquieu-Bordeaux IV, 2013, 714 p.,
-\[consulté le 9 janvier 2017\],
-[*http://www.theses.fr/2013BOR40033*](http://www.theses.fr/2013BOR40033)
+RADÉ Christophe, _Le droit à l’insertion dans la loi du 1<sup>er</sup> décembre 1988 relative au revenu minimum d’insertion_, Laborde Jean-Pierre (dir.), mémoire de DEA, droit social, université de Bordeaux I, 1991, 93 p.
 
 ### En note de bas de page
 
-MANGEMATIN Céline, *La faute de fonction en droit privé* \[[*en
-ligne*](http://www.theses.fr/2012BOR40027)\], thèse, droit, université
+AUBIN Gérard, _La seigneurie en Bordelais au 18<sup>eme</sup> siècle d'après la pratique notariale (1715-1789)_, thèse de doctorat, droit, université de Bordeaux I, 1981, 1<sup>ère</sup> partie.
+
+RADÉ Christophe, _Le droit à l’insertion dans la loi du 1<sup>er</sup> décembre 1988 relative au revenu minimum d’insertion_, mémoire de DEA, droit social, 1991, université de Bordeaux I, p. 74.
+
+### Notes
+
+* l’intitulé du diplôme, de la discipline et le nom de l’université sont repris de la page de titre ou de couverture ;
+* le niveau d’étude (par ex. diplôme d’étude approfondi) peut être abrégé (DEA).
+
+### Notes CSL
+* On ne pourra pas générer une mention du type  "1<sup>ère</sup> partie", il faudra se contenter de "partie 1".
+* Le champ "discipline" n'existe pas dans Zotero ni CSL, renseigner la disciplene à la suite de l'intitulé du diplôme dans le champ `Type`.
+* Si le document est imprimé, ne pas mentionner d'URL, c'est un critère d'affichage pour la mention `En ligne` des documents électroniques - voir _infra_.
+* Le rôle de directeur de thèse n'existe pas dans Zotero : si applicable, on utilise le rôle `director`.
+Ce champ n'existe pas en standard dans Zotero, il faut utiliser le champ `Extra` et saisir sous la forme :
+
+```
+director: Jaubert || Pierre
+```
+---
+
+## Citer des travaux universitaires numériques (thèses et mémoires)
+
+### Modèle bibliographie
+Auteur \[NOM Prénom\], *Titre, complément du titre* \[en ligne\], nom du/des directeur(s) \[Nom Prénom (dir.)\], intitulé du diplôme,
+discipline, nom de l’université, année, pagination globale, \[consulté le …\], URL
+
+### Modèle note de bas de page
+Auteur \[NOM Prénom\], *Titre* \[en ligne\], intitulé du diplôme, discipline, nom de l’université, année, numéro des pages concernées, \[consulté le …\], URL
+
+### Dans la bibliographie
+
+MANGEMATIN Céline, _La faute de fonction en droit privé_ \[en ligne\], Malabat Valérie (dir.), thèse, droit, université Montesquieu-Bordeaux IV, 2012, 770 p., \[consulté le 20 janvier 2017\], [http://www.theses.fr/2012BOR40027](http://www.theses.fr/2012BOR40027)
+
+LESTRADE Éric, _Les principes directeurs du procès dans la jurisprudence du Conseil Constitutionnel_ \[en ligne\], Mélin-Soucramanien Ferdinand (dir.), thèse, droit, université Montesquieu-Bordeaux IV, 2013, 714 p., \[consulté le 9 janvier 2017\],
+[http://www.theses.fr/2013BOR40033](http://www.theses.fr/2013BOR40033)
+
+### En note de bas de page
+
+MANGEMATIN Céline, _La faute de fonction en droit privé_ \[en ligne](http://www.theses.fr/2012BOR40027)\], thèse, droit, université
 Montesquieu-Bordeaux IV, 2012, p. 88, \[consulté le 20 janvier 2017\].
 
-LESTRADE Éric, *Les principes directeurs du procès dans la jurisprudence
-du Conseil Constitutionnel* \[[*en
-ligne*](http://www.theses.fr/2013BOR40033)\], thèse, droit, université
-Montesquieu-Bordeaux IV, 2013, p. 105-120 et 178, \[consulté le 9
-janvier 2017\].
+LESTRADE Éric, _Les principes directeurs du procès dans la jurisprudence du Conseil Constitutionnel_ \[en ligne](http://www.theses.fr/2013BOR40033)\], thèse, droit, université Montesquieu-Bordeaux IV, 2013, p. 105-120 et 178, \[consulté le 9 janvier 2017\].
 
-NB :
+### Notes
+* exceptionnellement, pas de point final après l’URL.
+* en note de bas de page, il est recommandé que la mention « \[en ligne\] » soit un lien hypertexte reprenant l’URL.
+* les URL du site *theses.fr*, portail de diffusion de l’ensemble des thèses numériques en France, sont uniques et pérennes.
 
-- exceptionnellement, pas de point final après l’URL.
+### Notes CSL
+* Il n'est pas possible d'afficher un lien hypertexte dont l'intitulé soit différent de l'URL à laquelle il renvoie : c'est Word qui génèrera l'affichage du lien hypertexte à partir du libellé.
+* Il n'est pas possible que la mention [en ligne] en note de bas de page soit un lien hypertexte reprenant l'URL complète.
 
-- en note de bas de page, il est recommandé que la mention « \[en
-ligne\] » soit un lien hypertexte reprenant l’URL.
+---
+## Citer des travaux universitaires microfichés (thèses et mémoires)
 
-- les URL du site *theses.fr*, portail de diffusion de l’ensemble des
-thèses numériques en France, sont uniques et pérennes.
-
-Citer des travaux universitaires microfichés\
-(thèses et mémoires)
-=============================================
-
-Nom du docteur \[NOM Prénom\], *Titre, complément du titre*
-\[microfiche\], nom du/des directeur(s) \[Nom Prénom (dir.)\], intitulé
+### Modèle bibliographie
+Nom du docteur \[NOM Prénom\], _Titre, complément du titre_ \[microfiche\], nom du/des directeur(s) \[Nom Prénom (dir.)\], intitulé
 du diplôme, discipline, nom de l’université, année.
 
+### Modèle note de bas de page
+Nom du docteur \[NOM Prénom\], _Titre_ \[microfiche\], intitulé du diplôme, discipline, nom de l’université, année.
+
 ### Dans la bibliographie
 
-SAINT-PAU Jean-Christophe, *L’anonymat et le droit* \[microfiche\],
-Conte Philippe (dir.), thèse de doctorat : droit, université
+SAINT-PAU Jean-Christophe, _L’anonymat et le droit_ \[microfiche\], Conte Philippe (dir.), thèse de doctorat, droit, université
 Montesquieu-Bordeaux IV, 1998.
 
-MAUBLANC Jean-Pierre, *L’interprétation de la loi fiscale par le juge de
-l’impôt* \[microfiche\], Lamarque Jean (dir.), thèse de doctorat, droit,
-université de Bordeaux I, 1984.
+MAUBLANC Jean-Pierre, _L’interprétation de la loi fiscale par le juge de l’impôt_ \[microfiche\], Lamarque Jean (dir.), thèse de doctorat, droit, université de Bordeaux I, 1984.
 
 ### En note de bas de page
 
-SAINT-PAU Jean-Christophe, *L’anonymat et le droit* \[microfiche\],
-thèse de doctorat, droit, université Montesquieu-Bordeaux IV, 1998.
+SAINT-PAU Jean-Christophe, _L’anonymat et le droit_ \[microfiche\], thèse de doctorat, droit, université Montesquieu-Bordeaux IV, 1998.
 
-MAUBLANC Jean-Pierre, *L’interprétation de la loi fiscale par le juge de
-l’impôt* \[microfiche\], thèse de doctorat, droit, université de
-Bordeaux I, 1984.
+MAUBLANC Jean-Pierre, _L’interprétation de la loi fiscale par le juge de l’impôt_ \[microfiche\], thèse de doctorat, droit, université de Bordeaux I, 1984.
 
-NB :
+### Note
 
-- pas de mention de la pagination.
+* pas de mention de la pagination.
 
-Citer des contributions à un ouvrage\
-(articles de mélanges, d’ouvrage collectif…)
-============================================
+### Note CSL
+Absence du nombre de pages (pagination) = condition affichage mention \[microfiche].
 
-Deux modèles sont proposés, avec ou sans guillemets pour le titre de la
-contribution.
+---
+## Citer des contributions à un ouvrage\ (articles de mélanges, d’ouvrage collectif…)
 
-Contributeur \[NOM Prénom\], Titre de la contribution, complément du
-titre, in responsable(s) du document principal \[Nom Prénom\], *Titre du
-document principal, complément du titre*, édition, ville d’édition,
-éditeur, année d’édition, pages de la contribution \[p. X-X\].
+Deux modèles sont proposés, avec ou sans guillemets pour le titre de la contribution.
+
+### Modèle bibliographie
+<!-- NB modèle corrigé pour afficher (éd.)-->
+Contributeur \[NOM Prénom\], Titre de la contribution, complément du titre, in responsable(s) du document principal \[Nom Prénom (éd.)\], _Titre du document principal, complément du titre_, édition, ville d’édition, éditeur, année d’édition, pages de la contribution \[p. X-X\].
 
 ou
 
-Contributeur \[NOM Prénom\], « Titre de la contribution, complément du
-titre », in responsable(s) du document principal \[Nom Prénom\], *Titre
-du document principal, complément du titre*, édition, ville d’édition,
-éditeur, année d’édition, pages de la contribution \[p. X-X\].
+Contributeur \[NOM Prénom\], « Titre de la contribution, complément du titre », in responsable(s) du document principal \[Nom Prénom (éd.)\], *Titre du document principal, complément du titre*, édition, ville d’édition, éditeur, année d’édition, pages de la contribution \[p. X-X\].
+
+### Modèle note de bas de page
+
+Contributeur \[NOM Prénom\], Titre de la contribution, in _Titre du document principal_, édition, éditeur, année d’édition, pages de la contribution \[p. X-X\].
+
+ou
+
+Contributeur \[NOM Prénom\], « Titre de la contribution », in _Titre du document principal_, éditeur, année d’édition, pages de la contribution \[p. X-X\].
+
+### Note CSL
+Le style correspond à la variante avec guillemets
 
 ### Dans la bibliographie
 
-BOIS DE GAUDUSSON Jean (du), Réflexions sur les nouveaux développements
-du constitutionalisme en Afrique, in Aubin Gérard (éd.), *Liber
-amicorum, études offertes à Pierre Jaubert*, Talence, Presses
-universitaires de Bordeaux, 1992, p. 179-187.
-
-ou
-
-BOIS DE GAUDUSSON Jean (du), « Réflexions sur les nouveaux
-développements du constitutionalisme en Afrique », in Aubin Gérard
-(éd.), *Liber amicorum, études offertes à Pierre Jaubert*, Talence,
-Presses universitaires de Bordeaux, 1992, p. 179-187.
+BOIS DE GAUDUSSON Jean (du), « Réflexions sur les nouveaux développements du constitutionalisme en Afrique », in Aubin Gérard
+(éd.), _Liber amicorum, études offertes à Pierre Jaubert_, Talence, Presses universitaires de Bordeaux, 1992, p. 179-187.
 
 ### En note de bas de page
 
-BOIS DE GAUDUSSON Jean (du), Réflexions sur les nouveaux développements
-du constitutionalisme en Afrique, in *Liber amicorum, études offertes à
-Pierre Jaubert*, Presses universitaires de Bordeaux, 1992, p. 179-187.
+BOIS DE GAUDUSSON Jean (du), « Réflexions sur les nouveaux développements du constitutionalisme en Afrique », in _Liber amicorum, études offertes à Pierre Jaubert_, Presses universitaires de Bordeaux, 1992, p. 179-187.
+
+
+## Citer un article de revue imprimée
+
+Deux modèles sont proposés, avec ou sans guillemets encadrant le titre de l’article.
+
+### Modèle bibliographie
+Auteur \[NOM prénom\], « Titre de l’article, complément du titre », _Titre de la revue_, partie, mois année, numéro, pagination globale.
 
 ou
 
-BOIS DE GAUDUSSON Jean (du), « Réflexions sur les nouveaux
-développements du constitutionalisme en Afrique », in *Mélanges
-Jaubert*, Presses universitaires de Bordeaux, 1992, p. 179-187.
+Auteur \[NOM prénom\], Titre de l’article, complément du titre, _Titre de la revue_, partie, mois année, numéro, pagination globale.
 
-\
-Citer un article de revue imprimée
-==================================
+### Modèle note de bas de page
 
-Deux modèles sont proposés, avec ou sans guillemets encadrant le titre
-de l’article.
+<!-- NB modèle corrigé pour prendre en compte titre de revue abrégé-->
 
-Auteur \[NOM prénom\], « Titre de l’article, complément du titre »,
-*Titre de la revue*, partie, mois année, numéro, pagination globale (en
-bibliographie) ou numéro de paragraphe ou des pages concernées (en notes
-de bas de page)
+
+Auteur \[NOM prénom\], « Titre de l’article », _Titre de la revue abrégé_, année, numéro de paragraphe ou des pages concernées.
 
 ou
 
-Auteur \[NOM prénom\], Titre de l’article, complément du titre, *Titre
-de la revue*, partie, mois année, numéro, pagination globale (en
-bibliographie) ou numéro de paragraphe ou des pages concernées (en notes
-de bas de page)
+Auteur \[NOM prénom\], Titre de l’article, _Titre de la revue abrégé_, année, numéro de paragraphe ou des pages concernées.
+
+### Note CSL
+*Variante avec guillemets
+* Inclure la partie dans le titre de la revue
 
 ### Dans la bibliographie
 
-HAUSER Jean, « Le préjudice d’être né, question de principe », *Droit et
-patrimoine*, janvier 2001, n° 89, p. 6-8.
+HAUSER Jean, « Le préjudice d’être né, question de principe », _Droit et patrimoine_, janvier 2001, n° 89, p. 6-8.
 
-GOGOS-GINTRAND Amélie, « Le pacte commissoire : une institution
-dangereuse par nature », *Revue de la recherche juridique. Droit
-prospectif*, septembre 2011, n° 1, p. 401-422.
+GOGOS-GINTRAND Amélie, « Le pacte commissoire : une institution dangereuse par nature », _Revue de la recherche juridique. Droit prospectif_, septembre 2011, n° 1, p. 401-422.
 
-ou
-
-AUZERO Gilles, Le dispositif d’allègement des cotisations sociales,
-*Droit social*, décembre 1999, n° 12, p. 1026-1033.
-
-AGOSTINI Éric, Le vin dans tous ses états, *Revue Lamy Droit des
-affaires*, avril 2008, n° 26, p. 65-68.
 
 ### En note de bas de page
 
-HAUSER Jean, « Le préjudice d’être né, question de principe », *Droit et
-pat.*, 2001, p. 7.
+HAUSER Jean, « Le préjudice d’être né, question de principe », _Droit et pat._, 2001, p. 7.
 
-GOGOS-GINTRAND Amélie, « Le pacte commissoire : une institution
-dangereuse par nature », *Rev. rech. jurid., droit prospect.*, 2011, p.
-403.
+GOGOS-GINTRAND Amélie, « Le pacte commissoire : une institution dangereuse par nature », _Rev. rech. jurid., droit prospect._, 2011, p. 403.
 
-ou
+### Note
 
-AUZERO Gilles, Le dispositif d’allègement des cotisations sociales,
-*Droit soc.*, 1999, p. 1027.
+NB : on se réfèrera utilement à la façon dont chaque revue prescrit de référencer ses contenus, ainsi que l’abréviation recommandée par la revue. Par défaut, une liste des abréviations recommandées figure en annexe de ce document.
 
-AGOSTINI Éric, Le vin dans tous ses états, *Rev. Lamy Droit aff.*, 2008,
-p. 66.
+## Citer un article de revue numérique
+Deux modèles sont proposés, avec ou sans guillemets encadrant le titre de l’article.
 
-NB : on se réfèrera utilement à la façon dont chaque revue prescrit de
-référencer ses contenus, ainsi que l’abréviation recommandée par la
-revue. Par défaut, une liste des abréviations recommandées figure en
-annexe de ce document.
-
-Citer un article de revue numérique
-===================================
-
-Deux modèles sont proposés, avec ou sans guillemets encadrant le titre
-de l’article.
-
-Auteur \[NOM prénom\], « Titre de l’article, complément du titre »,
-*Titre de la revue* \[en ligne\], partie, mois année, numéro, pagination
-globale (en bibliographie) ou numéro de paragraphe ou des pages
-concernées (en notes de bas de page), \[consulté le …\], URL
+### Modèle bibliographie
+Auteur \[NOM prénom\], « Titre de l’article, complément du titre », _Titre de la revue_ \[en ligne\], partie, mois année, numéro, pagination globale, \[consulté le …\], URL
 
 ou
 
-Auteur \[NOM prénom\], Titre de l’article, complément du titre, *Titre
-de la revue* \[en ligne\], partie, mois année, numéro, pagination
-globale (en bibliographie) ou numéro de paragraphe ou des pages
-concernées (en notes de bas de page), \[consulté le …\], URL
+Auteur \[NOM prénom\], Titre de l’article, complément du titre, _Titre de la revue_ \[en ligne\], partie, mois année, numéro, pagination globale, \[consulté le …\], URL
+
+### Modèle note de bas de page
+
+Auteur \[NOM prénom\], « Titre de l’article », _Titre de la revue abrégé_ \[en ligne\], partie, année, numéro de paragraphe ou des pages concernées, \[consulté le …\].
+
+ou
+
+Auteur \[NOM prénom\], Titre de l’article, complément du titre, _Titre de la revue abrégé_ \[en ligne\], partie, année, numéro de paragraphe ou des pages concernées, \[consulté le …\].
+
+### Note CSL
+*Variante avec guillemets
+* Inclure la partie dans le titre de la revue
+* **Pb car Zotero n'affiche pas l'URL s'il y a une pagination - voir issue GitHub**
 
 ### Dans la bibliographie
 
-DAUGAREILH Isabelle, « L’audace retenue du Comité européen des droits
-sociaux », *Revue de droit sanitaire et social* \[en ligne\], juillet
-2005, n° 4, p. 555-564, \[consulté le 16 mars 2017\],
-[*www.dalloz.fr*](http://www.dalloz.fr)
+DAUGAREILH Isabelle, « L’audace retenue du Comité européen des droits sociaux », _Revue de droit sanitaire et social_ \[en ligne\], juillet 2005, n° 4, p. 555-564, \[consulté le 16 mars 2017\],[http://www.dalloz.fr](http://www.dalloz.fr)
 
-DUPRAT Jean-Pierre, « Le parlement évaluateur », *Revue internationale
-de droit comparé* \[en ligne\], avril 1998, n° 2, p. 552-576, \[consulté
-le 16 mars 2017\], [*www.persee.fr*](http://www.persee.fr)
-
-ou
-
-PONTHOREAU Marie-Claire, Trois interprétations de la globalisation
-juridique, *Actualité juridique droit administratif* \[en ligne\],
-janvier 2006, n° 1, p. 20-25, \[consulté le 16 mars 2017\],
-[*www.dalloz.fr*](http://www.dalloz.fr)
-
-CAPDEPON Yannick, Ne pas soulever un moyen de droit équivaut à y
-renoncer, *Semaine juridique édition générale* \[en ligne\], juillet
-2010, n° 28, p. 1444, \[consulté le 16 mars 2017\],
-[*www.lexisnexis.com*](http://www.lexisnexis.com)
-
-*\
-*
+DUPRAT Jean-Pierre, « Le parlement évaluateur », _Revue internationale de droit comparé_ \[en ligne\], avril 1998, n° 2, p. 552-576, \[consulté le 16 mars 2017\], [http://www.persee.fr](http://www.persee.fr)
 
 ### En note de bas de page
 
-DAUGAREILH Isabelle, « L’audace retenue du Comité européen des droits
-sociaux », *RDSS* \[en ligne\], 2005, p. 556, \[consulté le 16 mars
-2017\].
+DAUGAREILH Isabelle, « L’audace retenue du Comité européen des droits sociaux », _RDSS_ \[en ligne\], 2005, p. 556, \[consulté le 16 mars 2017\].
 
-DUPRAT Jean-Pierre, « Le parlement évaluateur », *RIDC* \[en ligne\],
-1998, p. 555, \[consulté le 16 mars 2017\].
+DUPRAT Jean-Pierre, « Le parlement évaluateur », _RIDC_ \[en ligne\], 1998, p. 555, \[consulté le 16 mars 2017\].
 
-ou
+## Citer les actes publiés d’un colloque
+### Modèle bibliographie
+Responsabilité du colloque \[NOM prénom (fonct.)\], _Titre du colloque_, lieu d’édition, éditeur, année, pagination globale.
 
-PONTHOREAU Marie-Claire, Trois interprétations de la globalisation
-juridique, *AJDA* \[en ligne\], 2006, p. 22, \[consulté le 16 mars
-2017\].
+### Modèle de  bas de page
+<!--NB modèle et exemples modifiés = ajout éditeur-->
 
-CAPDEPON Yannick, Ne pas soulever un moyen de droit équivaut à y
-renoncer, *JCP G* \[en ligne\], 2010, p. 1444, \[consulté le 16 mars
-2017\].
-
-Citer les actes publiés d’un colloque
-=====================================
-
-Responsabilité du colloque \[NOM prénom (fonct.)\], *Titre du colloque*,
-lieu d’édition, éditeur, année, pagination globale (en bibliographie) ou
-numéro des pages concernées (en notes de bas de page).
+Responsabilité du colloque \[NOM prénom (fonct.)\], _Titre du colloque_, éditeur, année, numéro des pages concernées.
 
 ### Dans la bibliographie
 
-BONIS-GARÇON Évelyne (dir.), *Pour une refonte du droit des peines:
-quels changements si les préconisations de la Commission Cotte étaient
-suivies ?*, Paris, LexisNexis, 2016, 226 p.
+BONIS-GARÇON Évelyne (dir.), _Pour une refonte du droit des peines: quels changements si les préconisations de la Commission Cotte étaient suivies ?_, Paris, LexisNexis, 2016, 226 p.
 
-ALLINNE Jean-Pierre et SOULA Mathieu (dir.), *La mort pénale : les
-enjeux historiques et contemporains de la peine de mort*, Rennes,
+ALLINNE Jean-Pierre et SOULA Mathieu (dir.), _La mort pénale : les enjeux historiques et contemporains de la peine de mort_, Rennes,
 Presses Universitaires de Rennes, 2015, 208 p.
 
-SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL, *Droit international et
-droit communautaire, perspectives actuelles*, Paris, Pedone, 2000, 448
-p.
+SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL, _Droit international et droit communautaire, perspectives actuelles_, Paris, Pedone, 2000, 448 p.
 
-CENTRE D’ÉTUDES ET DE RECHERCHES SUR LE DROIT DE LA MER,
-*L'immobilisation forcée des navires*, Talence, Presses Universitaires
+CENTRE D’ÉTUDES ET DE RECHERCHES SUR LE DROIT DE LA MER, _L'immobilisation forcée des navires_, Talence, Presses Universitaires
 de Bordeaux, 1990, 175 p.
 
 ### En note de bas de page
 
-BONIS-GARÇON Évelyne (dir.), *Pour une refonte du droit des peines:
-quels changements si les préconisations de la Commission Cotte étaient
-suivies ?*, 2016, p. 14.
+BONIS-GARÇON Évelyne (dir.), _Pour une refonte du droit des peines: quels changements si les préconisations de la Commission Cotte étaient suivies ?_, LexisNexis, 2016, p. 14.
 
-ALLINNE Jean-Pierre et SOULA Mathieu (dir.), *La mort pénale : les
-enjeux historiques et contemporains de la peine de mort*, 2015, p. 150.
+ALLINNE Jean-Pierre et SOULA Mathieu (dir.), _La mort pénale : les enjeux historiques et contemporains de la peine de mort_, Presses Universitaires de Rennes, 2015, p. 150.
 
-SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL, *Droit international et
-droit communautaire, perspectives actuelles*, 2000, p. 37.
+SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL, _Droit international et droit communautaire, perspectives actuelles_, Pedone, 2000, p. 37.
 
-CENTRE D’ÉTUDES ET DE RECHERCHES SUR LE DROIT DE LA MER,
-*L'immobilisation forcée des navires*, 1990, p. 3.
+CENTRE D’ÉTUDES ET DE RECHERCHES SUR LE DROIT DE LA MER,_L'immobilisation forcée des navires_, Presses Universitaires
+de Bordeaux, 1990, p. 3.
 
-**\
-**
+## Citer une contribution parmi les actes publiés d’un colloque
+### Modèle bibliographie
+Auteur \[NOM prénom\], Titre de la contribution, in Responsabilité du colloque \[NOM prénom (dir.)\], _Titre du colloque_, lieu d’édition, éditeur, année, pagination globale.
 
-Citer une contribution\
-parmi les actes publiés d’un colloque
-=====================================
+### Modèle note de bas de page
+<!--NB modèle et exemples modifiés = ajout éditeur-->
 
-Auteur \[NOM prénom\], Titre de la contribution, in Responsabilité du
-colloque \[NOM prénom (fonct.)\], *Titre du colloque*, lieu d’édition,
-éditeur, année, pagination globale (en bibliographie) ou numéro des
-pages concernées (en notes de bas de page).
+Auteur \[NOM prénom\], Titre de la contribution, in Responsabilité du colloque \[NOM prénom (dir.)\], _Titre du colloque_, éditeur, année, numéro des pages concernées.
 
 ### Dans la bibliographie
 
-MALABAT Valérie, Simplifier mais comment ?, in BONIS-GARÇON Évelyne
-(dir.), *Pour une refonte du droit des peines : quels changements si les
-préconisations de la Commission Cotte étaient suivies ?*, Paris,
-LexisNexis, 2016, p. 89-93.
+MALABAT Valérie, Simplifier mais comment ?, in BONIS-GARÇON Évelyne (dir.), _Pour une refonte du droit des peines : quels changements si les préconisations de la Commission Cotte étaient suivies ?_, Paris, LexisNexis, 2016, p. 89-93.
 
-GAUTRON Jean-Claude et GRARD Loïc, Le droit international dans la
-construction de l’Union européenne, in SOCIÉTÉ FRANÇAISE POUR LE DROIT
-INTERNATIONAL, *Droit international et droit communautaire, perspectives
-actuelles*, Paris, Pedone, 2000, p. 11-152.
+GAUTRON Jean-Claude et GRARD Loïc, Le droit international dans la construction de l’Union européenne, in SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL, _Droit international et droit communautaire, perspectives actuelles_, Paris, Pedone, 2000, p. 11-152.
 
 ### En note de bas de page
 
-MALABAT Valérie, Simplifier mais comment ?, in BONIS-GARÇON Évelyne
-(dir.), *Pour une refonte du droit des peines : quels changements si les
-préconisations de la Commission Cotte étaient suivies ?*, 2016, p. 90.
+MALABAT Valérie, Simplifier mais comment ?, in BONIS-GARÇON Évelyne (dir.), _Pour une refonte du droit des peines : quels changements si les préconisations de la Commission Cotte étaient suivies ?_, 2016, p. 90.
 
-GAUTRON Jean-Claude et GRARD Loïc, Le droit international dans la
-construction de l’Union européenne, in SOCIÉTÉ FRANÇAISE POUR LE DROIT
-INTERNATIONAL, *Droit international et droit communautaire, perspectives
-actuelles*, 2000, p. 57.
+GAUTRON Jean-Claude et GRARD Loïc, Le droit international dans la construction de l’Union européenne, in SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL, _Droit international et droit communautaire, perspectives actuelles_, 2000, p. 57.
 
-**\
-**
+<!-- exemple à fournir
 
 Citer une norme juridique
 =========================
@@ -478,76 +382,64 @@ juillet 1949.
 NB : le pays n’est indiqué que s’il est utile pour différencier des
 institutions de pays différents. S’il est systématiquement absent, il
 sous-entend la nationalité française des institutions concernées.
+-->
 
-Citer un site en ligne, un blogue
-=================================
+## Citer un site en ligne, un blogue
+### Modèle bibliographie
+AUTEUR, _Titre de la page d'accueil, complément du titre_ \[en ligne\], \[consulté le…\], URL
 
-AUTEUR, *Titre de la page d'accueil, complément du titre* \[en ligne\],
-\[consulté le…\], URL
-
-### Dans la bibliographie
-
-MAÎTRE ÉOLAS, *Journal d’un avocat : Instantanés de la justice et du
-droit* \[en ligne\], \[consulté le 5 octobre 2014\],
-[*www.maitre-eolas.fr*](http://www.maitre-eolas.fr)
-
-GROUPE D’INFORMATION ET DE SOUTIEN DES IMMIGRÉ.E.S, *Gisti* \[en
-ligne\], \[consulté le 5 octobre 2014\],
-[*www.gisti.org*](http://www.gisti.org)
-
-### En note de bas de page
-
-MAÎTRE ÉOLAS, *Journal d’un avocat* \[en ligne\], \[consulté le 5
-octobre 2014\].
-
-GROUPE D’INFORMATION ET DE SOUTIEN DES IMMIGRÉ.E.S, *Gisti* \[en
-ligne\], \[consulté le 5 octobre 2014\].
-
-**\
-**
-
-Citer un article ou une page\
-d’un site en ligne, un blogue
-=============================
-
-AUTEUR, « Titre de l’article ou de la page », sur *Titre de la page
-d'accueil* \[en ligne\], publié le …, \[consulté le…\], URL
-
-ou
-
-AUTEUR, Titre de l’article ou de la page, sur *Titre de la page
-d'accueil* \[en ligne\], publié le …, \[consulté le…\], URL
+### Modèle note de bas de page
+AUTEUR, _Titre de la page d'accueil_ \[en ligne\], \[consulté le…\].
 
 ### Dans la bibliographie
 
-MAÎTRE ÉOLAS, « Pour en finir avec la séparation des pouvoirs », sur
-*Journal d’un avocat : Instantanés de la justice et du droit* \[en
-ligne\], publié le 21 février 2017, \[consulté le 21 mars 2017\],
-[*www.maitre-eolas.fr*](http://www.maitre-eolas.fr)
+MAÎTRE ÉOLAS, _Journal d’un avocat : Instantanés de la justice et du droit_ \[en ligne\], \[consulté le 5 octobre 2014\], [http://www.maitre-eolas.fr](http://www.maitre-eolas.fr)
 
-ou
-
-GROUPE D’INFORMATION ET DE SOUTIEN DES IMMIGRÉ.E.S, Pour en finir avec
-le délit de solidarité, sur *Gisti* \[en ligne\], publié le 12 janvier
-2017\], \[consulté le 21 mars 2017\],
-[*www.gisti.org*](http://www.gisti.org)
+GROUPE D’INFORMATION ET DE SOUTIEN DES IMMIGRÉ.E.S, _Gisti_ \[en
+ligne\], \[consulté le 5 octobre 2014\], [http://www.gisti.org](http://www.gisti.org)
 
 ### En note de bas de page
 
-MAÎTRE ÉOLAS, « Pour en finir avec la séparation des pouvoirs », sur
-*Journal d’un avocat : Instantanés de la justice et du droit* \[en
-ligne\], publié le 21 février 2017, \[consulté le 21 mars 2017\].
+MAÎTRE ÉOLAS, _Journal d’un avocat_ \[en ligne\], \[consulté le 5 octobre 2014\].
+
+GROUPE D’INFORMATION ET DE SOUTIEN DES IMMIGRÉ.E.S, _Gisti_ \[en ligne\], \[consulté le 5 octobre 2014\].
+
+### Note CSL
+* Type = page web
+* Laisser les champs `Titre` et `Date` vides
+
+## Citer un article ou une page d’un site en ligne, un blogue
+
+### Modèle bibliographie
+AUTEUR, « Titre de l’article ou de la page », sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le…\], URL
 
 ou
 
-GROUPE D’INFORMATION ET DE SOUTIEN DES IMMIGRÉ.E.S, « Pour en finir avec
-le délit de solidarité », sur *Gisti* \[en ligne\], publié le 12 janvier
-2017, \[consulté le 21 mars 2017\].
+AUTEUR, Titre de l’article ou de la page, sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le…\], URL
 
-NB : pour les sites d’institutions, le nom de la page d’accueil du site
-sera souvent le même que celui de l’institution.
+### Modèle minimal note de bas de page
+AUTEUR, « Titre de l’article ou de la page », sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le…\].
 
-Citer un brevet
+ou
+
+AUTEUR, Titre de l’article ou de la page, sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le…\].
+
+### Note CSL
+* Variante créé = avec guillemets
+
+### Dans la bibliographie
+
+MAÎTRE ÉOLAS, « Pour en finir avec la séparation des pouvoirs », sur _Journal d’un avocat : Instantanés de la justice et du droit_ \[en ligne\], publié le 21 février 2017, \[consulté le 21 mars 2017\], [http://www.maitre-eolas.fr](http://www.maitre-eolas.fr)
+
+### En note de bas de page
+
+MAÎTRE ÉOLAS, « Pour en finir avec la séparation des pouvoirs », sur _Journal d’un avocat : Instantanés de la justice et du droit_\[en ligne\], publié le 21 février 2017, \[consulté le 21 mars 2017\].
+
+
+### Note
+pour les sites d’institutions, le nom de la page d’accueil du site sera souvent le même que celui de l’institution.
+
+<!--Citer un brevet
 ===============
 
 Brevet \[nationalité\] n° XXX, *Titre du brevet*, date complète de
