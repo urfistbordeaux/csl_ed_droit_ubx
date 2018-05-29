@@ -439,67 +439,66 @@ MAÎTRE ÉOLAS, « Pour en finir avec la séparation des pouvoirs », sur _Jou
 ### Note
 pour les sites d’institutions, le nom de la page d’accueil du site sera souvent le même que celui de l’institution.
 
-<!--Citer un brevet
-===============
+## Citer un brevet
 
-Brevet \[nationalité\] n° XXX, *Titre du brevet*, date complète de
-publication du brevet déposé.
+Brevet \[nationalité\] n° XXX, _Titre du brevet_, date complète de publication du brevet déposé.
 
 ### Dans la bibliographie et en note de bas de page
 
-Brevet américain n° US D709251 S, *Set of hamster wheels,* 15 juillet
-2014.
+Brevet américain n° US D709251 S, _Set of hamster wheels_, 15 juillet 2014.
 
-Brevet américain n° US Des. 430708, *Playground for small animal such as
-hamster*, 5 septembre 2000.
+Brevet américain n° US Des. 430708, _Playground for small animal such as hamster_ , 5 septembre 2000.
 
-Brevet européen n° EP3155925, *Boîtier d’attache sucette*, 19 avril
-2017.
+Brevet européen n° EP3155925, _Boîtier d’attache sucette_, 19 avril 2017.
 
-Citer un courriel, une contribution\
-à une liste de diffusion
-====================================
+### Note CSL
+* Veiller à bien respecter le modèle fourni dans la bibliothèque ; tous les champs Zotero n'ont pas de variable équivalente en CSL, ce qui a contraint à des adaptations.
 
-Auteur \[NOM Prénom\], *Sujet du courriel* \[courriel\], date de l’envoi
-\[JJ mois AAAA\], heure de l’envoi \[hh:mn\] \[consulté le...\] sur
-\[nom de la liste de diffusion éventuelle\].
+## Citer un courriel, une contribution à une liste de diffusion
+
+### Modèle liste des ressources
+
+Auteur \[NOM Prénom\], _Sujet du courriel_ \[courriel\], date de l’envoi \[JJ mois AAAA\], heure de l’envoi \[hh:mn\] \[consulté le...\] sur \[nom de la liste de diffusion éventuelle\].
+
+### Modèle note de bas de page
+
+Auteur \[NOM Prénom\], _Sujet du courriel_ \[courriel\], date de l’envoi \[JJ mois AAAA\].
 
 ### Dans la liste des ressources
 
-GASNAULT Jean, *Quel logiciel de veille pour une direction juridique ?*
-\[courriel\], 5 juin 2017, 18:04 \[consulté le 6 juin 2017\] sur
-Jurisconnexion.
+GASNAULT Jean, _Quel logiciel de veille pour une direction juridique ?_ \[courriel\], 5 juin 2017, 18:04 \[consulté le 6 juin 2017\] sur Jurisconnexion.
 
-HOURQUEBIE Fabrice, *Re: Guide de la rédaction biblio : projet confirmé*
-\[courriel\], 9 novembre 2016, 18:06, \[consulté le 12 novembre 2016\].
+HOURQUEBIE Fabrice, _Re: Guide de la rédaction biblio : projet confirmé_ \[courriel\], 9 novembre 2016, 18:06, \[consulté le 12 novembre 2016\].
 
 ### En note de bas de page
 
-GASNAULT Jean, *Quel logiciel de veille pour une direction juridique ?*
-\[courriel\], 5 juin 2017.
+GASNAULT Jean, _Quel logiciel de veille pour une direction juridique ?_ \[courriel\], 5 juin 2017.
 
-HOURQUEBIE Fabrice, *Re: Guide de la rédaction biblio : projet confirmé*
-\[courriel\], 9 novembre 2016.
+HOURQUEBIE Fabrice, _Re: Guide de la rédaction biblio : projet confirmé_ \[courriel\], 9 novembre 2016.
 
-NB : ce type de références rejoint préférentiellement la liste des
-ressources utilisées, plutôt que la bibliographie.
+### Note
+ce type de références rejoint préférentiellement la liste des ressources utilisées, plutôt que la bibliographie.
 
-Citer un entretien oral
+### Note CSL
+* Veiller à bien respecter le modèle fourni dans la bibliothèque ; Zotero n'affiche la date de consultation que s'il y a une URL, ce qui a contraint à quelques adaptations.
+
+
+<!--Citer un entretien oral
 =======================
 
-Personne interrogée \[NOM Prénom\], *Titre ou sujet de l’entretien*
+Personne interrogée \[NOM Prénom\], _Titre ou sujet de l’entretien_
 \[entretien\] mené par Nom Prénom, lieu, date \[JJ mois AAAA\],
 éventuellement pagination de la transcription si elle est jointe en
 annexe au travail de recherche.
 
 ### Dans la liste des ressources
 
-GRANGER Sabrina, *Modalités de publication d’un guide bibliographique*
+GRANGER Sabrina, _Modalités de publication d’un guide bibliographique_
 \[entretien\] mené par Gravier Pierre, Pessac, 13 novembre 2016.
 
 ### En note de bas de page
 
-GRANGER Sabrina, *Modalités de publication d’un guide bibliographique*
+GRANGER Sabrina, _Modalités de publication d’un guide bibliographique_
 \[entretien\] mené par Gravier Pierre, Pessac, 13 novembre 2016.
 
 NB : ce type de références rejoint préférentiellement la liste des

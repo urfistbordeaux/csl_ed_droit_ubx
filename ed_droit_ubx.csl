@@ -102,6 +102,22 @@
           </else>
         </choose>
       </if>
+      <else-if type="patent">
+        <group delimiter=", ">
+          <group delimiter=" ">
+            <text variable="authority" text-case="capitalize-first"/>
+            <text term="issue" form="short"/>
+            <text variable="number"/>
+          </group>
+          <text variable="title" text-case="capitalize-first" font-style="italic"/>
+        </group>
+      </else-if>
+      <else-if type="personal_communication">
+        <group delimiter=" ">
+          <text variable="title" text-case="capitalize-first" font-style="italic"/>
+          <text value="[courriel]"/>
+        </group>
+      </else-if>
       <else-if type="article-journal article-newspaper article-magazine" match="any">
         <group delimiter=", ">
           <text variable="title" text-case="capitalize-first" quotes="true"/>
@@ -163,6 +179,22 @@
           </else>
         </choose>
       </if>
+      <else-if type="patent">
+        <group delimiter=", ">
+          <group delimiter=" ">
+            <text variable="authority" text-case="capitalize-first"/>
+            <text term="issue" form="short"/>
+            <text variable="number"/>
+          </group>
+          <text variable="title" text-case="capitalize-first" font-style="italic"/>
+        </group>
+      </else-if>
+      <else-if type="personal_communication">
+        <group delimiter=" ">
+          <text variable="title" text-case="capitalize-first" font-style="italic"/>
+          <text value="[courriel]"/>
+        </group>
+      </else-if>
       <else-if type="article-journal article-newspaper article-magazine" match="any">
         <group delimiter=", ">
           <text variable="title" form="short" text-case="capitalize-first" quotes="true"/>
@@ -228,6 +260,13 @@
           </date>
         </group>
       </if>
+      <else-if type="patent personal_communication">
+        <date variable="issued" delimiter="&#160;">
+          <date-part name="day"/>
+          <date-part name="month"/>
+          <date-part name="year"/>
+        </date>
+      </else-if>
       <else>
         <group delimiter=", ">
           <date variable="issued">
@@ -271,6 +310,20 @@
           </group>
         </group>
       </if>
+      <else-if type="patent">
+        <date variable="issued" delimiter="&#160;" suffix=".">
+          <date-part name="day"/>
+          <date-part name="month"/>
+          <date-part name="year"/>
+        </date>
+      </else-if>
+      <else-if type="personal_communication">
+        <date variable="issued" delimiter="&#160;">
+          <date-part name="day"/>
+          <date-part name="month"/>
+          <date-part name="year"/>
+        </date>
+      </else-if>
       <else-if type="webpage weblog-post">
         <group delimiter=" ">
           <text value="publié le"/>
@@ -319,8 +372,7 @@
     </choose>
   </macro>
   <macro name="access">
-    <choose>
-      <if variable="URL">
+
         <group prefix="[" suffix="]" delimiter=" ">
           <text term="accessed"/>
           <date variable="accessed" delimiter="&#160;">
@@ -329,14 +381,16 @@
             <date-part name="year"/>
           </date>
         </group>
-      </if>
-    </choose>
+
   </macro>
   <macro name="access-bib">
     <choose>
-      <if variable="URL">
+      <if type="personal_communication">
+        <text variable="note" suffix="."/>
+      </if>
+      <else>
         <group delimiter=", ">
-              <group prefix="[" suffix="]" delimiter=" ">
+          <group prefix="[" suffix="]" delimiter=" ">
             <text term="accessed"/>
             <date variable="accessed" delimiter="&#160;">
               <date-part name="day"/>
@@ -346,8 +400,7 @@
           </group>
           <text variable="URL" text-decoration="underline"/>
         </group>
-      </if>
-
+      </else>
     </choose>
   </macro>
   <macro name="thesis-genre">
@@ -404,18 +457,18 @@
     </sort>
     <layout>
       <group delimiter=", ">
-          <text macro="author"/>
-          <text macro="title"/>
-          <text macro="editor"/>
-          <text macro="translator"/>
-          <text macro="preface-author"/>
-          <text macro="thesis-director"/>
-          <text macro="edition"/>
-          <text macro="thesis-genre"/>
-          <text macro="pub-place"/>
-          <text macro="publisher"/>
-          <text macro="yearpage-bib"/>
-          <text macro="access-bib"/>
+        <text macro="author"/>
+        <text macro="title"/>
+        <text macro="editor"/>
+        <text macro="translator"/>
+        <text macro="preface-author"/>
+        <text macro="thesis-director"/>
+        <text macro="edition"/>
+        <text macro="thesis-genre"/>
+        <text macro="pub-place"/>
+        <text macro="publisher"/>
+        <text macro="yearpage-bib"/>
+        <text macro="access-bib"/>
       </group>
     </layout>
   </bibliography>
