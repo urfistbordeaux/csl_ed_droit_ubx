@@ -118,6 +118,16 @@
           <text value="[courriel]"/>
         </group>
       </else-if>
+      <else-if type="interview">
+        <group delimiter=" ">
+          <text variable="title" text-case="capitalize-first" font-style="italic"/>
+          <text variable="medium" prefix="[" suffix="]"/>
+          <text value="mené par"/>
+          <names variable="interviewer">
+            <name name-as-sort-order="all" sort-separator=" "/>
+          </names>
+        </group>
+      </else-if>
       <else-if type="article-journal article-newspaper article-magazine" match="any">
         <group delimiter=", ">
           <text variable="title" text-case="capitalize-first" quotes="true"/>
@@ -189,6 +199,16 @@
           <text variable="title" text-case="capitalize-first" font-style="italic"/>
         </group>
       </else-if>
+      <else-if type="interview">
+        <group delimiter=" ">
+          <text variable="title" text-case="capitalize-first" font-style="italic"/>
+          <text variable="medium" prefix="[" suffix="]"/>
+          <text value="mené par"/>
+          <names variable="interviewer">
+            <name name-as-sort-order="all" sort-separator=" "/>
+          </names>
+        </group>
+      </else-if>
       <else-if type="personal_communication">
         <group delimiter=" ">
           <text variable="title" text-case="capitalize-first" font-style="italic"/>
@@ -250,7 +270,7 @@
   </macro>
   <macro name="yearpage">
     <choose>
-      <if type="webpage weblog-post">
+      <if type="webpage post-weblog">
         <group delimiter=" ">
           <text value="publié le"/>
           <date variable="issued" delimiter="&#160;">
@@ -266,6 +286,16 @@
           <date-part name="month"/>
           <date-part name="year"/>
         </date>
+      </else-if>
+      <else-if type="interview">
+        <group delimiter=", ">
+          <text variable="note"/>
+          <date variable="issued" delimiter="&#160;">
+            <date-part name="day"/>
+            <date-part name="month"/>
+            <date-part name="year"/>
+          </date>
+        </group>
       </else-if>
       <else>
         <group delimiter=", ">
@@ -324,7 +354,17 @@
           <date-part name="year"/>
         </date>
       </else-if>
-      <else-if type="webpage weblog-post">
+      <else-if type="interview">
+        <group delimiter=", ">
+          <text variable="note"/>
+          <date variable="issued" delimiter="&#160;">
+            <date-part name="day"/>
+            <date-part name="month"/>
+            <date-part name="year"/>
+          </date>
+        </group>
+      </else-if>
+      <else-if type="webpage 	post-weblog">
         <group delimiter=" ">
           <text value="publié le"/>
           <date variable="issued" delimiter="&#160;">
@@ -372,21 +412,22 @@
     </choose>
   </macro>
   <macro name="access">
-
-        <group prefix="[" suffix="]" delimiter=" ">
-          <text term="accessed"/>
-          <date variable="accessed" delimiter="&#160;">
-            <date-part name="day"/>
-            <date-part name="month"/>
-            <date-part name="year"/>
-          </date>
-        </group>
-
+    <group prefix="[" suffix="]" delimiter=" ">
+      <text term="accessed"/>
+      <date variable="accessed" delimiter="&#160;">
+        <date-part name="day"/>
+        <date-part name="month"/>
+        <date-part name="year"/>
+      </date>
+    </group>
   </macro>
   <macro name="access-bib">
     <choose>
       <if type="personal_communication">
-        <text variable="note" suffix="."/>
+        <group delimiter=" " suffix=".">
+          <text variable="note" prefix="[" suffix="]"/>
+          <text variable="URL" prefix="sur "/>
+        </group>
       </if>
       <else>
         <group delimiter=", ">
@@ -408,6 +449,16 @@
       <if type="thesis">
         <text variable="genre" text-case="lowercase"/>
       </if>
+    </choose>
+  </macro>
+  <macro name="sort-key">
+    <choose>
+      <if type="interview personal_communication" match="none">
+        <text value="1"/>
+      </if>
+      <else>
+        <text value="2"/>
+      </else>
     </choose>
   </macro>
   <citation>
@@ -452,6 +503,7 @@
   </citation>
   <bibliography>
     <sort>
+      <key macro="sort-key"/>
       <key macro="author" names-min="3" names-use-first="3"/>
       <key variable="issued" sort="descending"/>
     </sort>

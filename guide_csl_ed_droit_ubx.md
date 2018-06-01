@@ -346,43 +346,32 @@ MALABAT Valérie, Simplifier mais comment ?, in BONIS-GARÇON Évelyne (dir.), 
 
 GAUTRON Jean-Claude et GRARD Loïc, Le droit international dans la construction de l’Union européenne, in SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL, _Droit international et droit communautaire, perspectives actuelles_, 2000, p. 57.
 
-<!-- exemple à fournir
+`Norme juridique = En cours En cours En cours`
 
-Citer une norme juridique
-=========================
+## Citer une norme juridique
 
-PAYS, AUTEUR, *Intitulé de la norme*, Journal Officiel / Bulletin
-Officiel, n°, date de publication, page de départ, numéro NOR.
+### Modèle bibliographie
+PAYS, AUTEUR, _Intitulé de la norme_, Journal Officiel / Bulletin Officiel, n°, date de publication, page de départ, numéro NOR.
+
+### Modèle Note de bas de page
+AUTEUR, _Intitulé de la norme_, Journal Officiel / Bulletin Officiel, n°, date de publication, page de départ, numéro NOR.
 
 ### Dans la bibliographie
 
-FRANCE. MINISTÈRE DE L’ENSEIGNEMENT SUPÉRIEUR ET DE LA RECHERCHE,
-*Décret n° 2013-805 du 3 septembre 2013 portant création de l’Université
-de Bordeaux*, Journal officiel, n°206, 5 septembre 2013, p. 15020,
-ESRS1317830D.
+FRANCE. MINISTÈRE DE L’ENSEIGNEMENT SUPÉRIEUR ET DE LA RECHERCHE, _Décret n° 2013-805 du 3 septembre 2013 portant création de l’Université de Bordeaux_, Journal officiel, n°206, 5 septembre 2013, p. 15020, ESRS1317830D.
 
-FRANCE. MINISTÈRE DE L’ÉDUCATION NATIONALE, *Décret du 13 juillet 1949
-approuvant une délibération du conseil de l’université de Bordeaux
-portant création à Fort-de-France d’un institut d’études juridiques,
-politiques et économiques de cette université*, Journal officiel, 16
-juillet 1949, p. 6921.
+FRANCE. MINISTÈRE DE L’ÉDUCATION NATIONALE, _Décret du 13 juillet 1949 approuvant une délibération du conseil de l’université de Bordeaux portant création à Fort-de-France d’un institut d’études juridiques, politiques et économiques de cette université_, Journal officiel, 16 juillet 1949, p. 6921.
 
 ### En note de bas de page
 
-MINISTÈRE DE L’ENSEIGNEMENT SUPÉRIEUR ET DE LA RECHERCHE, *Décret n°
-2013-805 du 3 septembre 2013 portant création de l’Université de
-Bordeaux*, Journal officiel, n°206, 5 septembre 2013.
+MINISTÈRE DE L’ENSEIGNEMENT SUPÉRIEUR ET DE LA RECHERCHE, _Décret n° 2013-805 du 3 septembre 2013 portant création de l’Université de Bordeaux_, Journal officiel, n°206, 5 septembre 2013.
 
-MINISTÈRE DE L’ÉDUCATION NATIONALE, *Décret du 13 juillet 1949
-approuvant une délibération du conseil de l’université de Bordeaux
-portant création à Fort-de-France d’un institut d’études juridiques,
-politiques et économiques de cette université*, Journal officiel, 16
-juillet 1949.
+MINISTÈRE DE L’ÉDUCATION NATIONALE, _Décret du 13 juillet 1949 approuvant une délibération du conseil de l’université de Bordeaux portant création à Fort-de-France d’un institut d’études juridiques, politiques et économiques de cette université_, Journal officiel, 16 juillet 1949.
 
-NB : le pays n’est indiqué que s’il est utile pour différencier des
-institutions de pays différents. S’il est systématiquement absent, il
-sous-entend la nationalité française des institutions concernées.
--->
+### Note
+NB : le pays n’est indiqué que s’il est utile pour différencier des institutions de pays différents. S’il est systématiquement absent, il sous-entend la nationalité française des institutions concernées.
+
+### Note CSL
 
 ## Citer un site en ligne, un blogue
 ### Modèle bibliographie
@@ -483,28 +472,26 @@ ce type de références rejoint préférentiellement la liste des ressources uti
 * Veiller à bien respecter le modèle fourni dans la bibliothèque ; Zotero n'affiche la date de consultation que s'il y a une URL, ce qui a contraint à quelques adaptations.
 
 
-<!--Citer un entretien oral
-=======================
+## Citer un entretien oral
 
-Personne interrogée \[NOM Prénom\], _Titre ou sujet de l’entretien_
-\[entretien\] mené par Nom Prénom, lieu, date \[JJ mois AAAA\],
-éventuellement pagination de la transcription si elle est jointe en
-annexe au travail de recherche.
+### Modèle liste des ressources et note de bas de page
+Personne interrogée \[NOM Prénom\], _Titre ou sujet de l’entretien_ \[entretien\] mené par Nom Prénom, lieu, date \[JJ mois AAAA\], éventuellement pagination de la transcription si elle est jointe en annexe au travail de recherche.
 
 ### Dans la liste des ressources
 
-GRANGER Sabrina, _Modalités de publication d’un guide bibliographique_
-\[entretien\] mené par Gravier Pierre, Pessac, 13 novembre 2016.
+GRANGER Sabrina, _Modalités de publication d’un guide bibliographique_ \[entretien\] mené par Gravier Pierre, Pessac, 13 novembre 2016.
 
 ### En note de bas de page
 
-GRANGER Sabrina, _Modalités de publication d’un guide bibliographique_
-\[entretien\] mené par Gravier Pierre, Pessac, 13 novembre 2016.
+GRANGER Sabrina, _Modalités de publication d’un guide bibliographique_ \[entretien\] mené par Gravier Pierre, Pessac, 13 novembre 2016.
 
-NB : ce type de références rejoint préférentiellement la liste des
-ressources utilisées, plutôt que la bibliographie.
+### Note
+Ce type de références rejoint préférentiellement la liste des ressources utilisées, plutôt que la bibliographie.
 
-Recommandations particulières
+### Note CSL
+* Veiller à bien respecter le modèle fourni dans la bibliothèque ; Zotero ne prévoit pas de champ `Lieu` pour les entretiens oraux, ce qui a contraint à quelques adaptations.
+
+<!-- Recommandations particulières
 =============================
 
 **Citation de documents en langue étrangère**
