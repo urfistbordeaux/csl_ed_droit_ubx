@@ -496,7 +496,7 @@ Ce type de références rejoint préférentiellement la liste des ressources uti
 
 Si un texte en langue étrangère doit être cité, il est plus approprié de le traduire, même pour l’anglais et même s’il est supposé que le lectorat comprend l’anglais. On recherche alors l’œuvre traduite pour la citer. À défaut, notamment pour les articles, on effectue la traduction en terminant la citation par \[nous traduisons\] et en donnant la version originale du texte en note de bas de page, notamment si la formulation en langue étrangère a de l’importance (concept propre à une langue, concept différent en français...).
 
-### Note Zotero
+### Note CSL
 La mention  \[nous traduisons\] doit être insérée en tant que suffixe à la référence bibliographique dans la boîte de dialogue de l'extension de traitement de texte Zotero.
 
 ## Cas particuliers concernant les auteurs
@@ -520,65 +520,49 @@ La fin des titres ou sous-titre d’une longueur excessive peut être abrégée 
 
 La mention de l’édition est réduite au minimum, en employant des chiffres arabes : « XII<sup>e</sup> édition revue et corrigée » devient dans les références bibliographiques : « 12<sup>e</sup> éd. ».
 
-<!--
-**Cas particuliers concernant la publication**
+## Cas particuliers concernant la publication
 
-La page de titre peut mentionner plusieurs éditeurs et plusieurs villes
-de publication. On ne cite alors qu’un seul éditeur et sa ville, en
-retenant de manière privilégiée l’éditeur français et la ville qui lui
-est liée.
+La page de titre peut mentionner plusieurs éditeurs et plusieurs villes de publication. On ne cite alors qu’un seul éditeur et sa ville, en retenant de manière privilégiée l’éditeur français et la ville qui lui est liée.
 
 Pour la date de publication, on retient par ordre de préférence :
-
-- la date de publication mentionnée sur la page de titre
-
-> - la date de dépôt légal (parfois précédée de « DL ») mentionnée au
-> verso de la page de titre ou dans les dernières pages du document
->
-> - la date de copyright souvent précédée de © et souvent mentionnée au
-> verso de la page de titre
->
-> - la date d’impression souvent mentionnée dans les toutes dernières
-> pages du document
+* la date de publication mentionnée sur la page de titre,
+* la date de dépôt légal (parfois précédée de « DL ») mentionnée au verso de la page de titre ou dans les dernières pages du document,
+* la date de copyright souvent précédée de © et souvent mentionnée au verso de la page de titre,
+* la date d’impression souvent mentionnée dans les toutes dernières pages du document.
 
 Si ces informations manquent, on notera à leur place :
+* pas de lieu identifiable (sans lieu) : \[s.l.\],
+* pas d’éditeur identifiable (sans nom) : \[s.n.\],
+* pas de date identifiable (sans date) : \[s.d.\].
 
-- pas de lieu identifiable (sans lieu) : \[s.l.\]
+Si un de ces éléments peut être deviné, on le mentionnera entre crochets : \[Paris\], Dalloz, 1959. Pour résoudre ces difficultés, les catalogues de bibliothèques restituent ces informations de manière validée et structurée.
 
-- pas d’éditeur identifiable (sans nom) : \[s.n.\]
+### Note CSL
+Les mentions  \[s.l.\],  \[s.n.\] et  \[s.d.\] sont générées automatiquement par Zotero lorsque les champs correspondants ne sont pas renseignés.
 
-- pas de date identifiable (sans date) : \[s.d.\]
+## Cas particuliers concernant la pagination
 
-Si un de ces éléments peut être deviné, on le mentionnera entre
-crochets : \[Paris\], Dalloz, 1959. Pour résoudre ces difficultés, les
-catalogues de bibliothèques restituent ces informations de manière
-validée et structurée.
+En bibliographie, pour un livre ou une thèse, on mentionne la pagination totale du document, en se référant simplement à la dernière page numérotée du document. L’abréviation de « pages » est placée après leur nombre (347 p.). Pour un article ou une contribution à un ouvrage collectif, on mentionne la tranche de pages concernée et l’abréviation de « pages » est placée avant cette indication (p. 47-58).
 
-**Cas particuliers concernant la pagination**
-
-En bibliographie, pour un livre ou une thèse, on mentionne la pagination
-totale du document, en se référant simplement à la dernière page
-numérotée du document. L’abréviation de « pages » est placée après leur
-nombre (347 p.). Pour un article ou une contribution à un ouvrage
-collectif, on mentionne la tranche de pages concernée et l’abréviation
-de « pages » est placée avant cette indication (p. 47-58).
-
-En note de bas de page, on mentionne les pages concernées par la
-citation. L’abréviation de « pages » est placée avant la page ou la
+En note de bas de page, on mentionne les pages concernées par la citation. L’abréviation de « pages » est placée avant la page ou la
 tranche concernée (p. 49). On peut employer les abréviations suivantes :
 
-p\. 8-12 Pages 8 à 12
+* p. 8-12 = Pages 8 à 12
+* p. 8 ; 12 = Pages 8 et 12
+* p. 47 s. = Page 47 et suivantes
+* spéc. p. 47 = Spécialement page 47
+* _passim_  = En différents endroits du document, qu’on choisit de ne pas lister
 
-p\. 8 ; 12 Pages 8 et 12
+### Note CSL
+Pour les mentions de page, on utilisera le champ `locator` dans la boîte de dialogue de l'extension de traitement de texte Zotero, en veillant à sélectionner le type adéquat (page, paragraphe, etc.) afin de générer l'abréviation adéquate. On ne peut pas intégrer de texte avant l'abréviation, aussi restituer `spéc. p. 47` ne sera pas possible. On pourrait en revanche générer `p. 47 spéc.` en saisissant `47 spéc. dans le champ locator`.
 
-p\. 47 s. Page 47 et suivantes
+Pour la mention _passim_, on veillera à effectuer la saisie dans le champ `Suffixe` de la boîte de dialogue de l'extension de traitement de texte Zotero, sous la forme suivante :
 
-spéc. p. 47 Spécialement page 47
+```
+, <i>passim</i>
+```
 
-> *passim* En différents endroits du document, qu’on choisit de ne pas
-> lister
-
-**Utilisation des termes latins de renvoi**
+<!--**Utilisation des termes latins de renvoi**
 
 Les termes latins qui suivent renvoient toujours, soit à l’auteur cité
 précédemment, soit à l’œuvre citée précédemment. Leur emploi
@@ -632,26 +616,19 @@ manière dont un terme latin renvoie à la précédente citation peut être
 modifiée. Toute insertion de citation dans une partie de document déjà
 rédigée doit conduire à vérifier que la nouvelle citation ne s’intercale
 pas entre un terme latin de renvoi et sa citation de référence.
+-->
 
-Abréviations conseillées – Codes
-================================
+## Abréviations conseillées – Codes
+La liste suivante ne peut être exhaustive, elle ne recense notamment pas toutes les variantes de titres portés par les codes au long de leur vie éditoriale et chez les différents éditeurs.
 
-La liste suivante ne peut être exhaustive, elle ne recense notamment pas
-toutes les variantes de titres portés par les codes au long de leur vie
-éditoriale et chez les différents éditeurs.
+Le document de recherche comprendra, avant son introduction, une liste des abréviations de codes utilisées.
 
-Le document de recherche comprendra, avant son introduction, une liste
-des abréviations de codes utilisées.
-
-Par exception, lorsqu’un code est cité de manière habituelle, il peut
-l’être en note de bas de page avec pour seule information son
+Par exception, lorsqu’un code est cité de manière habituelle, il peut l’être en note de bas de page avec pour seule information son
 abréviation.
 
-Cependant, lorsqu’un code étranger est cité, le pays producteur de la
-législation est cité comme auteur du document, afin de le différencier
-du code français. Ainsi :
+Cependant, lorsqu’un code étranger est cité, le pays producteur de la législation est cité comme auteur du document, afin de le différencier du code français. Ainsi :
 
-BELGIQUE, *Code civil*, 4^e^ éd., Philippe Denis et Dehasse Delphine
+BELGIQUE, _Code civil_, 4<sup> éd.</sup>, Philippe Denis et Dehasse Delphine
 (éd.), Bruylant, Bruxelles, 2006, 428 p.
 
   Code administratif                                                C. adm.
@@ -710,12 +687,10 @@ BELGIQUE, *Code civil*, 4^e^ éd., Philippe Denis et Dehasse Delphine
   Livre des procédures fiscales                                     LPF
   Nouveau code de procédure civile                                  NCPC
 
-Abréviations conseillées – Juridictions
-=======================================
 
-Les jugements et arrêts sont cités sous la forme : Juridiction, date du
-jugement ou de l’arrêt, numéro de référence, éventuellement nom des
-parties, commentaires éventuels. Ainsi :
+<!-- Abréviations conseillées – Juridictions
+
+Les jugements et arrêts sont cités sous la forme : Juridiction, date du jugement ou de l’arrêt, numéro de référence, éventuellement nom des parties, commentaires éventuels. Ainsi :
 
 CE, 19 mai 1933, Benjamin
 
@@ -775,24 +750,16 @@ française, est citée, elle est précédée du nom du pays concerné.
   Tribunal d’instance                           TI
   Tribunal paritaire des baux ruraux            TPBR
 
-Abréviations conseillées – Revues
-=================================
+-->
+## Abréviations conseillées – Revues
 
-Il n’est matériellement pas possible d’établir une liste d’abréviations
-recommandées, du fait du nombre des revues juridiques et de leurs
-fréquents changements de nom, fusions, scissions…
+Il n’est matériellement pas possible d’établir une liste d’abréviations recommandées, du fait du nombre des revues juridiques et de leurs fréquents changements de nom, fusions, scissions…
 
-Il est recommandé d’établir une liste des abréviations utilisées en
-début de document de recherche pour les revues les plus utilisées. À
-cette fin, il est recommandé de se reporter à la manière dont les revues
-préconisent de se citer elles-mêmes, en recourant à leur site et
-indications aux auteurs.
+Il est recommandé d’établir une liste des abréviations utilisées en début de document de recherche pour les revues les plus utilisées. À cette fin, il est recommandé de se reporter à la manière dont les revues préconisent de se citer elles-mêmes, en recourant à leur site et indications aux auteurs.
 
-Les bibliothèques universitaires de l’université Toulouse 1 Capitole
-proposent un tableau présentant les abréviations juridiques les plus
-courantes, notamment pour les revues :
+Les bibliothèques universitaires de l’université Toulouse 1 Capitole proposent un tableau présentant les abréviations juridiques les plus courantes, notamment pour les revues :
 
-[*http://ressscd.ut-capitole.fr/scd/abrev/*](http://ressscd.ut-capitole.fr/scd/abrev/)
+[http://ressscd.ut-capitole.fr/scd/abrev/](http://ressscd.ut-capitole.fr/scd/abrev/)
 
 Version imprimée en 2017,
 
