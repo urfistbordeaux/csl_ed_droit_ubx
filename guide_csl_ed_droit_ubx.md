@@ -346,8 +346,6 @@ MALABAT Valérie, Simplifier mais comment ?, in BONIS-GARÇON Évelyne (dir.), 
 
 GAUTRON Jean-Claude et GRARD Loïc, Le droit international dans la construction de l’Union européenne, in SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL, _Droit international et droit communautaire, perspectives actuelles_, 2000, p. 57.
 
-`Norme juridique = En cours En cours En cours`
-
 ## Citer une norme juridique
 
 ### Modèle bibliographie
@@ -372,6 +370,8 @@ MINISTÈRE DE L’ÉDUCATION NATIONALE, _Décret du 13 juillet 1949 approuvant u
 NB : le pays n’est indiqué que s’il est utile pour différencier des institutions de pays différents. S’il est systématiquement absent, il sous-entend la nationalité française des institutions concernées.
 
 ### Note CSL
+Se référer aux modèles dans la biblithèque Zotero ; le champ "Pays" n'est prévu ni par CSL ni par Zotero, aussi le champ `Corps législatif` est-il utilisé pour renseigner le pays.
+
 
 ## Citer un site en ligne, un blogue
 ### Modèle bibliographie
@@ -491,58 +491,36 @@ Ce type de références rejoint préférentiellement la liste des ressources uti
 ### Note CSL
 * Veiller à bien respecter le modèle fourni dans la bibliothèque ; Zotero ne prévoit pas de champ `Lieu` pour les entretiens oraux, ce qui a contraint à quelques adaptations.
 
-<!-- Recommandations particulières
-=============================
+# Recommandations particulières
+## Citation de documents en langue étrangère
 
-**Citation de documents en langue étrangère**
+Si un texte en langue étrangère doit être cité, il est plus approprié de le traduire, même pour l’anglais et même s’il est supposé que le lectorat comprend l’anglais. On recherche alors l’œuvre traduite pour la citer. À défaut, notamment pour les articles, on effectue la traduction en terminant la citation par \[nous traduisons\] et en donnant la version originale du texte en note de bas de page, notamment si la formulation en langue étrangère a de l’importance (concept propre à une langue, concept différent en français...).
 
-Si un texte en langue étrangère doit être cité, il est plus approprié de
-le traduire, même pour l’anglais et même s’il est supposé que le
-lectorat comprend l’anglais. On recherche alors l’œuvre traduite pour la
-citer. À défaut, notamment pour les articles, on effectue la traduction
-en terminant la citation par \[nous traduisons\] et en donnant la
-version originale du texte en note de bas de page, notamment si la
-formulation en langue étrangère a de l’importance (concept propre à une
-langue, concept différent en français...).
+### Note Zotero
+La mention  \[nous traduisons\] doit être insérée en tant que suffixe à la référence bibliographique dans la boîte de dialogue de l'extension de traitement de texte Zotero.
 
-**Cas particuliers concernant les auteurs**
+## Cas particuliers concernant les auteurs
 
-Les noms des auteurs seront séparés par des virgules, sauf le nom des
-deux derniers qui sont séparés par « et ». On mentionnera un maximum de
-trois auteurs pour un document donné. Pour un plus grand nombre
-d’auteurs, le nom du troisième est suivi de « *et al.* » :
+Les noms des auteurs seront séparés par des virgules, sauf le nom des deux derniers qui sont séparés par « et ». On mentionnera un maximum de trois auteurs pour un document donné. Pour un plus grand nombre d’auteurs, le nom du troisième est suivi de « *et al.* » :
 
-> DALLOZ Édouard, VERGÉ Charles, VERGÉ Charles fils *et al*., *Code des
-> lois politiques et administratives*, tome 2, Bureau de la
-> Jurisprudence Générale, 1891, 1432 p.
+> DALLOZ Édouard, VERGÉ Charles, VERGÉ Charles fils _et al._, _Code des  lois politiques et administratives_, tome 2, Bureau de la Jurisprudence Générale, 1891, 1432 p.
 
-On respecte habituellement l’ordre des auteurs tel qu’indiqué sur la
-page de titre, de haut en bas puis de gauche à droite. Un auteur, dont
-l’omission nuirait à la bonne compréhension de la référence ou de son
-choix, peut exceptionnellement être placé en quatrième position avant la
-mention « *et al.* ».
+On respecte habituellement l’ordre des auteurs tel qu’indiqué sur la page de titre, de haut en bas puis de gauche à droite. Un auteur, dont l’omission nuirait à la bonne compréhension de la référence ou de son choix, peut exceptionnellement être placé en quatrième position avant la mention « _et al._ ».
 
-Les civilités (madame, monsieur…), qualités ou titres (professeur,
-docteur, conseiller d’État, avocat…) ne sont pas mentionnées en
+Les civilités (madame, monsieur…), qualités ou titres (professeur, docteur, conseiller d’État, avocat…) ne sont pas mentionnées en
 complément du nom.
 
-Les responsabilités secondaires (traducteur, préfacier, éditeur
-scientifique…) ne sont mentionnées que lorsqu’elles apportent une
-information particulière sur le document exploité. Elles sont alors
-mentionnées à leur place indiquée dans les modèles, après le titre, en
-abrégé.
+Les responsabilités secondaires (traducteur, préfacier, éditeur scientifique…) ne sont mentionnées que lorsqu’elles apportent une information particulière sur le document exploité. Elles sont alors mentionnées à leur place indiquée dans les modèles, après le titre, en abrégé.
 
-**Cas particuliers concernant les titres**
+## Cas particuliers concernant les titres
 
-La fin des titres ou sous-titre d’une longueur excessive peut être
-abrégée par \[…\].
+La fin des titres ou sous-titre d’une longueur excessive peut être abrégée par \[…\].
 
-**Cas particuliers concernant les éditions**
+## Cas particuliers concernant les éditions
 
-La mention de l’édition est réduite au minimum, en employant des
-chiffres arabes : « XII^e^ édition revue et corrigée » devient dans les
-références bibliographiques : « 12^e^ éd. ».
+La mention de l’édition est réduite au minimum, en employant des chiffres arabes : « XII<sup>e</sup> édition revue et corrigée » devient dans les références bibliographiques : « 12<sup>e</sup> éd. ».
 
+<!--
 **Cas particuliers concernant la publication**
 
 La page de titre peut mentionner plusieurs éditeurs et plusieurs villes
