@@ -66,9 +66,8 @@ COURBE Patrick et GOUTTENOIRE Adeline, *Droit de la famille* \[[en ligne](http:/
 MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*\[[en ligne](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_constitutionnel-38072.htm)\], Sirey, 2015, spéc. p. 18, 54 et 101-103, \[consulté le 20 janvier 2017\].
 
 ### Notes
-
-* exceptionnellement, pas de point final après l’URL
-* en note de bas de page, il est recommandé que la mention « \[en ligne\] » soit un lien hypertexte reprenant l’URL complète
+* exceptionnellement, pas de point final après l’URL
+* en note de bas de page, il est recommandé que la mention « \[en ligne\] » soit un lien hypertexte reprenant l’URL complète
 * lorsque le document dispose d’un DOI, il se substitue à l’URL
 
 ### Notes CSL
@@ -103,7 +102,6 @@ AUBIN Gérard, _La seigneurie en Bordelais au 18<sup>eme</sup> siècle d'après 
 RADÉ Christophe, _Le droit à l’insertion dans la loi du 1<sup>er</sup> décembre 1988 relative au revenu minimum d’insertion_, mémoire de DEA, droit social, 1991, université de Bordeaux I, p. 74.
 
 ### Notes
-
 * l’intitulé du diplôme, de la discipline et le nom de l’université sont repris de la page de titre ou de couverture ;
 * le niveau d’étude (par ex. diplôme d’étude approfondi) peut être abrégé (DEA).
 
@@ -175,8 +173,7 @@ SAINT-PAU Jean-Christophe, _L’anonymat et le droit_ \[microfiche\], thèse de 
 MAUBLANC Jean-Pierre, _L’interprétation de la loi fiscale par le juge de l’impôt_ \[microfiche\], thèse de doctorat, droit, université de Bordeaux I, 1984.
 
 ### Note
-
-* pas de mention de la pagination.
+Pas de mention de la pagination.
 
 ### Note CSL
 Absence du nombre de pages (pagination) = condition affichage mention \[microfiche].
@@ -238,7 +235,7 @@ ou
 Auteur \[NOM prénom\], Titre de l’article, _Titre de la revue abrégé_, année, numéro de paragraphe ou des pages concernées.
 
 ### Note CSL
-*Variante avec guillemets
+* Variante avec guillemets
 * Inclure la partie dans le titre de la revue
 
 ### Dans la bibliographie
@@ -276,8 +273,8 @@ ou
 
 Auteur \[NOM prénom\], Titre de l’article, complément du titre, _Titre de la revue abrégé_ \[en ligne\], partie, année, numéro de paragraphe ou des pages concernées, \[consulté le …\].
 
-### Note CSL
-*Variante avec guillemets
+### Notes CSL
+* Variante avec guillemets
 * Inclure la partie dans le titre de la revue
 * **Pb car Zotero n'affiche pas l'URL s'il y a une pagination - voir issue GitHub**
 
@@ -393,7 +390,7 @@ MAÎTRE ÉOLAS, _Journal d’un avocat_ \[en ligne\], \[consulté le 5 octobre 2
 
 GROUPE D’INFORMATION ET DE SOUTIEN DES IMMIGRÉ.E.S, _Gisti_ \[en ligne\], \[consulté le 5 octobre 2014\].
 
-### Note CSL
+### Notes CSL
 * Type = page web
 * Laisser les champs `Titre` et `Date` vides
 
@@ -414,7 +411,7 @@ ou
 AUTEUR, Titre de l’article ou de la page, sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le…\].
 
 ### Note CSL
-* Variante créé = avec guillemets
+Variante créé = avec guillemets
 
 ### Dans la bibliographie
 
@@ -426,7 +423,7 @@ MAÎTRE ÉOLAS, « Pour en finir avec la séparation des pouvoirs », sur _Jou
 
 
 ### Note
-pour les sites d’institutions, le nom de la page d’accueil du site sera souvent le même que celui de l’institution.
+Pour les sites d’institutions, le nom de la page d’accueil du site sera souvent le même que celui de l’institution.
 
 ## Citer un brevet
 
@@ -441,7 +438,7 @@ Brevet américain n° US Des. 430708, _Playground for small animal such as hamst
 Brevet européen n° EP3155925, _Boîtier d’attache sucette_, 19 avril 2017.
 
 ### Note CSL
-* Veiller à bien respecter le modèle fourni dans la bibliothèque ; tous les champs Zotero n'ont pas de variable équivalente en CSL, ce qui a contraint à des adaptations.
+Veiller à bien respecter le modèle fourni dans la bibliothèque ; tous les champs Zotero n'ont pas de variable équivalente en CSL, ce qui a contraint à des adaptations.
 
 ## Citer un courriel, une contribution à une liste de diffusion
 
@@ -469,6 +466,7 @@ HOURQUEBIE Fabrice, _Re: Guide de la rédaction biblio : projet confirmé_ \[co
 ce type de références rejoint préférentiellement la liste des ressources utilisées, plutôt que la bibliographie.
 
 ### Note CSL
+* Le style est paramétré pour générer automatiquement une liste des ressources à la suite de la bibliographie ; il conviendra d'ajouter un saut de page, un intertitre ou autre lorsque le document sera entièrement finalisé et que la bibliographie ne sera plus mise à jpour (sinon il faudra recommencer après chaque mise à jour...).
 * Veiller à bien respecter le modèle fourni dans la bibliothèque ; Zotero n'affiche la date de consultation que s'il y a une URL, ce qui a contraint à quelques adaptations.
 
 
@@ -489,6 +487,7 @@ GRANGER Sabrina, _Modalités de publication d’un guide bibliographique_ \[entr
 Ce type de références rejoint préférentiellement la liste des ressources utilisées, plutôt que la bibliographie.
 
 ### Note CSL
+* Le style est paramétré pour générer automatiquement une liste des ressources à la suite de la bibliographie ; il conviendra d'ajouter un saut de page, un intertitre ou autre lorsque le document sera entièrement finalisé et que la bibliographie ne sera plus mise à jpour (sinon il faudra recommencer après chaque mise à jour...).
 * Veiller à bien respecter le modèle fourni dans la bibliothèque ; Zotero ne prévoit pas de champ `Lieu` pour les entretiens oraux, ce qui a contraint à quelques adaptations.
 
 # Recommandations particulières
@@ -554,7 +553,7 @@ tranche concernée (p. 49). On peut employer les abréviations suivantes :
 * _passim_  = En différents endroits du document, qu’on choisit de ne pas lister
 
 ### Note CSL
-Pour les mentions de page, on utilisera le champ `locator` dans la boîte de dialogue de l'extension de traitement de texte Zotero, en veillant à sélectionner le type adéquat (page, paragraphe, etc.) afin de générer l'abréviation adéquate. On ne peut pas intégrer de texte avant l'abréviation, aussi restituer `spéc. p. 47` ne sera pas possible. On pourrait en revanche générer `p. 47 spéc.` en saisissant `47 spéc. dans le champ locator`.
+Pour les mentions de page, on utilisera le champ `locator` dans la boîte de dialogue de l'extension de traitement de texte Zotero, en veillant à sélectionner le type adéquat (page, paragraphe, etc.) afin de générer l'abréviation adéquate. On ne peut pas intégrer de texte avant l'abréviation, aussi restituer `spéc. p. 47` ne sera pas possible. On pourrait en revanche générer `p. 47 spéc.` en saisissant `47 spéc.` dans le champ `locator`.
 
 Pour la mention _passim_, on veillera à effectuer la saisie dans le champ `Suffixe` de la boîte de dialogue de l'extension de traitement de texte Zotero, sous la forme suivante :
 
