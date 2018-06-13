@@ -7,4 +7,4 @@ Une [version de travail du guide intégrant des notes propres au style CSL](http
 
 Une bibliothèque Zotero d'exemples utilisés pour écrire et tester le style est disponible sous la forme d'une bibliothèque de groupe, accessible en lecture pour tous [ici](https://www.zotero.org/groups/2190104/style_csl_ed_droit_bx).
 
-Si vous souhaitez contribuer au projet, merci de prendre connaissance au préalable de la page [Contribuer au projet(https://github.com/fflamerie/csl_ed_droit_ubx/wiki/Contribuer-au-projet).
+**Si vous souhaitez contribuer au projet**, merci de prendre connaissance au préalable de la page [Contribuer au projet](https://github.com/fflamerie/csl_ed_droit_ubx/wiki/Contribuer-au-projet).
