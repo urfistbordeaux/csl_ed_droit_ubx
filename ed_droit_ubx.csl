@@ -392,15 +392,15 @@
         <group delimiter=", ">
           <choose>
             <if variable="issued" match="any">
-          <date variable="issued" delimiter=" ">
-            <date-part name="month"/>
-            <date-part name="year"/>
-          </date>
-        </if>
-          <else>
-            <text term="no date" form="short" prefix="[" suffix="]"/>
-</else>
-        </choose>
+              <date variable="issued" delimiter=" ">
+                <date-part name="month"/>
+                <date-part name="year"/>
+              </date>
+            </if>
+            <else>
+              <text term="no date" form="short" prefix="[" suffix="]"/>
+            </else>
+          </choose>
           <group delimiter="&#160;">
             <text term="volume" form="short"/>
             <text variable="volume"/>
@@ -471,14 +471,14 @@
         <group delimiter=", ">
           <choose>
             <if variable="issued" match="any">
-          <date variable="issued">
-            <date-part name="year"/>
-          </date>
-        </if>
-          <else>
-            <text term="no date" form="short" prefix="[" suffix="]"/>
-          </else>
-        </choose>
+              <date variable="issued">
+                <date-part name="year"/>
+              </date>
+            </if>
+            <else>
+              <text term="no date" form="short" prefix="[" suffix="]"/>
+            </else>
+          </choose>
           <group delimiter="&#160;">
             <text variable="number-of-pages"/>
             <text term="page" form="short"/>
@@ -567,7 +567,10 @@
         <if position="ibid-with-locator">
           <group delimiter=", ">
             <text term="ibid" text-case="capitalize-first" font-style="italic" suffix="."/>
-            <text variable="locator" prefix="p. "/>
+            <group delimiter="&#160;">
+              <label variable="locator" form="short"/>
+              <text variable="locator"/>
+            </group>
           </group>
         </if>
         <else-if position="ibid">
@@ -585,7 +588,10 @@
               </else>
             </choose>
             <text term="cited" font-style="italic" suffix="."/>
-            <text variable="locator" prefix="p.&#160;"/>
+            <group delimiter="&#160;">
+              <label variable="locator" form="short"/>
+              <text variable="locator"/>
+            </group>
           </group>
         </else-if>
         <else>
@@ -601,7 +607,7 @@
       </choose>
     </layout>
   </citation>
-  <bibliography>
+  <bibliography subsequent-author-substitute="Id.">
     <sort>
       <key macro="sort-key"/>
       <key macro="author" names-min="3" names-use-first="3"/>

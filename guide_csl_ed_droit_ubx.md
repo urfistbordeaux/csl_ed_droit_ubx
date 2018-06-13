@@ -561,61 +561,43 @@ Pour la mention _passim_, on veillera à effectuer la saisie dans le champ `Suff
 , <i>passim</i>
 ```
 
-<!--**Utilisation des termes latins de renvoi**
+## Utilisation des termes latins de renvoi
 
 Les termes latins qui suivent renvoient toujours, soit à l’auteur cité
 précédemment, soit à l’œuvre citée précédemment. Leur emploi
 s’accompagne donc d’une grande vigilance, notamment quand plusieurs de
 ces termes se succèdent.
 
-*Idem*, abrégé en *Id.*, signifie « le même ». Cette abréviation est
+_Idem_, abrégé en _Id._, signifie « le même ». Cette abréviation est
 employée pour indiquer qu’il s’agit du même auteur que pour la citation
 précédente.
 
-> BARCKHAUSEN Henri, *Essai sur le régime législatif de Bordeaux au
-> Moyen-âge*, Bordeaux, Gounouilhou, 1890, 34 p.
+> BARCKHAUSEN Henri, _Essai sur le régime législatif de Bordeaux au Moyen-âge_, Bordeaux, Gounouilhou, 1890, 34 p.
 >
-> *Id.*, *Rapport de la commission de la Faculté sur le projet de
-> réorganisation de la Licence en droit*, Bordeaux, Cadoret, 1889, 11 p.
+> _Id._, _Rapport de la commission de la Faculté sur le projet de réorganisation de la Licence en droit_, Bordeaux, Cadoret, 1889, 11 p.
 
-*Ibidem*, abrégé en *ibid.*, signifie « au même endroit ». Cette
-abréviation est employée pour indiquer qu’il s’agit du même auteur ET de
-la même œuvre que pour la citation précédente. Sans mention particulière
-de page, il s’agit également de la même page. Avec mention d’une page,
-il s’agit d’une page différente.
+_Ibidem_, abrégé en _ibid._, signifie « au même endroit ». Cette abréviation est employée pour indiquer qu’il s’agit du même auteur ET de la même œuvre que pour la citation précédente. Sans mention particulière de page, il s’agit également de la même page. Avec mention d’une page, il s’agit d’une page différente.
 
-> BENZACAR Joseph, *Fondements juridiques de la délimitation du cru
-> bordelais : l'appellation et la marque « Bordeaux »*, Bordeaux,
-> discours, 1910, p. 3.
+> BENZACAR Joseph, _Fondements juridiques de la délimitation du cru bordelais : l'appellation et la marque « Bordeaux »_, Bordeaux, discours, 1910, p. 3.
 >
-> *Ibid.*
+> _Ibid._
 >
-> *Ibid.*, p. 7.
+> _Ibid._, p. 7.
 
-*Loco citato*, abrégé en *loc. cit.*, signifie « passage cité ». Cette
-abréviation est employée pour indiquer qu’il s’agit du même auteur ET de
-la même œuvre ET de la même page que pour la citation précédente[^6].
+_Loco citato_, abrégé en _loc. cit._, signifie « passage cité ». Cette abréviation est employée pour indiquer qu’il s’agit du même auteur ET de la même œuvre ET de la même page que pour la citation précédente[^6].
 
-*Opere citato*, abrégé en *op. cit.*, signifie « œuvre citée ». Cette
-abréviation est employée pour indiquer qu’il s’agit de la dernière œuvre
-citée de cet auteur.
+_Opere citato_, abrégé en _op. cit._, signifie « œuvre citée ». Cette abréviation est employée pour indiquer qu’il s’agit de la dernière œuvre citée de cet auteur.
 
-> TRAISSAC Élisabeth, Un projet de ville dans le Médoc au XVIII^e^
-> siècle, *Bulletin et mémoires de la Société archéologique de
-> Bordeaux*, 1972, tome LXVI, p. 167-175.
+> TRAISSAC Élisabeth, Un projet de ville dans le Médoc au XVIII<sup>e</sup> siècle, _Bulletin et mémoires de la Société archéologique de Bordeaux_, 1972, tome LXVI, p. 167-175.
 >
-> BEDEL Vanina, *La maréchaussée dans la généralité de Guyenne au
-> XVIII^ème^ siècle (1720-1790)*, Guyon Gérard (dir.), thèse de
-> doctorat, droit, Université Montesquieu-Bordeaux IV, p. 201.
+> BEDEL Vanina, _La maréchaussée dans la généralité de Guyenne au XVIII<sup>ème</sup> siècle (1720-1790)_, Guyon Gérard (dir.), thèse de doctorat, droit, Université Montesquieu-Bordeaux IV, p. 201.
 
-TRAISSAC Élisabeth, *op. cit.*
+TRAISSAC Élisabeth, _op. cit._
 
-Au fur et à mesure de la rédaction du document et de ses réécritures, la
-manière dont un terme latin renvoie à la précédente citation peut être
-modifiée. Toute insertion de citation dans une partie de document déjà
-rédigée doit conduire à vérifier que la nouvelle citation ne s’intercale
-pas entre un terme latin de renvoi et sa citation de référence.
--->
+Au fur et à mesure de la rédaction du document et de ses réécritures, la manière dont un terme latin renvoie à la précédente citation peut être modifiée. Toute insertion de citation dans une partie de document déjà rédigée doit conduire à vérifier que la nouvelle citation ne s’intercale pas entre un terme latin de renvoi et sa citation de référence.
+
+### Note CSL
+_Modulo_ des adaptations mineures (voir Issues GitHub), Zotero génère automatiquement les termes de renvoi.
 
 ## Abréviations conseillées – Codes
 La liste suivante ne peut être exhaustive, elle ne recense notamment pas toutes les variantes de titres portés par les codes au long de leur vie éditoriale et chez les différents éditeurs.
@@ -627,7 +609,7 @@ abréviation.
 
 Cependant, lorsqu’un code étranger est cité, le pays producteur de la législation est cité comme auteur du document, afin de le différencier du code français. Ainsi :
 
-BELGIQUE, _Code civil_, 4<sup> éd.</sup>, Philippe Denis et Dehasse Delphine
+BELGIQUE, Code civil_, 4<sup> éd.</sup>, Philippe Denis et Dehasse Delphine
 (éd.), Bruylant, Bruxelles, 2006, 428 p.
 
   Code administratif                                                C. adm.
@@ -687,7 +669,7 @@ BELGIQUE, _Code civil_, 4<sup> éd.</sup>, Philippe Denis et Dehasse Delphine
   Nouveau code de procédure civile                                  NCPC
 
 
-<!-- Abréviations conseillées – Juridictions
+## Abréviations conseillées – Juridictions
 
 Les jugements et arrêts sont cités sous la forme : Juridiction, date du jugement ou de l’arrêt, numéro de référence, éventuellement nom des parties, commentaires éventuels. Ainsi :
 
@@ -749,7 +731,7 @@ française, est citée, elle est précédée du nom du pays concerné.
   Tribunal d’instance                           TI
   Tribunal paritaire des baux ruraux            TPBR
 
--->
+
 ## Abréviations conseillées – Revues
 
 Il n’est matériellement pas possible d’établir une liste d’abréviations recommandées, du fait du nombre des revues juridiques et de leurs fréquents changements de nom, fusions, scissions…
