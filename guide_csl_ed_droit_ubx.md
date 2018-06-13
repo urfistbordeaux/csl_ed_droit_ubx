@@ -102,8 +102,8 @@ AUBIN Gérard, _La seigneurie en Bordelais au 18<sup>eme</sup> siècle d'après 
 RADÉ Christophe, _Le droit à l’insertion dans la loi du 1<sup>er</sup> décembre 1988 relative au revenu minimum d’insertion_, mémoire de DEA, droit social, 1991, université de Bordeaux I, p. 74.
 
 ### Notes
-* l’intitulé du diplôme, de la discipline et le nom de l’université sont repris de la page de titre ou de couverture ;
-* le niveau d’étude (par ex. diplôme d’étude approfondi) peut être abrégé (DEA).
+* L’intitulé du diplôme, de la discipline et le nom de l’université sont repris de la page de titre ou de couverture ;
+* Le niveau d’étude (par ex. diplôme d’étude approfondi) peut être abrégé (DEA).
 
 ### Notes CSL
 * On ne pourra pas générer une mention du type  "1<sup>ère</sup> partie", il faudra se contenter de "partie 1".
@@ -141,9 +141,9 @@ Montesquieu-Bordeaux IV, 2012, p. 88, \[consulté le 20 janvier 2017\].
 LESTRADE Éric, _Les principes directeurs du procès dans la jurisprudence du Conseil Constitutionnel_ \[en ligne](http://www.theses.fr/2013BOR40033)\], thèse, droit, université Montesquieu-Bordeaux IV, 2013, p. 105-120 et 178, \[consulté le 9 janvier 2017\].
 
 ### Notes
-* exceptionnellement, pas de point final après l’URL.
-* en note de bas de page, il est recommandé que la mention « \[en ligne\] » soit un lien hypertexte reprenant l’URL.
-* les URL du site *theses.fr*, portail de diffusion de l’ensemble des thèses numériques en France, sont uniques et pérennes.
+* Exceptionnellement, pas de point final après l’URL.
+* En note de bas de page, il est recommandé que la mention « \[en ligne\] » soit un lien hypertexte reprenant l’URL.
+* Les URL du site *theses.fr*, portail de diffusion de l’ensemble des thèses numériques en France, sont uniques et pérennes.
 
 ### Notes CSL
 * Il n'est pas possible d'afficher un lien hypertexte dont l'intitulé soit différent de l'URL à laquelle il renvoie : c'est Word qui génèrera l'affichage du lien hypertexte à partir du libellé.
