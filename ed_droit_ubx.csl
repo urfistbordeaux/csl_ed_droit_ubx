@@ -572,7 +572,7 @@
   </macro>
   <macro name="sort-key">
     <choose>
-      <if type="interview personal_communication" match="none">
+      <if type="interview personal_communication post" match="none">
         <text value="1"/>
       </if>
       <else>
