@@ -144,6 +144,15 @@
           <text value="[courriel]"/>
         </group>
       </else-if>
+      <else-if type="post">
+        <group delimiter=", sur ">
+          <group delimiter=" ">
+            <text variable="title" text-case="capitalize-first" quotes="true"/>
+            <text value="[courriel]"/>
+          </group>
+          <text variable="container-title" font-style="italic"/>
+        </group>
+      </else-if>
       <else-if type="interview">
         <group delimiter=" ">
           <text variable="title" text-case="capitalize-first" font-style="italic"/>
@@ -247,6 +256,15 @@
           <text value="[courriel]"/>
         </group>
       </else-if>
+      <else-if type="post">
+        <group delimiter=", sur ">
+          <group delimiter=" ">
+            <text variable="title" text-case="capitalize-first" quotes="true"/>
+            <text value="[courriel]"/>
+          </group>
+          <text variable="container-title" font-style="italic"/>
+        </group>
+      </else-if>
       <else-if type="article-journal article-newspaper article-magazine" match="any">
         <group delimiter=", ">
           <text variable="title" form="short" text-case="capitalize-first" quotes="true"/>
@@ -328,7 +346,7 @@
           </date>
         </group>
       </if>
-      <else-if type="patent personal_communication">
+      <else-if type="patent personal_communication post">
         <date variable="issued" delimiter="&#160;">
           <date-part name="day"/>
           <date-part name="month"/>
@@ -422,7 +440,7 @@
           <date-part name="year"/>
         </date>
       </else-if>
-      <else-if type="personal_communication">
+      <else-if type="personal_communication post">
         <date variable="issued" delimiter="&#160;">
           <date-part name="day"/>
           <date-part name="month"/>
@@ -523,6 +541,7 @@
   </macro>
   <macro name="access-bib">
     <choose>
+      <!--à modifier si OK pour supprimer date de consultation pour courriels-->
       <if type="personal_communication">
         <group delimiter=" " suffix=".">
           <text variable="note" prefix="[" suffix="]"/>
