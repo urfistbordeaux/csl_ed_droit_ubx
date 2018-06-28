@@ -1,5 +1,19 @@
 # Modèles de citation des différents types de documents
 
+## Notes CSL globales
+### Titre et complément de titre
+Si on souhaite mentionner en note de bas de page seulement un _Titre_ et en bibliographie un _Titre, complément du titre_, il convient de saisir dans la bibliothèque Zotero :
+
+* le _Titre, complément du titre_ dans le champ `Titre`,
+* le _Titre_ dans le champ `Titre abrégé`.
+
+[Exemple KSE9EUTP dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/KSE9EUTP)
+
+### Mention de page, de pagination et de nombre de pages
+La mention de la pagination (articles, chapitres, etc.) ou du nombre de pages (livre, thèse, etc.) est effectuée uniquement dans la bibliographie.
+
+Dans les notes de bas de page, on affiche seulement la mention de page ou de section précisée comme `locator`. En l'absence de `locator`, rien n'est affiché, _i. e._ on n'affiche pas la pagination ni le nombre de pages ; ces éléments sont réservés à la bibliographie.
+
 ## Citer un ouvrage imprimé
 
 ### Modèle bibliographie
@@ -14,9 +28,18 @@ Auteur \[NOM prénom\], *Titre de l’ouvrage*, éditeur, année d’édition, 
 
 DUGUIT Léon, _L’État‎, le droit objectif et la loi positive_, Moderne Franck (préf.), Paris, Dalloz, 2003, 623 p.
 
+[Exemple UMRJGXBR dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/UMRJGXBR)
+
+
 BAUDRY-LACANTINERIE Gabriel, _Précis de droit civil_, vol. 1, 14<sup>e</sup> éd., Paris, Sirey, 1926, 914 p.
 
+[Exemple XPL2K7WU dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/XPL2K7WU)
+
+
 DALLOZ Édouard, VERGÉ Charles, VERGÉ Charles fils _et al._, _Code des lois politiques et administratives_, vol. 2, Bureau de la Jurisprudence Générale, 1891, 1432 p.
+
+[Exemple V8T4989M dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/V8T4989M)
+
 
 ### En note de bas de page
 
@@ -32,14 +55,20 @@ Générale, 1891, p. 686-712.
 Pour tous les types de documents, les noms des responsabilités secondaires (préfacier, traducteur, directeur, éditeur…) sont en minuscules.
 
 ### Notes CSL
-* Si le livre est imprimé, ne pas mentionner d'URL, c'est un critère d'affichage pour la mention `En ligne` des livres électroniques - voir _infra_.
+* Ne pas mentionner d'URL, c'est un critère d'affichage pour la mention `[en ligne]` pour les ouvrages numériques - voir _infra_.
 * S'il n'y a pas d'auteur, Zotero affiche le nom de l'éditeur avec le même formatage que les noms d'auteur, pour prendre en compte le cas des actes publiés d'un colloque.
+* Les mentions de responsabilités secondaires (traducteur, etc.) sont générées automatiquement par Zotero à partir du moment où les rôles sont correctement saisis.
+
+[Exemple 9KHHPKTJ dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/9KHHPKTJ)
+
 * Le rôle de préfacier n'existe pas dans Zotero : si applicable, on utilise le rôle `editorial-director`.
 Ce champ n'existe pas en standard dans Zotero, il faut utiliser le champ `Extra` et saisir sous la forme :
 
 ```
 editorial-director: Moderne || Franck
 ```
+Rappel [Exemple UMRJGXBR dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/UMRJGXBR)
+
 ---
 ## Citer un ouvrage numérique
 
@@ -56,8 +85,12 @@ concernées \[consulté le …\].
 
 COURBE Patrick et GOUTTENOIRE Adeline, *Droit de la famille* \[en ligne\], 7<sup>e</sup> éd., Paris, Sirey, 2017, 572 p., \[consulté le 9 janvier 2017\], [http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm)
 
+[Exemple 8ZY72VYJ dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/8ZY72VYJ)
+
 MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*\[en ligne\], 34<sup>e</sup>éd., Paris, Sirey, 2015, 680 p., \[consulté le 20 janvier 2017\],
 [http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_constitutionnel-38072.htm](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_constitutionnel-38072.htm)
+
+[Exemple 6CL9SIY9 dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/6CL9SIY9)
 
 ### En note de bas de page
 
@@ -72,7 +105,7 @@ MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*\[[en lig
 
 ### Notes CSL
 * Il n'est pas possible d'afficher un lien hypertexte dont l'intitulé soit différent de l'URL à laquelle il renvoie : c'est Word qui génèrera l'affichage du lien hypertexte à partir du libellé.
-* Il n'est pas possible que la mention [en ligne] en note de bas de page soit un lien hypertexte reprenant l'URL complète.
+* Il n'est pas possible que la mention `[en ligne]` en note de bas de page soit un lien hypertexte reprenant l'URL complète.
 *L' affichage du DOI n'est pas paramétré : champ `DOI` pas prévu pour livre + peu probable que DOI soit assigné au niveau d'un livre (plutôt chapitre ; si au niveau document = plutôt rapport).
 
 ---
@@ -93,7 +126,11 @@ Auteur \[NOM Prénom\], *Titre*, intitulé du diplôme, discipline, nom de l’u
 
 AUBIN Gérard, _La seigneurie en Bordelais au 18<sup>eme</sup> siècle d'après la pratique notariale (1715-1789)_, Jaubert Pierre (dir.), thèse de doctorat, droit, université de Bordeaux I, 1981, 958 p.
 
+[Exemple 4DVMV6KA dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/4DVMV6KA)
+
 RADÉ Christophe, _Le droit à l’insertion dans la loi du 1<sup>er</sup> décembre 1988 relative au revenu minimum d’insertion_, Laborde Jean-Pierre (dir.), mémoire de DEA, droit social, université de Bordeaux I, 1991, 93 p.
+
+[Exemple R2IX2IRW dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/R2IX2IRW)
 
 ### En note de bas de page
 
@@ -107,8 +144,9 @@ RADÉ Christophe, _Le droit à l’insertion dans la loi du 1<sup>er</sup> déce
 
 ### Notes CSL
 * On ne pourra pas générer une mention du type  "1<sup>ère</sup> partie", il faudra se contenter de "partie 1".
-* Le champ "discipline" n'existe pas dans Zotero ni CSL, renseigner la disciplene à la suite de l'intitulé du diplôme dans le champ `Type`.
-* Si le document est imprimé, ne pas mentionner d'URL, c'est un critère d'affichage pour la mention `En ligne` des documents électroniques - voir _infra_.
+* Le champ "discipline" n'existe pas dans Zotero ni CSL, renseigner la discipline à la suite de l'intitulé du diplôme dans le champ `Type`.
+* Ne pas mentionner d'URL, c'est un critère d'affichage pour la mention `[en ligne]` des travaux universitaires numériques - voir _infra_.
+* Mentionner obligatoirement le nombre de pages, l'absence du nombre de pages est le critère d'affichage pour la mention `[microfiche]` - voir _infra_.
 * Le rôle de directeur de thèse n'existe pas dans Zotero : si applicable, on utilise le rôle `director`.
 Ce champ n'existe pas en standard dans Zotero, il faut utiliser le champ `Extra` et saisir sous la forme :
 
@@ -130,8 +168,12 @@ Auteur \[NOM Prénom\], *Titre* \[en ligne\], intitulé du diplôme, discipline,
 
 MANGEMATIN Céline, _La faute de fonction en droit privé_ \[en ligne\], Malabat Valérie (dir.), thèse, droit, université Montesquieu-Bordeaux IV, 2012, 770 p., \[consulté le 20 janvier 2017\], [http://www.theses.fr/2012BOR40027](http://www.theses.fr/2012BOR40027)
 
+[Exemple PT2DWA4B dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/PT2DWA4B)
+
 LESTRADE Éric, _Les principes directeurs du procès dans la jurisprudence du Conseil Constitutionnel_ \[en ligne\], Mélin-Soucramanien Ferdinand (dir.), thèse, droit, université Montesquieu-Bordeaux IV, 2013, 714 p., \[consulté le 9 janvier 2017\],
 [http://www.theses.fr/2013BOR40033](http://www.theses.fr/2013BOR40033)
+
+[Exemple GWXKFFTC dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/GWXKFFTC)
 
 ### En note de bas de page
 
@@ -147,14 +189,14 @@ LESTRADE Éric, _Les principes directeurs du procès dans la jurisprudence du Co
 
 ### Notes CSL
 * Il n'est pas possible d'afficher un lien hypertexte dont l'intitulé soit différent de l'URL à laquelle il renvoie : c'est Word qui génèrera l'affichage du lien hypertexte à partir du libellé.
-* Il n'est pas possible que la mention [en ligne] en note de bas de page soit un lien hypertexte reprenant l'URL complète.
+* Il n'est pas possible que la mention `[en ligne]` en note de bas de page soit un lien hypertexte reprenant l'URL complète.
+* Mentionner obligatoirement le nombre de pages, l'absence du nombre de pages est le critère d'affichage pour la mention `[microfiche]` - voir _infra_.
 
 ---
 ## Citer des travaux universitaires microfichés (thèses et mémoires)
 
 ### Modèle bibliographie
-Nom du docteur \[NOM Prénom\], _Titre, complément du titre_ \[microfiche\], nom du/des directeur(s) \[Nom Prénom (dir.)\], intitulé
-du diplôme, discipline, nom de l’université, année.
+Nom du docteur \[NOM Prénom\], _Titre, complément du titre_ \[microfiche\], nom du/des directeur(s) \[Nom Prénom (dir.)\], intitulé du diplôme, discipline, nom de l’université, année.
 
 ### Modèle note de bas de page
 Nom du docteur \[NOM Prénom\], _Titre_ \[microfiche\], intitulé du diplôme, discipline, nom de l’université, année.
@@ -164,7 +206,11 @@ Nom du docteur \[NOM Prénom\], _Titre_ \[microfiche\], intitulé du diplôme, d
 SAINT-PAU Jean-Christophe, _L’anonymat et le droit_ \[microfiche\], Conte Philippe (dir.), thèse de doctorat, droit, université
 Montesquieu-Bordeaux IV, 1998.
 
+[Exemple 26KXBI64 dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/26KXBI64)
+
 MAUBLANC Jean-Pierre, _L’interprétation de la loi fiscale par le juge de l’impôt_ \[microfiche\], Lamarque Jean (dir.), thèse de doctorat, droit, université de Bordeaux I, 1984.
+
+[Exemple VQVZW3CU dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/VQVZW3CU)
 
 ### En note de bas de page
 
@@ -176,7 +222,7 @@ MAUBLANC Jean-Pierre, _L’interprétation de la loi fiscale par le juge de l’
 Pas de mention de la pagination.
 
 ### Note CSL
-Absence du nombre de pages (pagination) = condition affichage mention \[microfiche].
+* Ne pas mentionner le nombre de pages, l'absence du nombre de pages est le critère d'affichage pour la mention `[microfiche]`.
 
 ---
 ## Citer des contributions à un ouvrage\ (articles de mélanges, d’ouvrage collectif…)
@@ -192,8 +238,8 @@ ou
 Contributeur \[NOM Prénom\], « Titre de la contribution, complément du titre », in responsable(s) du document principal \[Nom Prénom (éd.)\], *Titre du document principal, complément du titre*, édition, ville d’édition, éditeur, année d’édition, pages de la contribution \[p. X-X\].
 
 ### Modèle note de bas de page
-
-Contributeur \[NOM Prénom\], Titre de la contribution, in _Titre du document principal_, édition, éditeur, année d’édition, pages de la contribution \[p. X-X\].
+<!--suppression édition 2018-06-28 pour cohérence avce modèle ouvrage-->
+Contributeur \[NOM Prénom\], Titre de la contribution, in _Titre du document principal_, éditeur, année d’édition, pages de la contribution \[p. X-X\].
 
 ou
 
@@ -206,6 +252,8 @@ Le style correspond à la variante avec guillemets
 
 BOIS DE GAUDUSSON Jean (du), « Réflexions sur les nouveaux développements du constitutionalisme en Afrique », in Aubin Gérard
 (éd.), _Liber amicorum, études offertes à Pierre Jaubert_, Talence, Presses universitaires de Bordeaux, 1992, p. 179-187.
+
+[Exemple N8ZRTXUF dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/N8ZRTXUF)
 
 ### En note de bas de page
 
@@ -242,8 +290,11 @@ Auteur \[NOM prénom\], Titre de l’article, _Titre de la revue abrégé_, ann�
 
 HAUSER Jean, « Le préjudice d’être né, question de principe », _Droit et patrimoine_, janvier 2001, n° 89, p. 6-8.
 
+[Exemple M327JFZG dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/M327JFZG)
+
 GOGOS-GINTRAND Amélie, « Le pacte commissoire : une institution dangereuse par nature », _Revue de la recherche juridique. Droit prospectif_, septembre 2011, n° 1, p. 401-422.
 
+[Exemple TUM2L65L dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/TUM2L65L)
 
 ### En note de bas de page
 
@@ -282,7 +333,11 @@ Auteur \[NOM prénom\], Titre de l’article, complément du titre, _Titre de la
 
 DAUGAREILH Isabelle, « L’audace retenue du Comité européen des droits sociaux », _Revue de droit sanitaire et social_ \[en ligne\], juillet 2005, n° 4, p. 555-564, \[consulté le 16 mars 2017\],[http://www.dalloz.fr](http://www.dalloz.fr)
 
+[Exemple 59CX6YJL dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/59CX6YJL)
+
 DUPRAT Jean-Pierre, « Le parlement évaluateur », _Revue internationale de droit comparé_ \[en ligne\], avril 1998, n° 2, p. 552-576, \[consulté le 16 mars 2017\], [http://www.persee.fr](http://www.persee.fr)
+
+[Exemple 9CRLLBQP dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/9CRLLBQP)
 
 ### En note de bas de page
 
@@ -303,13 +358,21 @@ Responsabilité du colloque \[NOM prénom (fonct.)\], _Titre du colloque_, édit
 
 BONIS-GARÇON Évelyne (dir.), _Pour une refonte du droit des peines: quels changements si les préconisations de la Commission Cotte étaient suivies ?_, Paris, LexisNexis, 2016, 226 p.
 
+[Exemple JZSAUCG7 dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/JZSAUCG7)
+
 ALLINNE Jean-Pierre et SOULA Mathieu (dir.), _La mort pénale : les enjeux historiques et contemporains de la peine de mort_, Rennes,
 Presses Universitaires de Rennes, 2015, 208 p.
 
+[Exemple 4NKQTQRQ dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/4NKQTQRQ)
+
 SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL, _Droit international et droit communautaire, perspectives actuelles_, Paris, Pedone, 2000, 448 p.
+
+[Exemple KBMA75AS dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/KBMA75AS)
 
 CENTRE D’ÉTUDES ET DE RECHERCHES SUR LE DROIT DE LA MER, _L'immobilisation forcée des navires_, Talence, Presses Universitaires
 de Bordeaux, 1990, 175 p.
+
+[Exemple 47NCZPCL dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/47NCZPCL)
 
 ### En note de bas de page
 
@@ -319,8 +382,7 @@ ALLINNE Jean-Pierre et SOULA Mathieu (dir.), _La mort pénale : les enjeux hist
 
 SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL, _Droit international et droit communautaire, perspectives actuelles_, Pedone, 2000, p. 37.
 
-CENTRE D’ÉTUDES ET DE RECHERCHES SUR LE DROIT DE LA MER,_L'immobilisation forcée des navires_, Presses Universitaires
-de Bordeaux, 1990, p. 3.
+CENTRE D’ÉTUDES ET DE RECHERCHES SUR LE DROIT DE LA MER,_L'immobilisation forcée des navires_, Presses Universitaires de Bordeaux, 1990, p. 3.
 
 ## Citer une contribution parmi les actes publiés d’un colloque
 ### Modèle bibliographie
@@ -335,7 +397,11 @@ Auteur \[NOM prénom\], Titre de la contribution, in Responsabilité du colloque
 
 MALABAT Valérie, Simplifier mais comment ?, in BONIS-GARÇON Évelyne (dir.), _Pour une refonte du droit des peines : quels changements si les préconisations de la Commission Cotte étaient suivies ?_, Paris, LexisNexis, 2016, p. 89-93.
 
+[Exemple L9EMWHDG dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/L9EMWHDG)
+
 GAUTRON Jean-Claude et GRARD Loïc, Le droit international dans la construction de l’Union européenne, in SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL, _Droit international et droit communautaire, perspectives actuelles_, Paris, Pedone, 2000, p. 11-152.
+
+[Exemple HBL825EX dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/HBL825EX)
 
 ### En note de bas de page
 
@@ -355,7 +421,11 @@ AUTEUR, _Intitulé de la norme_, Journal Officiel / Bulletin Officiel, n°, date
 
 FRANCE. MINISTÈRE DE L’ENSEIGNEMENT SUPÉRIEUR ET DE LA RECHERCHE, _Décret n° 2013-805 du 3 septembre 2013 portant création de l’Université de Bordeaux_, Journal officiel, n°206, 5 septembre 2013, p. 15020, ESRS1317830D.
 
+[Exemple AU2GMBDG dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/AU2GMBDG)
+
 FRANCE. MINISTÈRE DE L’ÉDUCATION NATIONALE, _Décret du 13 juillet 1949 approuvant une délibération du conseil de l’université de Bordeaux portant création à Fort-de-France d’un institut d’études juridiques, politiques et économiques de cette université_, Journal officiel, 16 juillet 1949, p. 6921.
+
+[Exemple FSMT6V8I dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/FSMT6V8I)
 
 ### En note de bas de page
 
@@ -381,8 +451,12 @@ AUTEUR, _Titre de la page d'accueil_ \[en ligne\], \[consulté le…\].
 
 MAÎTRE ÉOLAS, _Journal d’un avocat : Instantanés de la justice et du droit_ \[en ligne\], \[consulté le 5 octobre 2014\], [http://www.maitre-eolas.fr](http://www.maitre-eolas.fr)
 
+[Exemple C3DARG2J dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/C3DARG2J)
+
 GROUPE D’INFORMATION ET DE SOUTIEN DES IMMIGRÉ.E.S, _Gisti_ \[en
 ligne\], \[consulté le 5 octobre 2014\], [http://www.gisti.org](http://www.gisti.org)
+
+[Exemple IXTT3BIR dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/IXTT3BIR)
 
 ### En note de bas de page
 
@@ -417,6 +491,8 @@ Variante créé = avec guillemets
 
 MAÎTRE ÉOLAS, « Pour en finir avec la séparation des pouvoirs », sur _Journal d’un avocat : Instantanés de la justice et du droit_ \[en ligne\], publié le 21 février 2017, \[consulté le 21 mars 2017\], [http://www.maitre-eolas.fr](http://www.maitre-eolas.fr)
 
+[Exemple SWMIJKGL dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/SWMIJKGL)
+
 ### En note de bas de page
 
 MAÎTRE ÉOLAS, « Pour en finir avec la séparation des pouvoirs », sur _Journal d’un avocat : Instantanés de la justice et du droit_\[en ligne\], publié le 21 février 2017, \[consulté le 21 mars 2017\].
@@ -433,18 +509,25 @@ Brevet \[nationalité\] n° XXX, _Titre du brevet_, date complète de publicatio
 
 Brevet américain n° US D709251 S, _Set of hamster wheels_, 15 juillet 2014.
 
+[Exemple 2E5RLHFY dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/2E5RLHFY)
+
 Brevet américain n° US Des. 430708, _Playground for small animal such as hamster_ , 5 septembre 2000.
 
+[Exemple UXCQVZRT dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/UXCQVZRT)
+
 Brevet européen n° EP3155925, _Boîtier d’attache sucette_, 19 avril 2017.
+
+[Exemple 3WQ3VFVJ dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/3WQ3VFVJ)
 
 ### Note CSL
 Veiller à bien respecter le modèle fourni dans la bibliothèque ; tous les champs Zotero n'ont pas de variable équivalente en CSL, ce qui a contraint à des adaptations.
 
 ## Citer un courriel, une contribution à une liste de diffusion
+<!-- pas de MAJ en attente réponse issue GitHub , exemples à ajouter en fonction réponse à issue-->
 
 ### Modèle liste des ressources
 
-Auteur \[NOM Prénom\], _Sujet du courriel_ \[courriel\], date de l’envoi \[JJ mois AAAA\], heure de l’envoi \[hh:mn\] \[consulté le...\] sur \[nom de la liste de diffusion éventuelle\].
+Auteur \[NOM Prénom\], _Sujet du courriel_ \[courriel\], date de l’envoi \[JJ mois AAAA\], \[consulté le...\] sur \[nom de la liste de diffusion éventuelle\]. <!--heure envoi supprimée le 2018-06-28-->
 
 ### Modèle note de bas de page
 
@@ -452,9 +535,9 @@ Auteur \[NOM Prénom\], _Sujet du courriel_ \[courriel\], date de l’envoi \[JJ
 
 ### Dans la liste des ressources
 
-GASNAULT Jean, _Quel logiciel de veille pour une direction juridique ?_ \[courriel\], 5 juin 2017, 18:04 \[consulté le 6 juin 2017\] sur Jurisconnexion.
+GASNAULT Jean, _Quel logiciel de veille pour une direction juridique ?_ \[courriel\], 5 juin 2017, \[consulté le 6 juin 2017\] sur Jurisconnexion.
 
-HOURQUEBIE Fabrice, _Re: Guide de la rédaction biblio : projet confirmé_ \[courriel\], 9 novembre 2016, 18:06, \[consulté le 12 novembre 2016\].
+HOURQUEBIE Fabrice, _Re: Guide de la rédaction biblio : projet confirmé_ \[courriel\], 9 novembre 2016, \[consulté le 12 novembre 2016\].
 
 ### En note de bas de page
 
@@ -478,6 +561,8 @@ Personne interrogée \[NOM Prénom\], _Titre ou sujet de l’entretien_ \[entret
 ### Dans la liste des ressources
 
 GRANGER Sabrina, _Modalités de publication d’un guide bibliographique_ \[entretien\] mené par Gravier Pierre, Pessac, 13 novembre 2016.
+
+[Exemple Z7FAZSL6 dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/Z7FAZSL6)
 
 ### En note de bas de page
 
@@ -506,8 +591,7 @@ Les noms des auteurs seront séparés par des virgules, sauf le nom des deux der
 
 On respecte habituellement l’ordre des auteurs tel qu’indiqué sur la page de titre, de haut en bas puis de gauche à droite. Un auteur, dont l’omission nuirait à la bonne compréhension de la référence ou de son choix, peut exceptionnellement être placé en quatrième position avant la mention « _et al._ ».
 
-Les civilités (madame, monsieur…), qualités ou titres (professeur, docteur, conseiller d’État, avocat…) ne sont pas mentionnées en
-complément du nom.
+Les civilités (madame, monsieur…), qualités ou titres (professeur, docteur, conseiller d’État, avocat…) ne sont pas mentionnées en complément du nom.
 
 Les responsabilités secondaires (traducteur, préfacier, éditeur scientifique…) ne sont mentionnées que lorsqu’elles apportent une information particulière sur le document exploité. Elles sont alors mentionnées à leur place indiquée dans les modèles, après le titre, en abrégé.
 
@@ -524,12 +608,14 @@ La mention de l’édition est réduite au minimum, en employant des chiffres ar
 La page de titre peut mentionner plusieurs éditeurs et plusieurs villes de publication. On ne cite alors qu’un seul éditeur et sa ville, en retenant de manière privilégiée l’éditeur français et la ville qui lui est liée.
 
 Pour la date de publication, on retient par ordre de préférence :
+
 * la date de publication mentionnée sur la page de titre,
 * la date de dépôt légal (parfois précédée de « DL ») mentionnée au verso de la page de titre ou dans les dernières pages du document,
 * la date de copyright souvent précédée de © et souvent mentionnée au verso de la page de titre,
 * la date d’impression souvent mentionnée dans les toutes dernières pages du document.
 
 Si ces informations manquent, on notera à leur place :
+
 * pas de lieu identifiable (sans lieu) : \[s.l.\],
 * pas d’éditeur identifiable (sans nom) : \[s.n.\],
 * pas de date identifiable (sans date) : \[s.d.\].
@@ -553,6 +639,8 @@ tranche concernée (p. 49). On peut employer les abréviations suivantes :
 * _passim_  = En différents endroits du document, qu’on choisit de ne pas lister
 
 ### Note CSL
+En bibliographie comme en note de bas de page, l'abréviation de "pages" est générée automatiquement par Zotero.
+
 Pour les mentions de page, on utilisera le champ `locator` dans la boîte de dialogue de l'extension de traitement de texte Zotero, en veillant à sélectionner le type adéquat (page, paragraphe, etc.) afin de générer l'abréviation adéquate. On ne peut pas intégrer de texte avant l'abréviation, aussi restituer `spéc. p. 47` ne sera pas possible. On pourrait en revanche générer `p. 47 spéc.` en saisissant `47 spéc.` dans le champ `locator`.
 
 Pour la mention _passim_, on veillera à effectuer la saisie dans le champ `Suffixe` de la boîte de dialogue de l'extension de traitement de texte Zotero, sous la forme suivante :
@@ -563,14 +651,9 @@ Pour la mention _passim_, on veillera à effectuer la saisie dans le champ `Suff
 
 ## Utilisation des termes latins de renvoi
 
-Les termes latins qui suivent renvoient toujours, soit à l’auteur cité
-précédemment, soit à l’œuvre citée précédemment. Leur emploi
-s’accompagne donc d’une grande vigilance, notamment quand plusieurs de
-ces termes se succèdent.
+Les termes latins qui suivent renvoient toujours, soit à l’auteur cité précédemment, soit à l’œuvre citée précédemment. Leur emploi s’accompagne donc d’une grande vigilance, notamment quand plusieurs de ces termes se succèdent.
 
-_Idem_, abrégé en _Id._, signifie « le même ». Cette abréviation est
-employée pour indiquer qu’il s’agit du même auteur que pour la citation
-précédente.
+_Idem_, abrégé en _Id._, signifie « le même ». Cette abréviation est employée pour indiquer qu’il s’agit du même auteur que pour la citation précédente.
 
 > BARCKHAUSEN Henri, _Essai sur le régime législatif de Bordeaux au Moyen-âge_, Bordeaux, Gounouilhou, 1890, 34 p.
 >
@@ -734,7 +817,7 @@ française, est citée, elle est précédée du nom du pays concerné.
 
 ## Abréviations conseillées – Revues
 
-Il n’est matériellement pas possible d’établir une liste d’abréviations recommandées, du fait du nombre des revues juridiques et de leurs fréquents changements de nom, fusions, scissions…
+Il n’est matériellement pas possible d’établir une liste d’abréviations recommandées, du fait du nombre des revues juridiques et de leurs fréquents changements de nom, fusions, scissions, etc.
 
 Il est recommandé d’établir une liste des abréviations utilisées en début de document de recherche pour les revues les plus utilisées. À cette fin, il est recommandé de se reporter à la manière dont les revues préconisent de se citer elles-mêmes, en recourant à leur site et indications aux auteurs.
 
@@ -742,6 +825,7 @@ Les bibliothèques universitaires de l’université Toulouse 1 Capitole propose
 
 [http://ressscd.ut-capitole.fr/scd/abrev/](http://ressscd.ut-capitole.fr/scd/abrev/)
 
+<!--
 Version imprimée en 2017,
 
 par le service imprimerie de l’université de Bordeaux, à Pessac,\
@@ -769,4 +853,4 @@ height="1.2879418197725285in"}
     Furne, 1845, p. 517.
 
 [^6]: L’abréviation *eoc. loc.* (*eodem loco*, signifiant : au même
-    endroit) a la même valeur.
+    endroit) a la même valeur. -->
