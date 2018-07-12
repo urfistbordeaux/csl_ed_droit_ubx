@@ -35,10 +35,10 @@
   <macro name="author">
     <choose>
       <if type="bill">
-        <group delimiter=". ">
+        <group delimiter=", ">
           <text variable="authority" text-case="uppercase"/>
           <names variable="author">
-            <name and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="3" et-al-use-first="3" et-al-subsequent-min="3" et-al-subsequent-use-first="1" name-as-sort-order="all" sort-separator=" ">
+            <name and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" name-as-sort-order="all" sort-separator=" ">
               <name-part name="family" text-case="uppercase"/>
             </name>
           </names>
@@ -46,7 +46,7 @@
       </if>
       <else>
         <names variable="author">
-          <name and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="3" et-al-use-first="3" et-al-subsequent-min="3" et-al-subsequent-use-first="1" name-as-sort-order="all" sort-separator=" ">
+          <name and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" name-as-sort-order="all" sort-separator=" ">
             <name-part name="family" text-case="uppercase"/>
           </name>
           <et-al font-style="italic"/>
@@ -60,7 +60,7 @@
   </macro>
   <macro name="author-short">
     <names variable="author">
-      <name and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="3" et-al-use-first="3" et-al-subsequent-min="3" et-al-subsequent-use-first="1" name-as-sort-order="all" sort-separator=" ">
+      <name and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" name-as-sort-order="all" sort-separator=" ">
         <name-part name="family" text-case="uppercase"/>
       </name>
       <et-al font-style="italic"/>
@@ -72,7 +72,7 @@
   </macro>
   <macro name="proceeding-editor">
     <names variable="editor">
-      <name and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" et-al-min="3" et-al-use-first="3" et-al-subsequent-min="3" et-al-subsequent-use-first="1" name-as-sort-order="all" sort-separator=" ">
+      <name and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" name-as-sort-order="all" sort-separator=" ">
         <name-part name="family" text-case="uppercase"/>
       </name>
       <et-al font-style="italic"/>
@@ -164,10 +164,23 @@
         </group>
       </else-if>
       <else-if type="article-journal article-newspaper article-magazine" match="any">
-        <group delimiter=", ">
-          <text variable="title" text-case="capitalize-first" quotes="true"/>
-          <text variable="container-title" font-style="italic"/>
-        </group>
+        <choose>
+          <if variable="archive_location">
+            <group delimiter=", ">
+              <group delimiter=" ">
+                <text variable="title" text-case="capitalize-first" quotes="true"/>
+                <text term="online" prefix="[" suffix="]"/>
+              </group>
+              <text variable="container-title" font-style="italic"/>
+            </group>
+          </if>
+          <else>
+            <group delimiter=", ">
+              <text variable="title" text-case="capitalize-first" quotes="true"/>
+              <text variable="container-title" font-style="italic"/>
+            </group>
+          </else>
+        </choose>
       </else-if>
       <else-if type="bill">
         <group delimiter=", ">
@@ -266,10 +279,23 @@
         </group>
       </else-if>
       <else-if type="article-journal article-newspaper article-magazine" match="any">
-        <group delimiter=", ">
-          <text variable="title" form="short" text-case="capitalize-first" quotes="true"/>
-          <text variable="container-title" form="short" font-style="italic"/>
-        </group>
+        <choose>
+          <if variable="archive_location">
+            <group delimiter=", ">
+              <group delimiter=" ">
+                <text variable="title" form="short" text-case="capitalize-first" quotes="true"/>
+                <text term="online" prefix="[" suffix="]"/>
+              </group>
+              <text variable="container-title" form="short" font-style="italic"/>
+            </group>
+          </if>
+          <else>
+            <group delimiter=", ">
+              <text variable="title" form="short" text-case="capitalize-first" quotes="true"/>
+              <text variable="container-title" form="short" font-style="italic"/>
+            </group>
+          </else>
+        </choose>
       </else-if>
       <else-if type="bill">
         <group delimiter=", ">
@@ -326,11 +352,18 @@
   </macro>
   <macro name="publisher">
     <choose>
-      <if variable="publisher">
-        <text variable="publisher"/>
+      <if type="book chapter paper-conference" match="any">
+        <choose>
+          <if variable="publisher">
+            <text variable="publisher"/>
+          </if>
+          <else>
+            <text value="s.&#160;n." prefix="[" suffix="]"/>
+          </else>
+        </choose>
       </if>
       <else>
-        <text value="s.&#160;n." prefix="[" suffix="]"/>
+        <text variable="publisher"/>
       </else>
     </choose>
   </macro>
@@ -376,18 +409,23 @@
           </date>
         </group>
       </else-if>
+      <else-if type="book chapter paper-conference" match="any">
+        <choose>
+          <if variable="issued" match="any">
+            <date variable="issued">
+              <date-part name="year"/>
+            </date>
+          </if>
+          <else>
+            <text term="no date" form="short" prefix="[" suffix="]"/>
+          </else>
+        </choose>
+      </else-if>
       <else>
         <group delimiter=", ">
-          <choose>
-            <if variable="issued" match="any">
-              <date variable="issued">
-                <date-part name="year"/>
-              </date>
-            </if>
-            <else>
-              <text term="no date" form="short" prefix="[" suffix="]"/>
-            </else>
-          </choose>
+          <date variable="issued">
+            <date-part name="year"/>
+          </date>
           <choose>
             <if type="article-journal">
               <group delimiter="&#160;">
@@ -548,6 +586,9 @@
           <text variable="URL" prefix="sur "/>
         </group>
       </if>
+      <else-if type="article-journal article-newspaper article-magazine" match="any">
+        <text variable="archive_location"/>
+      </else-if>
       <else>
         <group delimiter=", ">
           <group prefix="[" suffix="]" delimiter=" ">
@@ -580,7 +621,7 @@
       </else>
     </choose>
   </macro>
-  <citation disambiguate-add-names="true">
+  <citation et-al-min="3" et-al-use-first="3" et-al-subsequent-min="3" et-al-subsequent-use-first="1">
     <layout suffix="." delimiter="&#160;; ">
       <choose>
         <if position="ibid-with-locator">
@@ -626,7 +667,7 @@
       </choose>
     </layout>
   </citation>
-  <bibliography subsequent-author-substitute="Id.">
+  <bibliography et-al-min="3" et-al-use-first="3" et-al-subsequent-min="3" et-al-subsequent-use-first="1" subsequent-author-substitute="Id.">
     <sort>
       <key macro="sort-key"/>
       <key macro="author" names-min="3" names-use-first="3"/>

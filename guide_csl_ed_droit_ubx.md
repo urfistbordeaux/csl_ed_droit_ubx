@@ -308,34 +308,35 @@ NB : on se réfèrera utilement à la façon dont chaque revue prescrit de réf
 
 ## Citer un article de revue numérique
 Deux modèles sont proposés, avec ou sans guillemets encadrant le titre de l’article.
-
+<!--maj modèles et exemples 2018-07-12 ; affichage [en ligne] et URL OK ; si suppression date de consultation, résoudre le pb de ponctuation après la pagination en bibliographie-->
 ### Modèle bibliographie
-Auteur \[NOM prénom\], « Titre de l’article, complément du titre », _Titre de la revue_ \[en ligne\], partie, mois année, numéro, pagination globale, \[consulté le …\], URL
+Auteur \[NOM prénom\], « Titre de l’article, complément du titre » \[en ligne\], _Titre de la revue, partie_, mois année, numéro, pagination globale, \[consulté le …\], URL
 
 ou
 
-Auteur \[NOM prénom\], Titre de l’article, complément du titre, _Titre de la revue_ \[en ligne\], partie, mois année, numéro, pagination globale, \[consulté le …\], URL
+Auteur \[NOM prénom\], Titre de l’article, complément du titre  \[en ligne\], _Titre de la revue, partie_, mois année, numéro, pagination globale, \[consulté le …\], URL
 
 ### Modèle note de bas de page
 
-Auteur \[NOM prénom\], « Titre de l’article », _Titre de la revue abrégé_ \[en ligne\], partie, année, numéro de paragraphe ou des pages concernées, \[consulté le …\].
+Auteur \[NOM prénom\], « Titre de l’article »  \[en ligne\], _Titre de la revue abrégé, partie_, année, numéro de paragraphe ou des pages concernées, \[consulté le …\].
 
 ou
 
-Auteur \[NOM prénom\], Titre de l’article, complément du titre, _Titre de la revue abrégé_ \[en ligne\], partie, année, numéro de paragraphe ou des pages concernées, \[consulté le …\].
+Auteur \[NOM prénom\], Titre de l’article  \[en ligne\], _Titre de la revue abrégé, partie_, année, numéro de paragraphe ou des pages concernées, \[consulté le …\].
 
 ### Notes CSL
 * Variante avec guillemets
 * Inclure la partie dans le titre de la revue
-* **Pb car Zotero n'affiche pas l'URL s'il y a une pagination - voir issue GitHub**
+* Renseigner dans le champ `URL` de la notice Zotero l'URL spécifique d'accès directe à l'article si applicable, ou l'URL simplifiée : cela permet d'y accéder directement et facilement depuis la bibliothèque Zotero et cela constitue une condition pour l'affichage de la date de consultation
+* Renseigner dans le champ `Loc. dans l'archive` de la notice Zotero l'URL simplifiée qui sera affichée dans la bibliographie
 
 ### Dans la bibliographie
 
-DAUGAREILH Isabelle, « L’audace retenue du Comité européen des droits sociaux », _Revue de droit sanitaire et social_ \[en ligne\], juillet 2005, n° 4, p. 555-564, \[consulté le 16 mars 2017\],[http://www.dalloz.fr](http://www.dalloz.fr)
+DAUGAREILH Isabelle, « L’audace retenue du Comité européen des droits sociaux »  \[en ligne\], _Revue de droit sanitaire et social_, juillet 2005, n° 4, p. 555-564, \[consulté le 16 mars 2017\],[http://www.dalloz.fr](http://www.dalloz.fr)
 
 [Exemple 59CX6YJL dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/59CX6YJL)
 
-DUPRAT Jean-Pierre, « Le parlement évaluateur », _Revue internationale de droit comparé_ \[en ligne\], avril 1998, n° 2, p. 552-576, \[consulté le 16 mars 2017\], [http://www.persee.fr](http://www.persee.fr)
+DUPRAT Jean-Pierre, « Le parlement évaluateur »  \[en ligne\], _Revue internationale de droit comparé_, avril 1998, n° 2, p. 552-576, \[consulté le 16 mars 2017\], [http://www.persee.fr](http://www.persee.fr)
 
 [Exemple 9CRLLBQP dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/9CRLLBQP)
 
@@ -419,11 +420,11 @@ AUTEUR, _Intitulé de la norme_, Journal Officiel / Bulletin Officiel, n°, date
 
 ### Dans la bibliographie
 
-FRANCE. MINISTÈRE DE L’ENSEIGNEMENT SUPÉRIEUR ET DE LA RECHERCHE, _Décret n° 2013-805 du 3 septembre 2013 portant création de l’Université de Bordeaux_, Journal officiel, n°206, 5 septembre 2013, p. 15020, ESRS1317830D.
+FRANCE, MINISTÈRE DE L’ENSEIGNEMENT SUPÉRIEUR ET DE LA RECHERCHE, _Décret n° 2013-805 du 3 septembre 2013 portant création de l’Université de Bordeaux_, Journal officiel, n°206, 5 septembre 2013, p. 15020, ESRS1317830D.
 
 [Exemple AU2GMBDG dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/AU2GMBDG)
 
-FRANCE. MINISTÈRE DE L’ÉDUCATION NATIONALE, _Décret du 13 juillet 1949 approuvant une délibération du conseil de l’université de Bordeaux portant création à Fort-de-France d’un institut d’études juridiques, politiques et économiques de cette université_, Journal officiel, 16 juillet 1949, p. 6921.
+FRANCE, MINISTÈRE DE L’ÉDUCATION NATIONALE, _Décret du 13 juillet 1949 approuvant une délibération du conseil de l’université de Bordeaux portant création à Fort-de-France d’un institut d’études juridiques, politiques et économiques de cette université_, Journal officiel, 16 juillet 1949, p. 6921.
 
 [Exemple FSMT6V8I dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/FSMT6V8I)
 
@@ -437,7 +438,7 @@ MINISTÈRE DE L’ÉDUCATION NATIONALE, _Décret du 13 juillet 1949 approuvant u
 NB : le pays n’est indiqué que s’il est utile pour différencier des institutions de pays différents. S’il est systématiquement absent, il sous-entend la nationalité française des institutions concernées.
 
 ### Note CSL
-Se référer aux modèles dans la biblithèque Zotero ; le champ "Pays" n'est prévu ni par CSL ni par Zotero, aussi le champ `Corps législatif` est-il utilisé pour renseigner le pays.
+Se référer aux modèles dans la bibliothèque Zotero ; le champ "Pays" n'est prévu ni par CSL ni par Zotero, aussi le champ `Corps législatif` est-il utilisé pour renseigner le pays.
 
 
 ## Citer un site en ligne, un blogue
@@ -595,6 +596,12 @@ Les civilités (madame, monsieur…), qualités ou titres (professeur, docteur, 
 
 Les responsabilités secondaires (traducteur, préfacier, éditeur scientifique…) ne sont mentionnées que lorsqu’elles apportent une information particulière sur le document exploité. Elles sont alors mentionnées à leur place indiquée dans les modèles, après le titre, en abrégé.
 
+### Note CSL
+Le style gère l'affichage automatique de la mention « _et al._ » en fonction du nombre d'auteur.
+
+Il n'est en revanche pas possible de paramétrer l'affichage sporadique d'un auteur en quatrième position.
+
+
 ## Cas particuliers concernant les titres
 
 La fin des titres ou sous-titre d’une longueur excessive peut être abrégée par \[…\].
@@ -623,7 +630,13 @@ Si ces informations manquent, on notera à leur place :
 Si un de ces éléments peut être deviné, on le mentionnera entre crochets : \[Paris\], Dalloz, 1959. Pour résoudre ces difficultés, les catalogues de bibliothèques restituent ces informations de manière validée et structurée.
 
 ### Note CSL
-Les mentions  \[s.l.\],  \[s.n.\] et  \[s.d.\] sont générées automatiquement par Zotero lorsque les champs correspondants ne sont pas renseignés.
+Les mentions  \[s.l.\],  \[s.n.\] et  \[s.d.\] sont générées automatiquement par Zotero lorsque les champs correspondants ne sont pas renseignés, et pour les types de document pour lesquelles ces mentions sont applicables, _i. e._ :
+
+* les ouvrages,
+* les chapitres,
+* les contributions à un colloque.
+
+<!--  [s. d.] s'affiche en bibliographie aussi pour les articles de revue et les thèses. Si on peut s'en accommoder, cela économise beaucoup de code-->
 
 ## Cas particuliers concernant la pagination
 
@@ -680,7 +693,7 @@ TRAISSAC Élisabeth, _op. cit._
 Au fur et à mesure de la rédaction du document et de ses réécritures, la manière dont un terme latin renvoie à la précédente citation peut être modifiée. Toute insertion de citation dans une partie de document déjà rédigée doit conduire à vérifier que la nouvelle citation ne s’intercale pas entre un terme latin de renvoi et sa citation de référence.
 
 ### Note CSL
-_Modulo_ des adaptations mineures (voir Issues GitHub), Zotero génère automatiquement les termes de renvoi.
+Le style génère automatiquement les termes de renvoi, à l'exception de _Loco citato_, qui correspond au même cas que _Ibidem_. Au lieu de _loc. cit._ sera affiché _Ibid._
 
 ## Abréviations conseillées – Codes
 La liste suivante ne peut être exhaustive, elle ne recense notamment pas toutes les variantes de titres portés par les codes au long de leur vie éditoriale et chez les différents éditeurs.
