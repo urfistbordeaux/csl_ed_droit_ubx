@@ -172,6 +172,7 @@
                 <text term="online" prefix="[" suffix="]"/>
               </group>
               <text variable="container-title" font-style="italic"/>
+              <text variable="volume"/>
             </group>
           </if>
           <else>
@@ -287,6 +288,7 @@
                 <text term="online" prefix="[" suffix="]"/>
               </group>
               <text variable="container-title" form="short" font-style="italic"/>
+              <text variable="volume"/>
             </group>
           </if>
           <else>
@@ -548,8 +550,7 @@
       <if type="book chapter graphic legal_case legislation motion_picture paper-conference report" match="any">
         <group delimiter=", ">
           <group>
-            <text term="volume" form="short" suffix="."/>
-            <text variable="number-of-volumes" prefix=". " suffix="/"/>
+            <text term="volume" form="short" suffix=". "/>
             <text variable="volume"/>
           </group>
           <choose>
@@ -568,14 +569,21 @@
     </choose>
   </macro>
   <macro name="access">
-    <group prefix="[" suffix="]" delimiter=" ">
-      <text term="accessed"/>
-      <date variable="accessed" delimiter="&#160;">
-        <date-part name="day"/>
-        <date-part name="month"/>
-        <date-part name="year"/>
-      </date>
-    </group>
+    <choose>
+      <if type="article-journal article-newspaper article-magazine" match="any">
+        <text variable="archive"/>
+      </if>
+      <else>
+        <group prefix="[" suffix="]" delimiter=" ">
+          <text term="accessed"/>
+          <date variable="accessed" delimiter="&#160;">
+            <date-part name="day"/>
+            <date-part name="month"/>
+            <date-part name="year"/>
+          </date>
+        </group>
+      </else>
+    </choose>
   </macro>
   <macro name="access-bib">
     <choose>
@@ -587,7 +595,10 @@
         </group>
       </if>
       <else-if type="article-journal article-newspaper article-magazine" match="any">
-        <text variable="archive_location"/>
+        <group delimiter=", ">
+          <text variable="archive"/>
+          <text variable="archive_location"/>
+        </group>
       </else-if>
       <else>
         <group delimiter=", ">
@@ -621,7 +632,7 @@
       </else>
     </choose>
   </macro>
-  <citation et-al-min="3" et-al-use-first="3" et-al-subsequent-min="3" et-al-subsequent-use-first="1">
+  <citation et-al-min="3" et-al-use-first="3" et-al-subsequent-min="3" et-al-subsequent-use-first="1" near-note-distance="7">
     <layout suffix="." delimiter="&#160;; ">
       <choose>
         <if position="ibid-with-locator">
@@ -636,22 +647,10 @@
         <else-if position="ibid">
           <text term="ibid" text-case="capitalize-first" font-style="italic"/>
         </else-if>
-        <else-if position="subsequent">
+        <else-if position="near-note subsequent" match="any">
           <group delimiter=", ">
-            <text macro="author"/>
-            <choose>
-              <if type="bill book graphic legal_case legislation motion_picture report song thesis" match="any">
-                <text variable="title" form="short" font-style="italic"/>
-              </if>
-              <else>
-                <text variable="title" text-case="capitalize-first" form="short" quotes="true" font-style="normal"/>
-              </else>
-            </choose>
+            <text macro="author-short"/>
             <text term="cited" font-style="italic" suffix="."/>
-            <group delimiter="&#160;">
-              <label variable="locator" form="short"/>
-              <text variable="locator"/>
-            </group>
           </group>
         </else-if>
         <else>
@@ -667,7 +666,7 @@
       </choose>
     </layout>
   </citation>
-  <bibliography et-al-min="3" et-al-use-first="3" et-al-subsequent-min="3" et-al-subsequent-use-first="1" subsequent-author-substitute="Id.">
+  <bibliography et-al-min="3" et-al-use-first="3" et-al-subsequent-min="3" et-al-subsequent-use-first="1" subsequent-author-substitute="Id." subsequent-author-substitute-rule="complete-all">
     <sort>
       <key macro="sort-key"/>
       <key macro="author" names-min="3" names-use-first="3"/>
@@ -677,7 +676,7 @@
       <group delimiter=", ">
         <text macro="author"/>
         <text macro="title"/>
-        <text macro="editor"/>
+        <!--  valider suppression - vérif pas d'effet de bord <text macro="editor"/>-->
         <text macro="translator"/>
         <text macro="preface-author"/>
         <text macro="thesis-director"/>
