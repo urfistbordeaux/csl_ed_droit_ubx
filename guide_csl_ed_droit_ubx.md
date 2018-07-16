@@ -14,11 +14,14 @@ La mention de la pagination (articles, chapitres, etc.) ou du nombre de pages (l
 
 Dans les notes de bas de page, on affiche seulement la mention de page ou de section précisée comme `locator`. En l'absence de `locator`, rien n'est affiché, _i. e._ on n'affiche pas la pagination ni le nombre de pages ; ces éléments sont réservés à la bibliographie.
 
+### Locator - note à ajouter
+<!--Ajouter une note pour la saisie des mentions de page, de partie, etc.-->
+
 ## Citer un ouvrage imprimé
 
 ### Modèle bibliographie
 
-Auteur \[NOM prénom\], *Titre de l’ouvrage, complément du titre*, tomaison \[vol. X\], édition \[X<sup>e</sup> éd.\], autre responsabilité (préface, traduction, éditeur…) \[Nom prénom (préf., trad., éd.)\], ville de publication, éditeur, année d’édition, pagination globale.
+Auteur \[NOM prénom\], *Titre de l’ouvrage, complément du titre*, volumaison \[vol. X\], édition \[X<sup>e</sup> éd.\], autre responsabilité (préface, traduction, éditeur…) \[Nom prénom (préf., trad., dir.)\], ville de publication, éditeur, année d’édition, pagination globale.
 
 ### Modèle note de bas de page
 
@@ -74,7 +77,7 @@ Rappel [Exemple UMRJGXBR dans la bib Zotero de groupe](https://www.zotero.org/gr
 
 ### Modèle bibliographie
 
-Auteur \[NOM prénom\], *Titre de l’ouvrage, complément du titre* \[en ligne\], tomaison \[vol. X / t. X\], édition \[X^e^ éd.\], autre responsabilité (préface, traduction, éditeur…) \[Nom prénom (préf., trad., éd.)\], ville de publication, éditeur, année d’édition, pagination globale, \[consulté le …\], URL
+Auteur \[NOM prénom\], *Titre de l’ouvrage, complément du titre* \[en ligne\], volumaison \[vol. X / t. X\], édition \[X^e^ éd.\], autre responsabilité (préface, traduction, éditeur…) \[Nom prénom (préf., trad., dir.)\], ville de publication, éditeur, année d’édition, pagination globale, \[consulté le …\], URL
 
 ### Modèle note de bas de page
 
@@ -230,7 +233,6 @@ Pas de mention de la pagination.
 Deux modèles sont proposés, avec ou sans guillemets pour le titre de la contribution.
 
 ### Modèle bibliographie
-<!-- NB modèle corrigé pour afficher (éd.)-->
 Contributeur \[NOM Prénom\], Titre de la contribution, complément du titre, in responsable(s) du document principal \[Nom Prénom (éd.)\], _Titre du document principal, complément du titre_, édition, ville d’édition, éditeur, année d’édition, pages de la contribution \[p. X-X\].
 
 ou
@@ -284,7 +286,7 @@ Auteur \[NOM prénom\], Titre de l’article, _Titre de la revue abrégé_, ann�
 
 ### Note CSL
 * Variante avec guillemets
-* Inclure la partie dans le titre de la revue
+* La partie doit être saisie dans le champ `Volume`
 
 ### Dans la bibliographie
 
@@ -308,27 +310,34 @@ NB : on se réfèrera utilement à la façon dont chaque revue prescrit de réf
 
 ## Citer un article de revue numérique
 Deux modèles sont proposés, avec ou sans guillemets encadrant le titre de l’article.
-<!--maj modèles et exemples 2018-07-12 ; affichage [en ligne] et URL OK ; si suppression date de consultation, résoudre le pb de ponctuation après la pagination en bibliographie-->
+
 ### Modèle bibliographie
-Auteur \[NOM prénom\], « Titre de l’article, complément du titre » \[en ligne\], _Titre de la revue, partie_, mois année, numéro, pagination globale, \[consulté le …\], URL
+Auteur \[NOM prénom\], « Titre de l’article, complément du titre » \[en ligne\], _Titre de la revue_, partie, mois année, numéro, pagination globale, \[consulté le …\], URL
 
 ou
 
-Auteur \[NOM prénom\], Titre de l’article, complément du titre  \[en ligne\], _Titre de la revue, partie_, mois année, numéro, pagination globale, \[consulté le …\], URL
+Auteur \[NOM prénom\], Titre de l’article, complément du titre  \[en ligne\], _Titre de la revue_, partie, mois année, numéro, pagination globale, \[consulté le …\], URL
 
 ### Modèle note de bas de page
 
-Auteur \[NOM prénom\], « Titre de l’article »  \[en ligne\], _Titre de la revue abrégé, partie_, année, numéro de paragraphe ou des pages concernées, \[consulté le …\].
+Auteur \[NOM prénom\], « Titre de l’article »  \[en ligne\], _Titre de la revue abrégé_, partie, année, numéro de paragraphe ou des pages concernées, \[consulté le …\].
 
 ou
 
-Auteur \[NOM prénom\], Titre de l’article  \[en ligne\], _Titre de la revue abrégé, partie_, année, numéro de paragraphe ou des pages concernées, \[consulté le …\].
+Auteur \[NOM prénom\], Titre de l’article  \[en ligne\], _Titre de la revue abrégé_, partie, année, numéro de paragraphe ou des pages concernées, \[consulté le …\].
 
 ### Notes CSL
 * Variante avec guillemets
-* Inclure la partie dans le titre de la revue
+* La partie doit être saisie dans le champ `Volume`
 * Renseigner dans le champ `URL` de la notice Zotero l'URL spécifique d'accès directe à l'article si applicable, ou l'URL simplifiée : cela permet d'y accéder directement et facilement depuis la bibliothèque Zotero et cela constitue une condition pour l'affichage de la date de consultation
 * Renseigner dans le champ `Loc. dans l'archive` de la notice Zotero l'URL simplifiée qui sera affichée dans la bibliographie
+* Renseigner dans le champ `Archive` de la notice Zotero la date de consultation sous la forme : `[consulté le JJ mois AAAA]`
+
+* Contrairement aux pages web, sites internet, etc. les champs `URL` et `Consulté le` ne peuvent pas être utilisés pour générer l'affichage de l'URL et de la date de consultation. Lorsque la pagination est renseignée pour un article, le style ignore en effet l'URL, et les variables qui lui sont liées telles que la date de consultation.
+
+[Explication d'adamsmith sur le forum Zotero](https://forums.zotero.org/discussion/comment/273572/#Comment_273572
+)
+>The other thing (and this isn't new) is that Zotero treats an article as not having a URL if it has a page range (as this one does). The style tests for the presence of a URL before adding the access date.
 
 ### Dans la bibliographie
 
@@ -400,7 +409,7 @@ MALABAT Valérie, Simplifier mais comment ?, in BONIS-GARÇON Évelyne (dir.), 
 
 [Exemple L9EMWHDG dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/L9EMWHDG)
 
-GAUTRON Jean-Claude et GRARD Loïc, Le droit international dans la construction de l’Union européenne, in SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL, _Droit international et droit communautaire, perspectives actuelles_, Paris, Pedone, 2000, p. 11-152.
+GAUTRON Jean-Claude et GRARD Loïc, Le droit international dans la construction de l’Union européenne, in SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL (dir.), _Droit international et droit communautaire, perspectives actuelles_, Paris, Pedone, 2000, p. 11-152.
 
 [Exemple HBL825EX dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/HBL825EX)
 
@@ -408,7 +417,7 @@ GAUTRON Jean-Claude et GRARD Loïc, Le droit international dans la construction 
 
 MALABAT Valérie, Simplifier mais comment ?, in BONIS-GARÇON Évelyne (dir.), _Pour une refonte du droit des peines : quels changements si les préconisations de la Commission Cotte étaient suivies ?_, 2016, p. 90.
 
-GAUTRON Jean-Claude et GRARD Loïc, Le droit international dans la construction de l’Union européenne, in SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL, _Droit international et droit communautaire, perspectives actuelles_, 2000, p. 57.
+GAUTRON Jean-Claude et GRARD Loïc, Le droit international dans la construction de l’Union européenne, in SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL (dir.), _Droit international et droit communautaire, perspectives actuelles_, 2000, p. 57.
 
 ## Citer une norme juridique
 
@@ -523,35 +532,48 @@ Brevet européen n° EP3155925, _Boîtier d’attache sucette_, 19 avril 2017.
 ### Note CSL
 Veiller à bien respecter le modèle fourni dans la bibliothèque ; tous les champs Zotero n'ont pas de variable équivalente en CSL, ce qui a contraint à des adaptations.
 
-## Citer un courriel, une contribution à une liste de diffusion
-<!-- pas de MAJ en attente réponse issue GitHub , exemples à ajouter en fonction réponse à issue-->
-
-### Modèle liste des ressources
-
-Auteur \[NOM Prénom\], _Sujet du courriel_ \[courriel\], date de l’envoi \[JJ mois AAAA\], \[consulté le...\] sur \[nom de la liste de diffusion éventuelle\]. <!--heure envoi supprimée le 2018-06-28-->
-
-### Modèle note de bas de page
+## Citer un courriel
 
 Auteur \[NOM Prénom\], _Sujet du courriel_ \[courriel\], date de l’envoi \[JJ mois AAAA\].
 
+### Dans la liste des ressources et en note de bas de page
+
+HOURQUEBIE Fabrice, _Re: Guide de la rédaction biblio : projet confirmé_ \[courriel\], 9 novembre 2016.
+
+[Exemple RYNNPNIP dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/RYNNPNIP)
+
+### Note
+Ce type de références rejoint préférentiellement la liste des ressources utilisées, plutôt que la bibliographie.
+
+### Note CSL
+* Le style est paramétré pour générer automatiquement une liste des ressources à la suite de la bibliographie ; il conviendra d'ajouter un saut de page, un intertitre ou autre lorsque le document sera entièrement finalisé et que la bibliographie ne sera plus mise à jpour (sinon il faudra recommencer après chaque mise à jour...).
+
+
+## Citer une contribution à une liste de diffusion
+
+### Modèle liste des ressources
+
+Auteur \[NOM Prénom\], "Sujet du courriel" \[courriel\], sur \[_Nom de la liste de diffusion ou du forum_\], date de l’envoi \[JJ mois AAAA], \[consulté le...\], \[URL de la liste de diffusion ou du forum\]
+
+### Modèle note de bas de page
+
+Auteur \[NOM Prénom\], "Sujet du courriel" \[courriel\], sur \[_Nom de la liste de diffusion ou du forum_\], date de l’envoi \[JJ mois AAAA], \[consulté le...\].
+
 ### Dans la liste des ressources
 
-GASNAULT Jean, _Quel logiciel de veille pour une direction juridique ?_ \[courriel\], 5 juin 2017, \[consulté le 6 juin 2017\] sur Jurisconnexion.
+GASNAULT Jean, "Quel logiciel de veille pour une direction juridique ?" \[courriel\], sur _Jurisconnexion_, 5 juin 2017, \[consulté le 6 juin 2017\], https://jurisconnexion.fr
 
-HOURQUEBIE Fabrice, _Re: Guide de la rédaction biblio : projet confirmé_ \[courriel\], 9 novembre 2016, \[consulté le 12 novembre 2016\].
+[Exemple VHQTPB6X dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/VHQTPB6X)
 
 ### En note de bas de page
 
-GASNAULT Jean, _Quel logiciel de veille pour une direction juridique ?_ \[courriel\], 5 juin 2017.
-
-HOURQUEBIE Fabrice, _Re: Guide de la rédaction biblio : projet confirmé_ \[courriel\], 9 novembre 2016.
+GASNAULT Jean, _Quel logiciel de veille pour une direction juridique ?_ \[courriel\], 5 juin 2017,  \[consulté le 6 juin 2017\].
 
 ### Note
 ce type de références rejoint préférentiellement la liste des ressources utilisées, plutôt que la bibliographie.
 
 ### Note CSL
-* Le style est paramétré pour générer automatiquement une liste des ressources à la suite de la bibliographie ; il conviendra d'ajouter un saut de page, un intertitre ou autre lorsque le document sera entièrement finalisé et que la bibliographie ne sera plus mise à jpour (sinon il faudra recommencer après chaque mise à jour...).
-* Veiller à bien respecter le modèle fourni dans la bibliothèque ; Zotero n'affiche la date de consultation que s'il y a une URL, ce qui a contraint à quelques adaptations.
+Le style est paramétré pour générer automatiquement une liste des ressources à la suite de la bibliographie ; il conviendra d'ajouter un saut de page, un intertitre ou autre lorsque le document sera entièrement finalisé et que la bibliographie ne sera plus mise à jpour (sinon il faudra recommencer après chaque mise à jour...).
 
 
 ## Citer un entretien oral
@@ -605,6 +627,9 @@ Il n'est en revanche pas possible de paramétrer l'affichage sporadique d'un aut
 ## Cas particuliers concernant les titres
 
 La fin des titres ou sous-titre d’une longueur excessive peut être abrégée par \[…\].
+
+# Note CSL
+Un titre abrégé suivi de la mention \[…\] sera saisi dans le champ `Titre abrégé` et affiché seulement en note de bas de page. En bibliographie, le titre complet saisi dans le champ `Titre` est toujours affiché
 
 ## Cas particuliers concernant les éditions
 
@@ -670,7 +695,7 @@ _Idem_, abrégé en _Id._, signifie « le même ». Cette abréviation est emp
 
 > BARCKHAUSEN Henri, _Essai sur le régime législatif de Bordeaux au Moyen-âge_, Bordeaux, Gounouilhou, 1890, 34 p.
 >
-> _Id._, _Rapport de la commission de la Faculté sur le projet de réorganisation de la Licence en droit_, Bordeaux, Cadoret, 1889, 11 p.
+> Id., _Rapport de la commission de la Faculté sur le projet de réorganisation de la Licence en droit_, Bordeaux, Cadoret, 1889, 11 p.
 
 _Ibidem_, abrégé en _ibid._, signifie « au même endroit ». Cette abréviation est employée pour indiquer qu’il s’agit du même auteur ET de la même œuvre que pour la citation précédente. Sans mention particulière de page, il s’agit également de la même page. Avec mention d’une page, il s’agit d’une page différente.
 
@@ -687,13 +712,15 @@ _Opere citato_, abrégé en _op. cit._, signifie « œuvre citée ». Cette ab
 > TRAISSAC Élisabeth, Un projet de ville dans le Médoc au XVIII<sup>e</sup> siècle, _Bulletin et mémoires de la Société archéologique de Bordeaux_, 1972, tome LXVI, p. 167-175.
 >
 > BEDEL Vanina, _La maréchaussée dans la généralité de Guyenne au XVIII<sup>ème</sup> siècle (1720-1790)_, Guyon Gérard (dir.), thèse de doctorat, droit, Université Montesquieu-Bordeaux IV, p. 201.
-
-TRAISSAC Élisabeth, _op. cit._
+>
+>TRAISSAC Élisabeth, _op. cit._
 
 Au fur et à mesure de la rédaction du document et de ses réécritures, la manière dont un terme latin renvoie à la précédente citation peut être modifiée. Toute insertion de citation dans une partie de document déjà rédigée doit conduire à vérifier que la nouvelle citation ne s’intercale pas entre un terme latin de renvoi et sa citation de référence.
 
-### Note CSL
-Le style génère automatiquement les termes de renvoi, à l'exception de _Loco citato_, qui correspond au même cas que _Ibidem_. Au lieu de _loc. cit._ sera affiché _Ibid._
+### Notes CSL
+* Le style génère automatiquement les termes de renvoi, à l'exception de _Loco citato_, qui correspond au même cas que _Ibidem_. Au lieu de _loc. cit._ sera affiché _Ibid._
+* Le terme de renvoi _op. cit._ est généré automatiquement lorsque la référence citée n'est pas distante de plus de 7 notes de la dernière occurrence ce cette référence.
+* L'abréviation "Id." pour remplacer les auteurs est générée uniquement en bibliographie et non en note de bas de page. Elle est affichée lorsque **tous les auteurs** de la référence bibliographique précédente sont exactement identiques à **tous les auteurs** de la référence considérée. La liste entière des noms, y compris les termes tels que "et" ou "et al.", est alors remplacée par Id.
 
 ## Abréviations conseillées – Codes
 La liste suivante ne peut être exhaustive, elle ne recense notamment pas toutes les variantes de titres portés par les codes au long de leur vie éditoriale et chez les différents éditeurs.
