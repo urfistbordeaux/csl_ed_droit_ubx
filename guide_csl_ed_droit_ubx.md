@@ -139,7 +139,7 @@ RADÉ Christophe, _Le droit à l’insertion dans la loi du 1<sup>er</sup> déce
 
 AUBIN Gérard, _La seigneurie en Bordelais au 18<sup>eme</sup> siècle d'après la pratique notariale (1715-1789)_, thèse de doctorat, droit, université de Bordeaux I, 1981, 1<sup>ère</sup> partie.
 
-RADÉ Christophe, _Le droit à l’insertion dans la loi du 1<sup>er</sup> décembre 1988 relative au revenu minimum d’insertion_, mémoire de DEA, droit social, 1991, université de Bordeaux I, p. 74.
+RADÉ Christophe, _Le droit à l’insertion dans la loi du 1<sup>er</sup> décembre 1988 relative au revenu minimum d’insertion_, mémoire de DEA, droit social, université de Bordeaux I, 1991, p. 74.
 
 ### Notes
 * L’intitulé du diplôme, de la discipline et le nom de l’université sont repris de la page de titre ou de couverture ;
@@ -503,10 +503,15 @@ MAÎTRE ÉOLAS, « Pour en finir avec la séparation des pouvoirs », sur _Jou
 
 [Exemple SWMIJKGL dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/SWMIJKGL)
 
+GROUPE D’INFORMATION ET DE SOUTIEN DES IMMIGRÉ.E.S, « Pour en finir avec le délit de solidarité », sur _Gisti_ \[en ligne\], publié le 12 janvier 2017, \[consulté le 21 mars 2017\], https://www.gisti.org/spip.php?article5605
+
+[Exemple I6MKTFB5 dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/I6MKTFB5)
+
 ### En note de bas de page
 
 MAÎTRE ÉOLAS, « Pour en finir avec la séparation des pouvoirs », sur _Journal d’un avocat : Instantanés de la justice et du droit_\[en ligne\], publié le 21 février 2017, \[consulté le 21 mars 2017\].
 
+GROUPE D’INFORMATION ET DE SOUTIEN DES IMMIGRÉ.E.S, « Pour en finir avec le délit de solidarité », sur _Gisti_ \[en ligne\], publié le 12 janvier 2017, \[consulté le 21 mars 2017\].
 
 ### Note
 Pour les sites d’institutions, le nom de la page d’accueil du site sera souvent le même que celui de l’institution.
@@ -596,7 +601,7 @@ Ce type de références rejoint préférentiellement la liste des ressources uti
 
 ### Note CSL
 * Le style est paramétré pour générer automatiquement une liste des ressources à la suite de la bibliographie ; il conviendra d'ajouter un saut de page, un intertitre ou autre lorsque le document sera entièrement finalisé et que la bibliographie ne sera plus mise à jpour (sinon il faudra recommencer après chaque mise à jour...).
-* Veiller à bien respecter le modèle fourni dans la bibliothèque ; Zotero ne prévoit pas de champ `Lieu` pour les entretiens oraux, ce qui a contraint à quelques adaptations.
+* Veiller à bien respecter le modèle fourni dans la bibliothèque ; Zotero ne prévoit pas de champ `Lieu` pour les entretiens oraux, ce qui a contraint à quelques adaptations. Il faut ainsi saisir le lieu dans le champ `Loc. dans l'archive`.
 
 # Recommandations particulières
 ## Citation de documents en langue étrangère
