@@ -329,15 +329,7 @@ Auteur \[NOM prénom\], Titre de l’article  \[en ligne\], _Titre de la revue a
 ### Notes CSL
 * Variante avec guillemets
 * La partie doit être saisie dans le champ `Volume`
-* Renseigner dans le champ `URL` de la notice Zotero l'URL spécifique d'accès directe à l'article si applicable, ou l'URL simplifiée : cela permet d'y accéder directement et facilement depuis la bibliothèque Zotero et cela constitue une condition pour l'affichage de la date de consultation
-* Renseigner dans le champ `Loc. dans l'archive` de la notice Zotero l'URL simplifiée qui sera affichée dans la bibliographie
-* Renseigner dans le champ `Archive` de la notice Zotero la date de consultation sous la forme : `[consulté le JJ mois AAAA]`
-
-* Contrairement aux pages web, sites internet, etc. les champs `URL` et `Consulté le` ne peuvent pas être utilisés pour générer l'affichage de l'URL et de la date de consultation. Lorsque la pagination est renseignée pour un article, le style ignore en effet l'URL, et les variables qui lui sont liées telles que la date de consultation.
-
-[Explication d'adamsmith sur le forum Zotero](https://forums.zotero.org/discussion/comment/273572/#Comment_273572
-)
->The other thing (and this isn't new) is that Zotero treats an article as not having a URL if it has a page range (as this one does). The style tests for the presence of a URL before adding the access date.
+* Par défaut, Zotero ignore les champs  `URL` et `Consulté le` lorsqu'une **pagination** est renseignée. Ainsi, afin que la date de consultation et l'URL soient bien affichées, vous devez activer l'option "Inclure les adresses URL des articles de journaux dans les références" depuis le gestionnaire de styles Zotero. La procédure est détaillée dans la [page "Citer" de la documentation Zotero](https://www.zotero.org/support/fr/preferences/cite).
 
 ### Dans la bibliographie
 
@@ -499,7 +491,7 @@ Variante créé = avec guillemets
 
 ### Dans la bibliographie
 
-MAÎTRE ÉOLAS, « Pour en finir avec la séparation des pouvoirs », sur _Journal d’un avocat : Instantanés de la justice et du droit_ \[en ligne\], publié le 21 février 2017, \[consulté le 21 mars 2017\], [http://www.maitre-eolas.fr](http://www.maitre-eolas.fr)
+MAÎTRE ÉOLAS, « Pour en finir avec la séparation des pouvoirs », sur _Journal d’un avocat : Instantanés de la justice et du droit_ \[en ligne\], publié le 21 février 2017, \[consulté le 21 mars 2017\], http://www.maitre-eolas.fr](http://www.maitre-eolas.fr
 
 [Exemple SWMIJKGL dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/SWMIJKGL)
 
