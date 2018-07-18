@@ -86,19 +86,19 @@
   <macro name="editor">
     <choose>
       <if type="paper-conference">
-                <group delimiter=" ">
-            <text term="in"/>
-            <text macro="proceeding-editor"/>
-          </group>
-    </if>
-    <else-if type="chapter">
-      <group delimiter=" ">
-        <text term="in"/>
-        <names variable="editor">
-          <name and="text" delimiter-precedes-last="never" name-as-sort-order="all" sort-separator=" "/>
-          <label form="short" prefix=" (" suffix=")"/>
-        </names>
-      </group>
+        <group delimiter=" ">
+          <text term="in"/>
+          <text macro="proceeding-editor"/>
+        </group>
+      </if>
+      <else-if type="chapter">
+        <group delimiter=" ">
+          <text term="in"/>
+          <names variable="editor">
+            <name and="text" delimiter-precedes-last="never" name-as-sort-order="all" sort-separator=" "/>
+            <label form="short" prefix=" (" suffix=")"/>
+          </names>
+        </group>
       </else-if>
       <else>
         <names variable="editor">
@@ -106,7 +106,7 @@
           <label form="short" prefix=" (" suffix=")"/>
         </names>
       </else>
-</choose>
+    </choose>
   </macro>
   <!-- Mise en forme des traducteurs-->
   <macro name="translator">
@@ -130,7 +130,7 @@
     </names>
   </macro>
   <!--Mise en forme des titres dans la bibliographie - pour les brevets inclut auutorité émettrice et numéro, pour les entretiens oraux inclut l'interviewer, etc.-->
-<macro name="title">
+  <macro name="title">
     <choose>
       <if type="book thesis" match="any">
         <choose>
@@ -168,11 +168,10 @@
         </group>
       </else-if>
       <else-if type="post">
-          <group delimiter=" ">
-            <text variable="title" text-case="capitalize-first" quotes="true"/>
-            <text value="[courriel]"/>
-          </group>
-
+        <group delimiter=" ">
+          <text variable="title" text-case="capitalize-first" quotes="true"/>
+          <text value="[courriel]"/>
+        </group>
       </else-if>
       <else-if type="interview">
         <group delimiter=" ">
@@ -186,184 +185,183 @@
       </else-if>
       <else-if type="article-journal article-newspaper article-magazine" match="any">
         <choose>
-          <if variable="archive_location">
-              <group delimiter=" ">
-                <text variable="title" text-case="capitalize-first" quotes="true"/>
-                <text term="online" prefix="[" suffix="]"/>
-              </group>
+          <!--<if variable="archive_location">-->
+          <if variable="URL">
+            <group delimiter=" ">
+              <text variable="title" text-case="capitalize-first" quotes="true"/>
+              <text term="online" prefix="[" suffix="]"/>
+            </group>
           </if>
           <else>
-                <text variable="title" text-case="capitalize-first" quotes="true"/>
+            <text variable="title" text-case="capitalize-first" quotes="true"/>
           </else>
         </choose>
       </else-if>
       <else-if type="bill">
-          <text variable="title" text-case="capitalize-first" font-style="italic"/>
+        <text variable="title" text-case="capitalize-first" font-style="italic"/>
       </else-if>
-    <else-if type="paper-conference">
+      <else-if type="paper-conference">
         <text variable="title" text-case="capitalize-first"/>
-        </else-if>
+      </else-if>
       <else>
         <text variable="title" text-case="capitalize-first" quotes="true"/>
       </else>
     </choose>
-</macro>
-
-<!--Mise en forme des titres en note de bas de page - pour les brevets inclut auutorité émettrice et numéro, pour les entretiens oraux inclut l'interviewer, etc.-->
-<macro name="title-short">
-  <choose>
-    <if type="book thesis" match="any">
-      <choose>
-        <if variable="URL">
-          <group delimiter=" ">
+  </macro>
+  <!--Mise en forme des titres en note de bas de page - pour les brevets inclut auutorité émettrice et numéro, pour les entretiens oraux inclut l'interviewer, etc.-->
+  <macro name="title-short">
+    <choose>
+      <if type="book thesis" match="any">
+        <choose>
+          <if variable="URL">
+            <group delimiter=" ">
+              <text variable="title" form="short" text-case="capitalize-first" font-style="italic"/>
+              <text term="online" prefix="[" suffix="]"/>
+            </group>
+          </if>
+          <else-if variable="number-of-pages" match="none">
+            <group delimiter=" ">
+              <text variable="title" form="short" text-case="capitalize-first" font-style="italic"/>
+              <text value="[microfiche]"/>
+            </group>
+          </else-if>
+          <else>
             <text variable="title" form="short" text-case="capitalize-first" font-style="italic"/>
-            <text term="online" prefix="[" suffix="]"/>
-          </group>
-        </if>
-        <else-if variable="number-of-pages" match="none">
+          </else>
+        </choose>
+      </if>
+      <else-if type="patent">
+        <group delimiter=", ">
           <group delimiter=" ">
-            <text variable="title" form="short" text-case="capitalize-first" font-style="italic"/>
-            <text value="[microfiche]"/>
+            <text variable="authority" text-case="capitalize-first"/>
+            <text term="issue" form="short"/>
+            <text variable="number"/>
           </group>
-        </else-if>
-        <else>
-          <text variable="title" form="short" text-case="capitalize-first" font-style="italic"/>
-        </else>
-      </choose>
-    </if>
-    <else-if type="patent">
-      <group delimiter=", ">
-        <group delimiter=" ">
-          <text variable="authority" text-case="capitalize-first"/>
-          <text term="issue" form="short"/>
-          <text variable="number"/>
+          <text variable="title" text-case="capitalize-first" font-style="italic"/>
         </group>
-        <text variable="title" text-case="capitalize-first" font-style="italic"/>
-      </group>
-    </else-if>
-    <else-if type="personal_communication">
-      <group delimiter=" ">
-        <text variable="title" text-case="capitalize-first" font-style="italic"/>
-        <text value="[courriel]"/>
-      </group>
-    </else-if>
-    <else-if type="post">
+      </else-if>
+      <else-if type="personal_communication">
+        <group delimiter=" ">
+          <text variable="title" text-case="capitalize-first" font-style="italic"/>
+          <text value="[courriel]"/>
+        </group>
+      </else-if>
+      <else-if type="post">
         <group delimiter=" ">
           <text variable="title" text-case="capitalize-first" quotes="true"/>
           <text value="[courriel]"/>
         </group>
-
-    </else-if>
-    <else-if type="interview">
-      <group delimiter=" ">
-        <text variable="title" text-case="capitalize-first" font-style="italic"/>
-        <text variable="medium" prefix="[" suffix="]"/>
-        <text value="mené par"/>
-        <names variable="interviewer">
-          <name name-as-sort-order="all" sort-separator=" "/>
-        </names>
-      </group>
-    </else-if>
-    <else-if type="article-journal article-newspaper article-magazine" match="any">
-      <choose>
-        <if variable="archive_location">
+      </else-if>
+      <else-if type="interview">
+        <group delimiter=" ">
+          <text variable="title" text-case="capitalize-first" font-style="italic"/>
+          <text variable="medium" prefix="[" suffix="]"/>
+          <text value="mené par"/>
+          <names variable="interviewer">
+            <name name-as-sort-order="all" sort-separator=" "/>
+          </names>
+        </group>
+      </else-if>
+      <else-if type="article-journal article-newspaper article-magazine" match="any">
+        <choose>
+          <!--<if variable="archive_location">-->
+          <if variable="URL">
             <group delimiter=" ">
               <text variable="title" form="short" text-case="capitalize-first" quotes="true"/>
               <text term="online" prefix="[" suffix="]"/>
             </group>
-        </if>
-        <else>
-              <text variable="title" form="short" text-case="capitalize-first" quotes="true"/>
-        </else>
-      </choose>
-    </else-if>
-    <else-if type="bill">
-        <text variable="title" text-case="capitalize-first" font-style="italic"/>
-    </else-if>
-  <else-if type="paper-conference">
-      <text variable="title" form="short" text-case="capitalize-first"/>
+          </if>
+          <else>
+            <text variable="title" form="short" text-case="capitalize-first" quotes="true"/>
+          </else>
+        </choose>
       </else-if>
-    <else>
-      <text variable="title" form="short" text-case="capitalize-first" quotes="true"/>
-    </else>
-  </choose>
-</macro>
-<!-- Mise en forme des titres de contenant dans la bibliographie - pour les revues inclut la partie-->
-<macro name="container-title">
-<choose>
-<if type="post">
-<text variable="container-title" font-style="italic" prefix="sur "/>
-</if>
-<else-if type="article-journal article-newspaper article-magazine" match="any">
-<group delimiter=", ">
-  <text variable="container-title" font-style="italic"/>
-  <text variable="volume"/>
-</group>
-</else-if>
-<else-if type="chapter paper-conference" match="any">
-<text variable="container-title" text-case="capitalize-first" font-style="italic"/>
-</else-if>
-<else-if type="webpage post-weblog" match="any">
-  <choose>
-    <if variable="title">
-      <text value="sur "/>
-    </if>
-  </choose>
-  <group delimiter=" " >
-  <text variable="container-title" text-case="capitalize-first" font-style="italic"/>
-  <text term="online" prefix="[" suffix="]"/>
-</group>
-</else-if>
-<else>
-  <text variable="container-title"/>
-</else>
-</choose>
-</macro>
-
-<!-- Mise en forme des titres de contenant en note de bas de page  - pour les actes de conférence, inclut la responsabiblité du colloque - pour les revues inclut la partie-->
-<macro name="container-title-short">
-<choose>
-<if type="post">
-<text variable="container-title" form="short" font-style="italic" prefix=" sur"/>
-</if>
-<else-if type="article-journal article-newspaper article-magazine" match="any">
-<group delimiter=", ">
-  <text variable="container-title" form="short" font-style="italic"/>
-  <text variable="volume"/>
-</group>
-</else-if>
-<else-if type="chapter">
-  <group delimiter=" ">
-    <text term="in"/>
-<text variable="container-title" form="short" text-case="capitalize-first" font-style="italic"/>
-</group>
-</else-if>
-<else-if type="paper-conference" match="any">
-<group delimiter=", ">
-  <group delimiter=" ">
-    <text term="in"/>
-    <text macro="proceeding-editor"/>
-  </group>
-<text variable="container-title" form="short" text-case="capitalize-first" font-style="italic"/>
-</group>
-</else-if>
-<else-if type="webpage post-weblog" match="any">
-  <choose>
-    <if variable="title">
-      <text value="sur "/>
-    </if>
-  </choose>
-  <group delimiter=" " >
-  <text variable="container-title" form="short" text-case="capitalize-first" font-style="italic"/>
-  <text term="online" prefix="[" suffix="]"/>
-</group>
-</else-if>
-<else>
-  <text variable="container-title"/>
-</else>
-</choose>
-</macro>
-<!-- Mise en forme du lieu de publication-->
+      <else-if type="bill">
+        <text variable="title" text-case="capitalize-first" font-style="italic"/>
+      </else-if>
+      <else-if type="paper-conference">
+        <text variable="title" form="short" text-case="capitalize-first"/>
+      </else-if>
+      <else>
+        <text variable="title" form="short" text-case="capitalize-first" quotes="true"/>
+      </else>
+    </choose>
+  </macro>
+  <!-- Mise en forme des titres de contenant dans la bibliographie - pour les revues inclut la partie-->
+  <macro name="container-title">
+    <choose>
+      <if type="post">
+        <text variable="container-title" font-style="italic" prefix="sur "/>
+      </if>
+      <else-if type="article-journal article-newspaper article-magazine" match="any">
+        <group delimiter=", ">
+          <text variable="container-title" font-style="italic"/>
+          <text variable="volume"/>
+        </group>
+      </else-if>
+      <else-if type="chapter paper-conference" match="any">
+        <text variable="container-title" text-case="capitalize-first" font-style="italic"/>
+      </else-if>
+      <else-if type="webpage post-weblog" match="any">
+        <choose>
+          <if variable="title">
+            <text value="sur "/>
+          </if>
+        </choose>
+        <group delimiter=" ">
+          <text variable="container-title" text-case="capitalize-first" font-style="italic"/>
+          <text term="online" prefix="[" suffix="]"/>
+        </group>
+      </else-if>
+      <else>
+        <text variable="container-title"/>
+      </else>
+    </choose>
+  </macro>
+  <!-- Mise en forme des titres de contenant en note de bas de page  - pour les actes de conférence, inclut la responsabiblité du colloque - pour les revues inclut la partie-->
+  <macro name="container-title-short">
+    <choose>
+      <if type="post">
+        <text variable="container-title" form="short" font-style="italic" prefix=" sur"/>
+      </if>
+      <else-if type="article-journal article-newspaper article-magazine" match="any">
+        <group delimiter=", ">
+          <text variable="container-title" form="short" font-style="italic"/>
+          <text variable="volume"/>
+        </group>
+      </else-if>
+      <else-if type="chapter">
+        <group delimiter=" ">
+          <text term="in"/>
+          <text variable="container-title" form="short" text-case="capitalize-first" font-style="italic"/>
+        </group>
+      </else-if>
+      <else-if type="paper-conference" match="any">
+        <group delimiter=", ">
+          <group delimiter=" ">
+            <text term="in"/>
+            <text macro="proceeding-editor"/>
+          </group>
+          <text variable="container-title" form="short" text-case="capitalize-first" font-style="italic"/>
+        </group>
+      </else-if>
+      <else-if type="webpage post-weblog" match="any">
+        <choose>
+          <if variable="title">
+            <text value="sur "/>
+          </if>
+        </choose>
+        <group delimiter=" ">
+          <text variable="container-title" form="short" text-case="capitalize-first" font-style="italic"/>
+          <text term="online" prefix="[" suffix="]"/>
+        </group>
+      </else-if>
+      <else>
+        <text variable="container-title"/>
+      </else>
+    </choose>
+  </macro>
+  <!-- Mise en forme du lieu de publication-->
   <macro name="pub-place">
     <choose>
       <if type="book chapter paper-conference report" match="any">
@@ -378,7 +376,7 @@
       </if>
     </choose>
   </macro>
-<!-- Mise en forme de l'éditeur commercial / ets de soutenance pour les travaux universitaires-->
+  <!-- Mise en forme de l'éditeur commercial / ets de soutenance pour les travaux universitaires-->
   <macro name="publisher">
     <choose>
       <if type="book chapter paper-conference" match="any">
@@ -451,24 +449,24 @@
           </else>
         </choose>
       </else-if>
-      <else-if type="article-journal article-magazine" match="any">
+      <else-if type="article-journal article-newspaper article-magazine" match="any">
         <group delimiter=", ">
           <date variable="issued" delimiter="&#160;">
             <date-part name="month"/>
             <date-part name="year"/>
-            </date>
-              <group delimiter="&#160;">
-                <text term="issue" form="short"/>
-                <text variable="issue"/>
-              </group>
-            </group>
-          </else-if>
-<else>
-  <date variable="issued">
-    <date-part name="year"/>
-  </date>
-              </else>
-            </choose>
+          </date>
+          <group delimiter="&#160;">
+            <text term="issue" form="short"/>
+            <text variable="issue"/>
+          </group>
+        </group>
+      </else-if>
+      <else>
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+      </else>
+    </choose>
   </macro>
   <!--Mise en forme de l'année + des numéros (norme juridique et articles) en note de bas de page-->
   <macro name="issued-short">
@@ -525,13 +523,12 @@
           </else>
         </choose>
       </else-if>
-
-<else>
-  <date variable="issued">
-    <date-part name="year"/>
-  </date>
-              </else>
-            </choose>
+      <else>
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+      </else>
+    </choose>
   </macro>
   <!-- Mise en forme du locator, i. e. mention de page ou de partie en note de bas de page-->
   <macro name="locator">
@@ -544,24 +541,25 @@
   <macro name="pages">
     <choose>
       <if type="article-journal chapter paper-conference" match="any">
-         <choose>
-           <if variable="archive_location">
-        <group delimiter="&#160;">
-            <text term="page" form="short"/>
-            <text variable="page"/>
-          </group>
-</if>
-<else>
-  <group delimiter="&#160;" suffix=".">
-      <text term="page" form="short"/>
-      <text variable="page"/>
-    </group>
-</else>
-</choose>
+        <!--à supprimer si URL peut être précédée d'un point et non d'une virgule dans la bibliographie-->
+        <choose>
+          <if variable="URL">
+            <group delimiter="&#160;">
+              <text term="page" form="short"/>
+              <text variable="page"/>
+            </group>
+          </if>
+          <else>
+            <group delimiter="&#160;" suffix=".">
+              <text term="page" form="short"/>
+              <text variable="page"/>
+            </group>
+          </else>
+        </choose>
       </if>
-<else-if type="bill">
-  <group delimiter=", " suffix=".">
-  <group delimiter="&#160;">
+      <else-if type="bill">
+        <group delimiter=", " suffix=".">
+          <group delimiter="&#160;">
             <text term="page" form="short"/>
             <text variable="page"/>
           </group>
@@ -569,11 +567,11 @@
         </group>
       </else-if>
       <else-if type="book thesis" match="any">
-          <group delimiter="&#160;">
-            <text variable="number-of-pages"/>
-            <text term="page" form="short"/>
-          </group>
-        </else-if>
+        <group delimiter="&#160;">
+          <text variable="number-of-pages"/>
+          <text term="page" form="short"/>
+        </group>
+      </else-if>
     </choose>
   </macro>
   <!-- Mise en forme des mentions d'édition -->
@@ -602,45 +600,28 @@
   </macro>
   <!--Mise en forme de la date de consultation en note de bas de page-->
   <macro name="access-short">
-    <choose>
-      <if type="article-journal article-newspaper article-magazine" match="any">
-        <text variable="archive"/>
-      </if>
-      <else>
-        <group prefix="[" suffix="]" delimiter=" ">
-          <text term="accessed"/>
-          <date variable="accessed" delimiter="&#160;">
-            <date-part name="day"/>
-            <date-part name="month"/>
-            <date-part name="year"/>
-          </date>
-        </group>
-      </else>
-    </choose>
+    <group prefix="[" suffix="]" delimiter=" ">
+      <text term="accessed"/>
+      <date variable="accessed" delimiter="&#160;">
+        <date-part name="day"/>
+        <date-part name="month"/>
+        <date-part name="year"/>
+      </date>
+    </group>
   </macro>
   <!-- Mise en forme de la date de consultation et de l'URL en bibliographie-->
   <macro name="access">
-    <choose>
-  <if type="article-journal article-newspaper article-magazine" match="any">
-        <group delimiter=", ">
-          <text variable="archive"/>
-          <text variable="archive_location"/>
-        </group>
-      </if>
-      <else>
-        <group delimiter=", ">
-          <group prefix="[" suffix="]" delimiter=" ">
-            <text term="accessed"/>
-            <date variable="accessed" delimiter="&#160;">
-              <date-part name="day"/>
-              <date-part name="month"/>
-              <date-part name="year"/>
-            </date>
-          </group>
-          <text variable="URL" text-decoration="underline"/>
-        </group>
-      </else>
-    </choose>
+    <group delimiter=", ">
+      <group prefix="[" suffix="]" delimiter=" ">
+        <text term="accessed"/>
+        <date variable="accessed" delimiter="&#160;">
+          <date-part name="day"/>
+          <date-part name="month"/>
+          <date-part name="year"/>
+        </date>
+      </group>
+      <text variable="URL" text-decoration="underline"/>
+    </group>
   </macro>
   <!-- Mise en forme du type de travail universitaire-->
   <macro name="thesis-genre">
