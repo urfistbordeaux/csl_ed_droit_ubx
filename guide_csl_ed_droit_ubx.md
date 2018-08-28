@@ -19,15 +19,15 @@ Dans les notes de bas de page, on affiche seulement la mention de page ou de sec
 
 ## Citer un ouvrage imprimé
 
-### Modèle bibliographie
+### Modèle pour la bibliographie
 
-Auteur \[NOM prénom\], *Titre de l’ouvrage, complément du titre*, volumaison \[vol. X\], édition \[X<sup>e</sup> éd.\], autre responsabilité (préface, traduction, éditeur…) \[Nom prénom (préf., trad., dir.)\], ville de publication, éditeur, année d’édition, pagination globale.
+Auteur \[NOM prénom\], *Titre de l’ouvrage, complément du titre*, tomaison \[vol. X\], édition \[X<sup>e</sup> éd.\], autre responsabilité (préface, traduction, dirigé par…) \[Nom prénom (préf., trad., dir.)\], ville de publication, éditeur, année d’édition, pagination globale.
 
-### Modèle note de bas de page
+### Modèle pour les notes de bas de page
 
 Auteur \[NOM prénom\], *Titre de l’ouvrage*, éditeur, année d’édition, numéro des pages concernées.
 
-### Dans la bibliographie
+### Exemples pour la bibliographie
 
 DUGUIT Léon, _L’État‎, le droit objectif et la loi positive_, Moderne Franck (préf.), Paris, Dalloz, 2003, 623 p.
 
@@ -44,7 +44,7 @@ DALLOZ Édouard, VERGÉ Charles, VERGÉ Charles fils _et al._, _Code des lois po
 [Exemple V8T4989M dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/V8T4989M)
 
 
-### En note de bas de page
+### Exemples pour les notes de bas de page
 
 DUGUIT Léon, _L’État‎, le droit objectif et la loi positive_, Dalloz, 2003, p. 68 s.
 
@@ -75,34 +75,33 @@ Rappel [Exemple UMRJGXBR dans la bib Zotero de groupe](https://www.zotero.org/gr
 ---
 ## Citer un ouvrage numérique
 
-### Modèle bibliographie
+### Modèle pour la bibliographie
 
-Auteur \[NOM prénom\], *Titre de l’ouvrage, complément du titre* \[en ligne\], volumaison \[vol. X / t. X\], édition \[X^e^ éd.\], autre responsabilité (préface, traduction, éditeur…) \[Nom prénom (préf., trad., dir.)\], ville de publication, éditeur, année d’édition, pagination globale, \[consulté le …\], URL
+Auteur \[NOM prénom\], *Titre de l’ouvrage, complément du titre* \[en ligne\], tomaison \[vol. X\], édition \[X^e^ éd.\], autre responsabilité (préface, traduction, dirigé par…) \[Nom prénom (préf., trad., dir.)\], ville de publication, éditeur, année d’édition, pagination globale, \[consulté le …\]. URL
 
-### Modèle note de bas de page
+### Modèle pour les notes de bas de page
 
 Auteur \[NOM prénom\], *Titre de l’ouvrage* \[en ligne\], éditeur, année d’édition, numéro des pages
 concernées \[consulté le …\].
 
-### Dans la bibliographie
+### Exemples pour la bibliographie
 
-COURBE Patrick et GOUTTENOIRE Adeline, *Droit de la famille* \[en ligne\], 7<sup>e</sup> éd., Paris, Sirey, 2017, 572 p., \[consulté le 9 janvier 2017\], [http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm)
+COURBE Patrick et GOUTTENOIRE Adeline, *Droit de la famille* \[en ligne\], 7<sup>e</sup> éd., Paris, Sirey, 2017, 572 p., \[consulté le 9 janvier 2017\].  [http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm)
 
 [Exemple 8ZY72VYJ dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/8ZY72VYJ)
 
-MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*\[en ligne\], 34<sup>e</sup>éd., Paris, Sirey, 2015, 680 p., \[consulté le 20 janvier 2017\],
+MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*\[en ligne\], 34<sup>e</sup>éd., Paris, Sirey, 2015, 680 p., \[consulté le 20 janvier 2017\].
 [http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_constitutionnel-38072.htm](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_constitutionnel-38072.htm)
 
 [Exemple 6CL9SIY9 dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/6CL9SIY9)
 
-### En note de bas de page
+### Exemples pour les notes de bas de page
 
 COURBE Patrick et GOUTTENOIRE Adeline, *Droit de la famille* \[[en ligne](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm)\], Sirey, 2017, p. 98-105, \[consulté le 9 janvier 2017\].
 
-MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*\[[en ligne](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_constitutionnel-38072.htm)\], Sirey, 2015, spéc. p. 18, 54 et 101-103, \[consulté le 20 janvier 2017\].
+MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*\[[en ligne](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_constitutionnel-38072.htm)\], Sirey, 2015, p. 18, 54 et 101-103 spéc., \[consulté le 20 janvier 2017\].
 
 ### Notes
-* exceptionnellement, pas de point final après l’URL
 * en note de bas de page, il est recommandé que la mention « \[en ligne\] » soit un lien hypertexte reprenant l’URL complète
 * lorsque le document dispose d’un DOI, il se substitue à l’URL
 
@@ -117,15 +116,15 @@ MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*\[[en lig
 
 Il s’agit ici des éditions de dépôt dans les bibliothèques universitaires, c’est-à-dire des éditions non-commerciales. Les éditions de thèses et mémoires publiées chez des éditeurs commerciaux sont traitées comme des ouvrages.
 
-### Modèle bibliographie
+### Modèle pour la bibliographie
 
 Auteur \[NOM Prénom\], *Titre, complément du titre*, nom du/des directeur(s) \[Nom Prénom (dir.)\], intitulé du diplôme, discipline, nom de l’université, année, pagination globale.
 
-### Modèle note de bas de page
+### Modèle pour les notes de bas de page
 
 Auteur \[NOM Prénom\], *Titre*, intitulé du diplôme, discipline, nom de l’université, année, numéro des pages concernées.
 
-### Dans la bibliographie
+### Exemples pour la bibliographie
 
 AUBIN Gérard, _La seigneurie en Bordelais au 18<sup>eme</sup> siècle d'après la pratique notariale (1715-1789)_, Jaubert Pierre (dir.), thèse de doctorat, droit, université de Bordeaux I, 1981, 958 p.
 
@@ -135,9 +134,9 @@ RADÉ Christophe, _Le droit à l’insertion dans la loi du 1<sup>er</sup> déce
 
 [Exemple R2IX2IRW dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/R2IX2IRW)
 
-### En note de bas de page
+### Exemples pour les notes de bas de page
 
-AUBIN Gérard, _La seigneurie en Bordelais au 18<sup>eme</sup> siècle d'après la pratique notariale (1715-1789)_, thèse de doctorat, droit, université de Bordeaux I, 1981, 1<sup>ère</sup> partie.
+AUBIN Gérard, _La seigneurie en Bordelais au 18<sup>eme</sup> siècle d'après la pratique notariale (1715-1789)_, thèse de doctorat, droit, université de Bordeaux I, 1981, part. 1.
 
 RADÉ Christophe, _Le droit à l’insertion dans la loi du 1<sup>er</sup> décembre 1988 relative au revenu minimum d’insertion_, mémoire de DEA, droit social, université de Bordeaux I, 1991, p. 74.
 
@@ -146,7 +145,6 @@ RADÉ Christophe, _Le droit à l’insertion dans la loi du 1<sup>er</sup> déce
 * Le niveau d’étude (par ex. diplôme d’étude approfondi) peut être abrégé (DEA).
 
 ### Notes CSL
-* On ne pourra pas générer une mention du type  "1<sup>ère</sup> partie", il faudra se contenter de "partie 1".
 * Le champ "discipline" n'existe pas dans Zotero ni CSL, renseigner la discipline à la suite de l'intitulé du diplôme dans le champ `Type`.
 * Ne pas mentionner d'URL, c'est un critère d'affichage pour la mention `[en ligne]` des travaux universitaires numériques - voir _infra_.
 * Mentionner obligatoirement le nombre de pages, l'absence du nombre de pages est le critère d'affichage pour la mention `[microfiche]` - voir _infra_.
@@ -160,25 +158,25 @@ director: Jaubert || Pierre
 
 ## Citer des travaux universitaires numériques (thèses et mémoires)
 
-### Modèle bibliographie
+### Modèle pour la bibliographie
 Auteur \[NOM Prénom\], *Titre, complément du titre* \[en ligne\], nom du/des directeur(s) \[Nom Prénom (dir.)\], intitulé du diplôme,
-discipline, nom de l’université, année, pagination globale, \[consulté le …\], URL
+discipline, nom de l’université, année, pagination globale, \[consulté le …\]. URL
 
-### Modèle note de bas de page
-Auteur \[NOM Prénom\], *Titre* \[en ligne\], intitulé du diplôme, discipline, nom de l’université, année, numéro des pages concernées, \[consulté le …\], URL
+### Modèle pour les notes de bas de page
+Auteur \[NOM Prénom\], *Titre* \[en ligne\], intitulé du diplôme, discipline, nom de l’université, année, numéro des pages concernées, \[consulté le …\].
 
-### Dans la bibliographie
+### Exemples pour la bibliographie
 
-MANGEMATIN Céline, _La faute de fonction en droit privé_ \[en ligne\], Malabat Valérie (dir.), thèse, droit, université Montesquieu-Bordeaux IV, 2012, 770 p., \[consulté le 20 janvier 2017\], [http://www.theses.fr/2012BOR40027](http://www.theses.fr/2012BOR40027)
+MANGEMATIN Céline, _La faute de fonction en droit privé_ \[en ligne\], Malabat Valérie (dir.), thèse, droit, université Montesquieu-Bordeaux IV, 2012, 770 p., \[consulté le 20 janvier 2017\]. [http://www.theses.fr/2012BOR40027](http://www.theses.fr/2012BOR40027)
 
 [Exemple PT2DWA4B dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/PT2DWA4B)
 
-LESTRADE Éric, _Les principes directeurs du procès dans la jurisprudence du Conseil Constitutionnel_ \[en ligne\], Mélin-Soucramanien Ferdinand (dir.), thèse, droit, université Montesquieu-Bordeaux IV, 2013, 714 p., \[consulté le 9 janvier 2017\],
+LESTRADE Éric, _Les principes directeurs du procès dans la jurisprudence du Conseil Constitutionnel_ \[en ligne\], Mélin-Soucramanien Ferdinand (dir.), thèse, droit, université Montesquieu-Bordeaux IV, 2013, 714 p., \[consulté le 9 janvier 2017\].
 [http://www.theses.fr/2013BOR40033](http://www.theses.fr/2013BOR40033)
 
 [Exemple GWXKFFTC dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/GWXKFFTC)
 
-### En note de bas de page
+### Exemples pour les notes de bas de page
 
 MANGEMATIN Céline, _La faute de fonction en droit privé_ \[en ligne](http://www.theses.fr/2012BOR40027)\], thèse, droit, université
 Montesquieu-Bordeaux IV, 2012, p. 88, \[consulté le 20 janvier 2017\].
@@ -186,9 +184,7 @@ Montesquieu-Bordeaux IV, 2012, p. 88, \[consulté le 20 janvier 2017\].
 LESTRADE Éric, _Les principes directeurs du procès dans la jurisprudence du Conseil Constitutionnel_ \[en ligne](http://www.theses.fr/2013BOR40033)\], thèse, droit, université Montesquieu-Bordeaux IV, 2013, p. 105-120 et 178, \[consulté le 9 janvier 2017\].
 
 ### Notes
-* Exceptionnellement, pas de point final après l’URL.
-* En note de bas de page, il est recommandé que la mention « \[en ligne\] » soit un lien hypertexte reprenant l’URL.
-* Les URL du site *theses.fr*, portail de diffusion de l’ensemble des thèses numériques en France, sont uniques et pérennes.
+Les URL du site *theses.fr*, portail de diffusion de l’ensemble des thèses numériques en France, sont uniques et pérennes.
 
 ### Notes CSL
 * Il n'est pas possible d'afficher un lien hypertexte dont l'intitulé soit différent de l'URL à laquelle il renvoie : c'est Word qui génèrera l'affichage du lien hypertexte à partir du libellé.
@@ -198,16 +194,15 @@ LESTRADE Éric, _Les principes directeurs du procès dans la jurisprudence du Co
 ---
 ## Citer des travaux universitaires microfichés (thèses et mémoires)
 
-### Modèle bibliographie
+### Modèle pour la bibliographie
 Nom du docteur \[NOM Prénom\], _Titre, complément du titre_ \[microfiche\], nom du/des directeur(s) \[Nom Prénom (dir.)\], intitulé du diplôme, discipline, nom de l’université, année.
 
-### Modèle note de bas de page
+### Modèle pour les notes de bas de page
 Nom du docteur \[NOM Prénom\], _Titre_ \[microfiche\], intitulé du diplôme, discipline, nom de l’université, année.
 
-### Dans la bibliographie
+### Exemples pour la bibliographie
 
-SAINT-PAU Jean-Christophe, _L’anonymat et le droit_ \[microfiche\], Conte Philippe (dir.), thèse de doctorat, droit, université
-Montesquieu-Bordeaux IV, 1998.
+SAINT-PAU Jean-Christophe, _L’anonymat et le droit_ \[microfiche\], Conte Philippe (dir.), thèse de doctorat, droit, université Montesquieu-Bordeaux IV, 1998.
 
 [Exemple 26KXBI64 dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/26KXBI64)
 
@@ -215,7 +210,7 @@ MAUBLANC Jean-Pierre, _L’interprétation de la loi fiscale par le juge de l’
 
 [Exemple VQVZW3CU dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/VQVZW3CU)
 
-### En note de bas de page
+### Exemples pour les notes de bas de page
 
 SAINT-PAU Jean-Christophe, _L’anonymat et le droit_ \[microfiche\], thèse de doctorat, droit, université Montesquieu-Bordeaux IV, 1998.
 
@@ -230,17 +225,16 @@ Pas de mention de la pagination.
 ---
 ## Citer des contributions à un ouvrage\ (articles de mélanges, d’ouvrage collectif…)
 
-Deux modèles sont proposés, avec ou sans guillemets pour le titre de la contribution.
+Deux modèles sont proposés, avec ou sans guillemets encadrant le titre de la contribution.
 
-### Modèle bibliographie
-Contributeur \[NOM Prénom\], Titre de la contribution, complément du titre, in responsable(s) du document principal \[Nom Prénom (éd.)\], _Titre du document principal, complément du titre_, édition, ville d’édition, éditeur, année d’édition, pages de la contribution \[p. X-X\].
+### Modèles pour la bibliographie
+Contributeur \[NOM Prénom\], Titre de la contribution, complément du titre, in responsabilité du document principal \[Nom Prénom (éd.)\], _Titre du document principal_, édition, ville d’édition, éditeur, année d’édition, pages de la contribution \[p. X-X\].
 
 ou
 
-Contributeur \[NOM Prénom\], « Titre de la contribution, complément du titre », in responsable(s) du document principal \[Nom Prénom (éd.)\], *Titre du document principal, complément du titre*, édition, ville d’édition, éditeur, année d’édition, pages de la contribution \[p. X-X\].
+Contributeur \[NOM Prénom\], « Titre de la contribution, complément du titre », in responsabilité du document principal \[Nom Prénom (éd.)\], *Titre du document principal*, édition, ville d’édition, éditeur, année d’édition, pages de la contribution \[p. X-X\].
 
-### Modèle note de bas de page
-<!--suppression édition 2018-06-28 pour cohérence avce modèle ouvrage-->
+### Modèles pour les notes de bas de page
 Contributeur \[NOM Prénom\], Titre de la contribution, in _Titre du document principal_, éditeur, année d’édition, pages de la contribution \[p. X-X\].
 
 ou
@@ -250,14 +244,14 @@ Contributeur \[NOM Prénom\], « Titre de la contribution », in _Titre du doc
 ### Note CSL
 Le style correspond à la variante avec guillemets
 
-### Dans la bibliographie
+### Exemple pour la bibliographie
 
 BOIS DE GAUDUSSON Jean (du), « Réflexions sur les nouveaux développements du constitutionalisme en Afrique », in Aubin Gérard
 (éd.), _Liber amicorum, études offertes à Pierre Jaubert_, Talence, Presses universitaires de Bordeaux, 1992, p. 179-187.
 
 [Exemple N8ZRTXUF dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/N8ZRTXUF)
 
-### En note de bas de page
+### Exemple pour les notes de bas de page
 
 BOIS DE GAUDUSSON Jean (du), « Réflexions sur les nouveaux développements du constitutionalisme en Afrique », in _Liber amicorum, études offertes à Pierre Jaubert_, Presses universitaires de Bordeaux, 1992, p. 179-187.
 
@@ -266,29 +260,22 @@ BOIS DE GAUDUSSON Jean (du), « Réflexions sur les nouveaux développements du
 
 Deux modèles sont proposés, avec ou sans guillemets encadrant le titre de l’article.
 
-### Modèle bibliographie
+### Modèle pour la bibliographie
 Auteur \[NOM prénom\], « Titre de l’article, complément du titre », _Titre de la revue_, partie, mois année, numéro, pagination globale.
 
 ou
 
 Auteur \[NOM prénom\], Titre de l’article, complément du titre, _Titre de la revue_, partie, mois année, numéro, pagination globale.
 
-### Modèle note de bas de page
+### Modèle pour les notes de bas de page
 
-<!-- NB modèle corrigé pour prendre en compte titre de revue abrégé-->
-
-
-Auteur \[NOM prénom\], « Titre de l’article », _Titre de la revue abrégé_, année, numéro de paragraphe ou des pages concernées.
+Auteur \[NOM prénom\], « Titre de l’article », _Titre de la revue abrégé_, partie, année, numéro de paragraphe ou des pages concernées.
 
 ou
 
-Auteur \[NOM prénom\], Titre de l’article, _Titre de la revue abrégé_, année, numéro de paragraphe ou des pages concernées.
+Auteur \[NOM prénom\], Titre de l’article, _Titre de la revue abrégé_, partie, année, numéro de paragraphe ou des pages concernées.
 
-### Note CSL
-* Variante avec guillemets
-* La partie doit être saisie dans le champ `Volume`
-
-### Dans la bibliographie
+### Exemples pour la bibliographie
 
 HAUSER Jean, « Le préjudice d’être né, question de principe », _Droit et patrimoine_, janvier 2001, n° 89, p. 6-8.
 
@@ -298,7 +285,7 @@ GOGOS-GINTRAND Amélie, « Le pacte commissoire : une institution dangereuse p
 
 [Exemple TUM2L65L dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/TUM2L65L)
 
-### En note de bas de page
+### Exemples pour les notes de bas de page
 
 HAUSER Jean, « Le préjudice d’être né, question de principe », _Droit et pat._, 2001, p. 7.
 
@@ -308,17 +295,24 @@ GOGOS-GINTRAND Amélie, « Le pacte commissoire : une institution dangereuse p
 
 NB : on se réfèrera utilement à la façon dont chaque revue prescrit de référencer ses contenus, ainsi que l’abréviation recommandée par la revue. Par défaut, une liste des abréviations recommandées figure en annexe de ce document.
 
+### Note CSL
+
+* On renseignera la mention de partie dans le champ `Volume` de la notice Zotero.
+
+[Exemple RI3TNQIV dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/RI3TNQIV)
+
+
 ## Citer un article de revue numérique
 Deux modèles sont proposés, avec ou sans guillemets encadrant le titre de l’article.
 
-### Modèle bibliographie
-Auteur \[NOM prénom\], « Titre de l’article, complément du titre » \[en ligne\], _Titre de la revue_, partie, mois année, numéro, pagination globale, \[consulté le …\], URL
+### Modèles pour la bibliographie
+Auteur \[NOM prénom\], « Titre de l’article, complément du titre » \[en ligne\], _Titre de la revue_, partie, mois année, numéro, pagination globale, \[consulté le …\]. URL
 
 ou
 
-Auteur \[NOM prénom\], Titre de l’article, complément du titre  \[en ligne\], _Titre de la revue_, partie, mois année, numéro, pagination globale, \[consulté le …\], URL
+Auteur \[NOM prénom\], Titre de l’article, complément du titre  \[en ligne\], _Titre de la revue_, partie, mois année, numéro, pagination globale, \[consulté le …\]. URL
 
-### Modèle note de bas de page
+### Modèles pour les notes de bas de page
 
 Auteur \[NOM prénom\], « Titre de l’article »  \[en ligne\], _Titre de la revue abrégé_, partie, année, numéro de paragraphe ou des pages concernées, \[consulté le …\].
 
@@ -326,37 +320,33 @@ ou
 
 Auteur \[NOM prénom\], Titre de l’article  \[en ligne\], _Titre de la revue abrégé_, partie, année, numéro de paragraphe ou des pages concernées, \[consulté le …\].
 
-### Notes CSL
-* Variante avec guillemets
-* La partie doit être saisie dans le champ `Volume`
-* Par défaut, Zotero ignore les champs  `URL` et `Consulté le` lorsqu'une **pagination** est renseignée. Ainsi, afin que la date de consultation et l'URL soient bien affichées, vous devez activer l'option "Inclure les adresses URL des articles de journaux dans les références" depuis le gestionnaire de styles Zotero. La procédure est détaillée dans la [page "Citer" de la documentation Zotero](https://www.zotero.org/support/fr/preferences/cite).
+### Note CSL
+Par défaut, Zotero ignore les champs  `URL` et `Consulté le` lorsqu'une **pagination** est renseignée. Ainsi, afin que la date de consultation et l'URL soient bien affichées, vous devez activer l'option "Inclure les adresses URL des articles de journaux dans les références" depuis le gestionnaire de styles Zotero. La procédure est détaillée dans la [page "Citer" de la documentation Zotero](https://www.zotero.org/support/fr/preferences/cite).
 
-### Dans la bibliographie
+### Exemples pour la bibliographie
 
-DAUGAREILH Isabelle, « L’audace retenue du Comité européen des droits sociaux »  \[en ligne\], _Revue de droit sanitaire et social_, juillet 2005, n° 4, p. 555-564, \[consulté le 16 mars 2017\],[http://www.dalloz.fr](http://www.dalloz.fr)
+DAUGAREILH Isabelle, « L’audace retenue du Comité européen des droits sociaux » \[en ligne\], _Revue de droit sanitaire et social_, juillet 2005, n° 4, p. 555-564, \[consulté le 16 mars 2017\]. [http://www.dalloz.fr](http://www.dalloz.fr)
 
 [Exemple 59CX6YJL dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/59CX6YJL)
 
-DUPRAT Jean-Pierre, « Le parlement évaluateur »  \[en ligne\], _Revue internationale de droit comparé_, avril 1998, n° 2, p. 552-576, \[consulté le 16 mars 2017\], [http://www.persee.fr](http://www.persee.fr)
+DUPRAT Jean-Pierre, « Le parlement évaluateur » \[en ligne\], _Revue internationale de droit comparé_, avril 1998, n° 2, p. 552-576, \[consulté le 16 mars 2017\]. [http://www.persee.fr](http://www.persee.fr)
 
 [Exemple 9CRLLBQP dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/9CRLLBQP)
 
-### En note de bas de page
+### Exemples pour les notes de bas de page
 
-DAUGAREILH Isabelle, « L’audace retenue du Comité européen des droits sociaux », _RDSS_ \[en ligne\], 2005, p. 556, \[consulté le 16 mars 2017\].
+DAUGAREILH Isabelle, « L’audace retenue du Comité européen des droits sociaux »  \[en ligne\], _RDSS_, 2005, p. 556, \[consulté le 16 mars 2017\].
 
-DUPRAT Jean-Pierre, « Le parlement évaluateur », _RIDC_ \[en ligne\], 1998, p. 555, \[consulté le 16 mars 2017\].
+DUPRAT Jean-Pierre, « Le parlement évaluateur »  \[en ligne\], _RIDC_, 1998, p. 555, \[consulté le 16 mars 2017\].
 
 ## Citer les actes publiés d’un colloque
-### Modèle bibliographie
-Responsabilité du colloque \[NOM prénom (fonct.)\], _Titre du colloque_, lieu d’édition, éditeur, année, pagination globale.
+### Modèle pour la bibliographie
+Responsabilité du colloque \[NOM prénom (dir.)\], _Titre du colloque_, lieu d’édition, éditeur, année, pagination globale.
 
-### Modèle de  bas de page
-<!--NB modèle et exemples modifiés = ajout éditeur-->
+### Modèle pour les notes de  bas de page
+Responsabilité du colloque \[NOM prénom (dir.)\], _Titre du colloque_, éditeur, année, numéro des pages concernées.
 
-Responsabilité du colloque \[NOM prénom (fonct.)\], _Titre du colloque_, éditeur, année, numéro des pages concernées.
-
-### Dans la bibliographie
+### Exemples pour la bibliographie
 
 BONIS-GARÇON Évelyne (dir.), _Pour une refonte du droit des peines: quels changements si les préconisations de la Commission Cotte étaient suivies ?_, Paris, LexisNexis, 2016, 226 p.
 
@@ -367,35 +357,35 @@ Presses Universitaires de Rennes, 2015, 208 p.
 
 [Exemple 4NKQTQRQ dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/4NKQTQRQ)
 
-SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL, _Droit international et droit communautaire, perspectives actuelles_, Paris, Pedone, 2000, 448 p.
+SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL (dir.), _Droit international et droit communautaire, perspectives actuelles_, Paris, Pedone, 2000, 448 p.
 
 [Exemple KBMA75AS dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/KBMA75AS)
 
-CENTRE D’ÉTUDES ET DE RECHERCHES SUR LE DROIT DE LA MER, _L'immobilisation forcée des navires_, Talence, Presses Universitaires
+CENTRE D’ÉTUDES ET DE RECHERCHES SUR LE DROIT DE LA MER (dir.), _L'immobilisation forcée des navires_, Talence, Presses Universitaires
 de Bordeaux, 1990, 175 p.
 
 [Exemple 47NCZPCL dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/47NCZPCL)
 
-### En note de bas de page
+### Exemples pour les notes de bas de page
 
 BONIS-GARÇON Évelyne (dir.), _Pour une refonte du droit des peines: quels changements si les préconisations de la Commission Cotte étaient suivies ?_, LexisNexis, 2016, p. 14.
 
 ALLINNE Jean-Pierre et SOULA Mathieu (dir.), _La mort pénale : les enjeux historiques et contemporains de la peine de mort_, Presses Universitaires de Rennes, 2015, p. 150.
 
-SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL, _Droit international et droit communautaire, perspectives actuelles_, Pedone, 2000, p. 37.
+SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL (dir.), _Droit international et droit communautaire, perspectives actuelles_, Pedone, 2000, p. 37.
 
-CENTRE D’ÉTUDES ET DE RECHERCHES SUR LE DROIT DE LA MER,_L'immobilisation forcée des navires_, Presses Universitaires de Bordeaux, 1990, p. 3.
+CENTRE D’ÉTUDES ET DE RECHERCHES SUR LE DROIT DE LA MER (dir.),_L'immobilisation forcée des navires_, Presses Universitaires de Bordeaux, 1990, p. 3.
 
 ## Citer une contribution parmi les actes publiés d’un colloque
-### Modèle bibliographie
+### Modèle pour la bibliographie
 Auteur \[NOM prénom\], Titre de la contribution, in Responsabilité du colloque \[NOM prénom (dir.)\], _Titre du colloque_, lieu d’édition, éditeur, année, pagination globale.
 
-### Modèle note de bas de page
+### Modèle pour les notes de bas de page
 <!--NB modèle et exemples modifiés = ajout éditeur-->
 
 Auteur \[NOM prénom\], Titre de la contribution, in Responsabilité du colloque \[NOM prénom (dir.)\], _Titre du colloque_, éditeur, année, numéro des pages concernées.
 
-### Dans la bibliographie
+### Exemples pour la bibliographie
 
 MALABAT Valérie, Simplifier mais comment ?, in BONIS-GARÇON Évelyne (dir.), _Pour une refonte du droit des peines : quels changements si les préconisations de la Commission Cotte étaient suivies ?_, Paris, LexisNexis, 2016, p. 89-93.
 
@@ -405,7 +395,7 @@ GAUTRON Jean-Claude et GRARD Loïc, Le droit international dans la construction 
 
 [Exemple HBL825EX dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/HBL825EX)
 
-### En note de bas de page
+### Exemples pour les notes de bas de page
 
 MALABAT Valérie, Simplifier mais comment ?, in BONIS-GARÇON Évelyne (dir.), _Pour une refonte du droit des peines : quels changements si les préconisations de la Commission Cotte étaient suivies ?_, 2016, p. 90.
 
@@ -413,13 +403,13 @@ GAUTRON Jean-Claude et GRARD Loïc, Le droit international dans la construction 
 
 ## Citer une norme juridique
 
-### Modèle bibliographie
+### Modèle pour la bibliographie
 PAYS, AUTEUR, _Intitulé de la norme_, Journal Officiel / Bulletin Officiel, n°, date de publication, page de départ, numéro NOR.
 
-### Modèle Note de bas de page
+### Modèle pour les notes de bas de page
 AUTEUR, _Intitulé de la norme_, Journal Officiel / Bulletin Officiel, n°, date de publication, page de départ, numéro NOR.
 
-### Dans la bibliographie
+### Exemples pour la bibliographie
 
 FRANCE, MINISTÈRE DE L’ENSEIGNEMENT SUPÉRIEUR ET DE LA RECHERCHE, _Décret n° 2013-805 du 3 septembre 2013 portant création de l’Université de Bordeaux_, Journal officiel, n°206, 5 septembre 2013, p. 15020, ESRS1317830D.
 
@@ -429,38 +419,38 @@ FRANCE, MINISTÈRE DE L’ÉDUCATION NATIONALE, _Décret du 13 juillet 1949 appr
 
 [Exemple FSMT6V8I dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/FSMT6V8I)
 
-### En note de bas de page
+### Exemples pour les notes de bas de page
 
 MINISTÈRE DE L’ENSEIGNEMENT SUPÉRIEUR ET DE LA RECHERCHE, _Décret n° 2013-805 du 3 septembre 2013 portant création de l’Université de Bordeaux_, Journal officiel, n°206, 5 septembre 2013.
 
 MINISTÈRE DE L’ÉDUCATION NATIONALE, _Décret du 13 juillet 1949 approuvant une délibération du conseil de l’université de Bordeaux portant création à Fort-de-France d’un institut d’études juridiques, politiques et économiques de cette université_, Journal officiel, 16 juillet 1949.
 
 ### Note
-NB : le pays n’est indiqué que s’il est utile pour différencier des institutions de pays différents. S’il est systématiquement absent, il sous-entend la nationalité française des institutions concernées.
+NB : le pays n’est indiqué que s’il est utile pour différencier des institutions de pays différents (par ex. BELGIQUE, CONSEIL D’ÉTAT et FRANCE, CONSEIL D’ÉTAT). Si le pays est systématiquement absent, il sous-entend donc la nationalité française des institutions concernées.
 
 ### Note CSL
 Se référer aux modèles dans la bibliothèque Zotero ; le champ "Pays" n'est prévu ni par CSL ni par Zotero, aussi le champ `Corps législatif` est-il utilisé pour renseigner le pays.
 
 
 ## Citer un site en ligne, un blogue
-### Modèle bibliographie
-AUTEUR, _Titre de la page d'accueil, complément du titre_ \[en ligne\], \[consulté le…\], URL
+### Modèle pour la bibliographie
+AUTEUR, _Titre de la page d'accueil, complément du titre_ \[en ligne\], \[consulté le…\]. URL
 
-### Modèle note de bas de page
+### Modèle pour les notes de bas de page
 AUTEUR, _Titre de la page d'accueil_ \[en ligne\], \[consulté le…\].
 
-### Dans la bibliographie
+### Exemples pour la bibliographie
 
-MAÎTRE ÉOLAS, _Journal d’un avocat : Instantanés de la justice et du droit_ \[en ligne\], \[consulté le 5 octobre 2014\], [http://www.maitre-eolas.fr](http://www.maitre-eolas.fr)
+MAÎTRE ÉOLAS, _Journal d’un avocat : Instantanés de la justice et du droit_ \[en ligne\], \[consulté le 5 octobre 2014\].  [http://www.maitre-eolas.fr](http://www.maitre-eolas.fr)
 
 [Exemple C3DARG2J dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/C3DARG2J)
 
 GROUPE D’INFORMATION ET DE SOUTIEN DES IMMIGRÉ.E.S, _Gisti_ \[en
-ligne\], \[consulté le 5 octobre 2014\], [http://www.gisti.org](http://www.gisti.org)
+ligne\], \[consulté le 5 octobre 2014\]. [http://www.gisti.org](http://www.gisti.org)
 
 [Exemple IXTT3BIR dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/IXTT3BIR)
 
-### En note de bas de page
+### Exemples pour les notes de bas de page
 
 MAÎTRE ÉOLAS, _Journal d’un avocat_ \[en ligne\], \[consulté le 5 octobre 2014\].
 
@@ -471,15 +461,16 @@ GROUPE D’INFORMATION ET DE SOUTIEN DES IMMIGRÉ.E.S, _Gisti_ \[en ligne\], \[c
 * Laisser les champs `Titre` et `Date` vides
 
 ## Citer un article ou une page d’un site en ligne, un blogue
+Deux modèles sont proposés, avec ou sans guillemets encadrant le titre de l’article.
 
-### Modèle bibliographie
-AUTEUR, « Titre de l’article ou de la page », sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le…\], URL
+### Modèles pour la bibliographie
+AUTEUR, « Titre de l’article ou de la page », sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le…\]. URL
 
 ou
 
-AUTEUR, Titre de l’article ou de la page, sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le…\], URL
+AUTEUR, Titre de l’article ou de la page, sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le…\]. URL
 
-### Modèle minimal note de bas de page
+### Modèles pour les  notes de bas de page
 AUTEUR, « Titre de l’article ou de la page », sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le…\].
 
 ou
@@ -489,17 +480,17 @@ AUTEUR, Titre de l’article ou de la page, sur _Titre de la page d'accueil_ \[e
 ### Note CSL
 Variante créé = avec guillemets
 
-### Dans la bibliographie
+### Exemples pour la bibliographie
 
-MAÎTRE ÉOLAS, « Pour en finir avec la séparation des pouvoirs », sur _Journal d’un avocat : Instantanés de la justice et du droit_ \[en ligne\], publié le 21 février 2017, \[consulté le 21 mars 2017\], http://www.maitre-eolas.fr](http://www.maitre-eolas.fr
+MAÎTRE ÉOLAS, « Pour en finir avec la séparation des pouvoirs », sur _Journal d’un avocat : Instantanés de la justice et du droit_ \[en ligne\], publié le 21 février 2017, \[consulté le 21 mars 2017\]. http://www.maitre-eolas.fr](http://www.maitre-eolas.fr)
 
 [Exemple SWMIJKGL dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/SWMIJKGL)
 
-GROUPE D’INFORMATION ET DE SOUTIEN DES IMMIGRÉ.E.S, « Pour en finir avec le délit de solidarité », sur _Gisti_ \[en ligne\], publié le 12 janvier 2017, \[consulté le 21 mars 2017\], https://www.gisti.org/spip.php?article5605
+GROUPE D’INFORMATION ET DE SOUTIEN DES IMMIGRÉ.E.S, « Pour en finir avec le délit de solidarité », sur _Gisti_ \[en ligne\], publié le 12 janvier 2017, \[consulté le 21 mars 2017\]. https://www.gisti.org/spip.php?article5605
 
 [Exemple I6MKTFB5 dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/I6MKTFB5)
 
-### En note de bas de page
+### Exemples pour les notes de bas de page
 
 MAÎTRE ÉOLAS, « Pour en finir avec la séparation des pouvoirs », sur _Journal d’un avocat : Instantanés de la justice et du droit_\[en ligne\], publié le 21 février 2017, \[consulté le 21 mars 2017\].
 
@@ -510,9 +501,10 @@ Pour les sites d’institutions, le nom de la page d’accueil du site sera souv
 
 ## Citer un brevet
 
+### Modèle pour la bibliographie et pour les notes de bas de page
 Brevet \[nationalité\] n° XXX, _Titre du brevet_, date complète de publication du brevet déposé.
 
-### Dans la bibliographie et en note de bas de page
+### Exemples pour la bibliographie et pour les notes de bas de page
 
 Brevet américain n° US D709251 S, _Set of hamster wheels_, 15 juillet 2014.
 
@@ -531,9 +523,10 @@ Veiller à bien respecter le modèle fourni dans la bibliothèque ; tous les cha
 
 ## Citer un courriel
 
+### Modèle pour la liste des ressources et les notes de bas de page
 Auteur \[NOM Prénom\], _Sujet du courriel_ \[courriel\], date de l’envoi \[JJ mois AAAA\].
 
-### Dans la liste des ressources et en note de bas de page
+### Exemple pour la liste des ressources et les notes de bas de page
 
 HOURQUEBIE Fabrice, _Re: Guide de la rédaction biblio : projet confirmé_ \[courriel\], 9 novembre 2016.
 
@@ -543,26 +536,26 @@ HOURQUEBIE Fabrice, _Re: Guide de la rédaction biblio : projet confirmé_ \[co
 Ce type de références rejoint préférentiellement la liste des ressources utilisées, plutôt que la bibliographie.
 
 ### Note CSL
-* Le style est paramétré pour générer automatiquement une liste des ressources à la suite de la bibliographie ; il conviendra d'ajouter un saut de page, un intertitre ou autre lorsque le document sera entièrement finalisé et que la bibliographie ne sera plus mise à jpour (sinon il faudra recommencer après chaque mise à jour...).
+* Le style est paramétré pour générer automatiquement une liste des ressources à la suite de la bibliographie ; il conviendra d'ajouter un saut de page, un intertitre ou autre lorsque le document sera entièrement finalisé et que la bibliographie ne sera plus mise à jour (sinon il faudra recommencer après chaque mise à jour...).
 
 
 ## Citer une contribution à une liste de diffusion
 
-### Modèle liste des ressources
+### Modèle pour la liste des ressources
 
-Auteur \[NOM Prénom\], "Sujet du courriel" \[courriel\], sur \[_Nom de la liste de diffusion ou du forum_\], date de l’envoi \[JJ mois AAAA], \[consulté le...\], \[URL de la liste de diffusion ou du forum\]
+Auteur \[NOM Prénom\], "Sujet du courriel" \[courriel\], sur \[_Nom de la liste de diffusion ou du forum_\], date de l’envoi \[JJ mois AAAA], \[consulté le...\]. \[URL de la liste de diffusion ou du forum\]
 
-### Modèle note de bas de page
+### Modèle pour les notes de bas de page
 
 Auteur \[NOM Prénom\], "Sujet du courriel" \[courriel\], sur \[_Nom de la liste de diffusion ou du forum_\], date de l’envoi \[JJ mois AAAA], \[consulté le...\].
 
-### Dans la liste des ressources
+### Exemple pour la liste des ressources
 
 GASNAULT Jean, "Quel logiciel de veille pour une direction juridique ?" \[courriel\], sur _Jurisconnexion_, 5 juin 2017, \[consulté le 6 juin 2017\], https://jurisconnexion.fr
 
 [Exemple VHQTPB6X dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/VHQTPB6X)
 
-### En note de bas de page
+### Exemple pour les notes de bas de page
 
 GASNAULT Jean, _Quel logiciel de veille pour une direction juridique ?_ \[courriel\], 5 juin 2017,  \[consulté le 6 juin 2017\].
 
@@ -575,16 +568,16 @@ Le style est paramétré pour générer automatiquement une liste des ressources
 
 ## Citer un entretien oral
 
-### Modèle liste des ressources et note de bas de page
+### Modèle pour la liste des ressources et les notes de bas de page
 Personne interrogée \[NOM Prénom\], _Titre ou sujet de l’entretien_ \[entretien\] mené par Nom Prénom, lieu, date \[JJ mois AAAA\], éventuellement pagination de la transcription si elle est jointe en annexe au travail de recherche.
 
-### Dans la liste des ressources
+### Exemple pour la liste des ressources
 
 GRANGER Sabrina, _Modalités de publication d’un guide bibliographique_ \[entretien\] mené par Gravier Pierre, Pessac, 13 novembre 2016.
 
 [Exemple Z7FAZSL6 dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/Z7FAZSL6)
 
-### En note de bas de page
+### Exemple pour les notes de bas de page
 
 GRANGER Sabrina, _Modalités de publication d’un guide bibliographique_ \[entretien\] mené par Gravier Pierre, Pessac, 13 novembre 2016.
 
@@ -602,6 +595,12 @@ Si un texte en langue étrangère doit être cité, il est plus approprié de le
 
 ### Note CSL
 La mention  \[nous traduisons\] doit être insérée en tant que suffixe à la référence bibliographique dans la boîte de dialogue de l'extension de traitement de texte Zotero.
+
+## Citation de références multiples
+Lorsque plusieurs références sont citées dans une même note, elles sont séparées par un ` ;`.
+
+### Note CSL
+Le style génère automatiquement la ponctuation.
 
 ## Cas particuliers concernant les auteurs
 
@@ -632,6 +631,7 @@ Un titre abrégé suivi de la mention \[…\] sera saisi dans le champ `Titre ab
 
 La mention de l’édition est réduite au minimum, en employant des chiffres arabes : « XII<sup>e</sup> édition revue et corrigée » devient dans les références bibliographiques : « 12<sup>e</sup> éd. ».
 
+
 ## Cas particuliers concernant la publication
 
 La page de titre peut mentionner plusieurs éditeurs et plusieurs villes de publication. On ne cite alors qu’un seul éditeur et sa ville, en retenant de manière privilégiée l’éditeur français et la ville qui lui est liée.
@@ -657,8 +657,6 @@ Les mentions  \[s.l.\],  \[s.n.\] et  \[s.d.\] sont générées automatiquement 
 * les ouvrages,
 * les chapitres,
 * les contributions à un colloque.
-
-<!--  [s. d.] s'affiche en bibliographie aussi pour les articles de revue et les thèses. Si on peut s'en accommoder, cela économise beaucoup de code-->
 
 ## Cas particuliers concernant la pagination
 
@@ -716,8 +714,8 @@ Au fur et à mesure de la rédaction du document et de ses réécritures, la man
 
 ### Notes CSL
 * Le style génère automatiquement les termes de renvoi, à l'exception de _Loco citato_, qui correspond au même cas que _Ibidem_. Au lieu de _loc. cit._ sera affiché _Ibid._
-* Le terme de renvoi _op. cit._ est généré automatiquement lorsque la référence citée n'est pas distante de plus de 7 notes de la dernière occurrence ce cette référence.
-* L'abréviation "Id." pour remplacer les auteurs est générée uniquement en bibliographie et non en note de bas de page. Elle est affichée lorsque **tous les auteurs** de la référence bibliographique précédente sont exactement identiques à **tous les auteurs** de la référence considérée. La liste entière des noms, y compris les termes tels que "et" ou "et al.", est alors remplacée par Id.
+* Le terme de renvoi _op. cit._ est généré automatiquement lorsque la référence citée n'est pas distante de plus de **7** notes de la dernière occurrence ce cette référence.
+* L'abréviation "Id." pour remplacer les auteurs est générée uniquement en bibliographie et non en note de bas de page. Elle est affichée lorsque **tous les auteurs** de la référence bibliographique précédente sont exactement identiques à **tous les auteurs** de la référence considérée. La liste entière des noms, y compris les termes tels que "et" ou "et al.", est alors remplacée par "Id."
 
 ## Abréviations conseillées – Codes
 La liste suivante ne peut être exhaustive, elle ne recense notamment pas toutes les variantes de titres portés par les codes au long de leur vie éditoriale et chez les différents éditeurs.
