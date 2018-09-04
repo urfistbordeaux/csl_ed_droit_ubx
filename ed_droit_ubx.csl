@@ -541,6 +541,7 @@
         </else-if>
         <else>
           <group delimiter=", ">
+            <text macro="bill-country"/>
             <text macro="author"/>
             <text macro="title-short"/>
             <text macro="container-title-short"/>
