@@ -14,8 +14,7 @@ La mention de la pagination (articles, chapitres, etc.) ou du nombre de pages (l
 
 Dans les notes de bas de page, on affiche seulement la mention de page ou de section précisée comme `locator`. En l'absence de `locator`, rien n'est affiché, _i. e._ on n'affiche pas la pagination ni le nombre de pages ; ces éléments sont réservés à la bibliographie.
 
-### Locator - note à ajouter
-<!--Ajouter une note pour la saisie des mentions de page, de partie, etc.-->
+### Locator
 
 ## Citer un ouvrage imprimé
 
@@ -77,12 +76,12 @@ Rappel [Exemple UMRJGXBR dans la bib Zotero de groupe](https://www.zotero.org/gr
 
 ### Modèle pour la bibliographie
 
-Auteur \[NOM prénom\], *Titre de l’ouvrage, complément du titre* \[en ligne\], tomaison \[vol. X\], édition \[X^e^ éd.\], autre responsabilité (préface, traduction, dirigé par…) \[Nom prénom (préf., trad., dir.)\], ville de publication, éditeur, année d’édition, pagination globale, \[consulté le …\]. URL
+Auteur \[NOM prénom\], *Titre de l’ouvrage, complément du titre* \[en ligne\], tomaison \[vol. X\], édition \[X^e^ éd.\], autre responsabilité (préface, traduction, dirigé par…) \[Nom prénom (préf., trad., dir.)\], ville de publication, éditeur, année d’édition, pagination globale, \[consulté le JJ mois AAAA\]. URL
 
 ### Modèle pour les notes de bas de page
 
 Auteur \[NOM prénom\], *Titre de l’ouvrage* \[en ligne\], éditeur, année d’édition, numéro des pages
-concernées \[consulté le …\].
+concernées \[consulté le JJ mois AAAA\].
 
 ### Exemples pour la bibliographie
 
@@ -102,13 +101,11 @@ COURBE Patrick et GOUTTENOIRE Adeline, *Droit de la famille* \[[en ligne](http:/
 MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*\[[en ligne](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_constitutionnel-38072.htm)\], Sirey, 2015, p. 18, 54 et 101-103 spéc., \[consulté le 20 janvier 2017\].
 
 ### Notes
-* en note de bas de page, il est recommandé que la mention « \[en ligne\] » soit un lien hypertexte reprenant l’URL complète
 * lorsque le document dispose d’un DOI, il se substitue à l’URL
 
 ### Notes CSL
 * Il n'est pas possible d'afficher un lien hypertexte dont l'intitulé soit différent de l'URL à laquelle il renvoie : c'est Word qui génèrera l'affichage du lien hypertexte à partir du libellé.
-* Il n'est pas possible que la mention `[en ligne]` en note de bas de page soit un lien hypertexte reprenant l'URL complète.
-*L' affichage du DOI n'est pas paramétré : champ `DOI` pas prévu pour livre + peu probable que DOI soit assigné au niveau d'un livre (plutôt chapitre ; si au niveau document = plutôt rapport).
+*L' affichage du DOI n'est pas paramétré : champ `DOI` pas prévu pour livre + peu probable que DOI soit assigné au niveau d'un livre (plutôt chapitre ; si au niveau document = plutôt rapport). -->
 
 ---
 
@@ -160,10 +157,10 @@ director: Jaubert || Pierre
 
 ### Modèle pour la bibliographie
 Auteur \[NOM Prénom\], *Titre, complément du titre* \[en ligne\], nom du/des directeur(s) \[Nom Prénom (dir.)\], intitulé du diplôme,
-discipline, nom de l’université, année, pagination globale, \[consulté le …\]. URL
+discipline, nom de l’université, année, pagination globale, \[consulté le JJ mois AAAA\]. URL
 
 ### Modèle pour les notes de bas de page
-Auteur \[NOM Prénom\], *Titre* \[en ligne\], intitulé du diplôme, discipline, nom de l’université, année, numéro des pages concernées, \[consulté le …\].
+Auteur \[NOM Prénom\], *Titre* \[en ligne\], intitulé du diplôme, discipline, nom de l’université, année, numéro des pages concernées, \[consulté le JJ mois AAAA\].
 
 ### Exemples pour la bibliographie
 
@@ -306,19 +303,19 @@ NB : on se réfèrera utilement à la façon dont chaque revue prescrit de réf
 Deux modèles sont proposés, avec ou sans guillemets encadrant le titre de l’article.
 
 ### Modèles pour la bibliographie
-Auteur \[NOM prénom\], « Titre de l’article, complément du titre » \[en ligne\], _Titre de la revue_, partie, mois année, numéro, pagination globale, \[consulté le …\]. URL
+Auteur \[NOM prénom\], « Titre de l’article, complément du titre » \[en ligne\], _Titre de la revue_, partie, mois année, numéro, pagination globale, \[consulté le JJ mois AAAA\]. URL
 
 ou
 
-Auteur \[NOM prénom\], Titre de l’article, complément du titre  \[en ligne\], _Titre de la revue_, partie, mois année, numéro, pagination globale, \[consulté le …\]. URL
+Auteur \[NOM prénom\], Titre de l’article, complément du titre  \[en ligne\], _Titre de la revue_, partie, mois année, numéro, pagination globale, \[consulté le JJ mois AAAA\]. URL
 
 ### Modèles pour les notes de bas de page
 
-Auteur \[NOM prénom\], « Titre de l’article »  \[en ligne\], _Titre de la revue abrégé_, partie, année, numéro de paragraphe ou des pages concernées, \[consulté le …\].
+Auteur \[NOM prénom\], « Titre de l’article »  \[en ligne\], _Titre de la revue abrégé_, partie, année, numéro de paragraphe ou des pages concernées, \[consulté le JJ mois AAAA\].
 
 ou
 
-Auteur \[NOM prénom\], Titre de l’article  \[en ligne\], _Titre de la revue abrégé_, partie, année, numéro de paragraphe ou des pages concernées, \[consulté le …\].
+Auteur \[NOM prénom\], Titre de l’article  \[en ligne\], _Titre de la revue abrégé_, partie, année, numéro de paragraphe ou des pages concernées, \[consulté le JJ mois AAAA\].
 
 ### Note CSL
 Par défaut, Zotero ignore les champs  `URL` et `Consulté le` lorsqu'une **pagination** est renseignée. Ainsi, afin que la date de consultation et l'URL soient bien affichées, vous devez activer l'option "Inclure les adresses URL des articles de journaux dans les références" depuis le gestionnaire de styles Zotero. La procédure est détaillée dans la [page "Citer" de la documentation Zotero](https://www.zotero.org/support/fr/preferences/cite).
@@ -434,10 +431,10 @@ Se référer aux modèles dans la bibliothèque Zotero ; le champ "Pays" n'est p
 
 ## Citer un site en ligne, un blogue
 ### Modèle pour la bibliographie
-AUTEUR, _Titre de la page d'accueil, complément du titre_ \[en ligne\], \[consulté le…\]. URL
+AUTEUR, _Titre de la page d'accueil, complément du titre_ \[en ligne\], \[consulté le JJ mois AAAA\]. URL
 
 ### Modèle pour les notes de bas de page
-AUTEUR, _Titre de la page d'accueil_ \[en ligne\], \[consulté le…\].
+AUTEUR, _Titre de la page d'accueil_ \[en ligne\], \[consulté le JJ mois AAAA\].
 
 ### Exemples pour la bibliographie
 
@@ -464,18 +461,18 @@ GROUPE D’INFORMATION ET DE SOUTIEN DES IMMIGRÉ.E.S, _Gisti_ \[en ligne\], \[c
 Deux modèles sont proposés, avec ou sans guillemets encadrant le titre de l’article.
 
 ### Modèles pour la bibliographie
-AUTEUR, « Titre de l’article ou de la page », sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le…\]. URL
+AUTEUR, « Titre de l’article ou de la page », sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le JJ mois AAAA\]. URL
 
 ou
 
-AUTEUR, Titre de l’article ou de la page, sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le…\]. URL
+AUTEUR, Titre de l’article ou de la page, sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le JJ mois AAAA\]. URL
 
 ### Modèles pour les  notes de bas de page
-AUTEUR, « Titre de l’article ou de la page », sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le…\].
+AUTEUR, « Titre de l’article ou de la page », sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le JJ mois AAAA\].
 
 ou
 
-AUTEUR, Titre de l’article ou de la page, sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le…\].
+AUTEUR, Titre de l’article ou de la page, sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le JJ mois AAAA\].
 
 ### Note CSL
 Variante créé = avec guillemets
@@ -543,11 +540,11 @@ Ce type de références rejoint préférentiellement la liste des ressources uti
 
 ### Modèle pour la liste des ressources
 
-Auteur \[NOM Prénom\], "Sujet du courriel" \[courriel\], sur \[_Nom de la liste de diffusion ou du forum_\], date de l’envoi \[JJ mois AAAA], \[consulté le...\]. \[URL de la liste de diffusion ou du forum\]
+Auteur \[NOM Prénom\], "Sujet du courriel" \[courriel\], sur \[_Nom de la liste de diffusion ou du forum_\], date de l’envoi \[JJ mois AAAA], \[consulté le JJ mois AAAA\]. \[URL de la liste de diffusion ou du forum\]
 
 ### Modèle pour les notes de bas de page
 
-Auteur \[NOM Prénom\], "Sujet du courriel" \[courriel\], sur \[_Nom de la liste de diffusion ou du forum_\], date de l’envoi \[JJ mois AAAA], \[consulté le...\].
+Auteur \[NOM Prénom\], "Sujet du courriel" \[courriel\], sur \[_Nom de la liste de diffusion ou du forum_\], date de l’envoi \[JJ mois AAAA], \[consulté le JJ mois AAAA\].
 
 ### Exemple pour la liste des ressources
 
@@ -668,7 +665,7 @@ tranche concernée (p. 49). On peut employer les abréviations suivantes :
 * p. 8-12 = Pages 8 à 12
 * p. 8 ; 12 = Pages 8 et 12
 * p. 47 s. = Page 47 et suivantes
-* spéc. p. 47 = Spécialement page 47
+* p. 47 spéc. = Spécialement page 47
 * _passim_  = En différents endroits du document, qu’on choisit de ne pas lister
 
 ### Note CSL
