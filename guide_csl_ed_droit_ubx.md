@@ -14,7 +14,11 @@ La mention de la pagination (articles, chapitres, etc.) ou du nombre de pages (l
 
 Dans les notes de bas de page, on affiche seulement la mention de page ou de section précisée comme `locator`. En l'absence de `locator`, rien n'est affiché, _i. e._ on n'affiche pas la pagination ni le nombre de pages ; ces éléments sont réservés à la bibliographie.
 
-### Locator
+### Mentions ajoutées à une référence en note de bas de page (préfixe et suffixe, mention de page, de partie, etc.)
+Lorsque l'on souhaite ajouter une mention à une référence bibliographique en note de bas de page , il convient de recourir à la boîte de dialogue de l'extension de traitement de texte pour ce faire.
+Cela permet d'intégrer le contenu au champ Zotero et de le conserver au fil des mises à jour du document.
+
+Voir la [page plugin sur le site de Zotero](https://www.zotero.org/support/word_processor_plugin_usage)
 
 ## Citer un ouvrage imprimé
 
@@ -220,7 +224,7 @@ Pas de mention de la pagination.
 * Ne pas mentionner le nombre de pages, l'absence du nombre de pages est le critère d'affichage pour la mention `[microfiche]`.
 
 ---
-## Citer des contributions à un ouvrage\ (articles de mélanges, d’ouvrage collectif…)
+## Citer des contributions à un ouvrage (articles de mélanges, d’ouvrage collectif…)
 
 Deux modèles sont proposés, avec ou sans guillemets encadrant le titre de la contribution.
 
@@ -540,15 +544,15 @@ Ce type de références rejoint préférentiellement la liste des ressources uti
 
 ### Modèle pour la liste des ressources
 
-Auteur \[NOM Prénom\], "Sujet du courriel" \[courriel\], sur \[_Nom de la liste de diffusion ou du forum_\], date de l’envoi \[JJ mois AAAA], \[consulté le JJ mois AAAA\]. \[URL de la liste de diffusion ou du forum\]
+Auteur \[NOM Prénom\], _Sujet du courriel_ \[courriel\], sur \[_Nom de la liste de diffusion ou du forum_\], date de l’envoi \[JJ mois AAAA], \[consulté le JJ mois AAAA\]. \[URL de la liste de diffusion ou du forum\]
 
 ### Modèle pour les notes de bas de page
 
-Auteur \[NOM Prénom\], "Sujet du courriel" \[courriel\], sur \[_Nom de la liste de diffusion ou du forum_\], date de l’envoi \[JJ mois AAAA], \[consulté le JJ mois AAAA\].
+Auteur \[NOM Prénom\], _Sujet du courriel_ \[courriel\], sur \[_Nom de la liste de diffusion ou du forum_\], date de l’envoi \[JJ mois AAAA], \[consulté le JJ mois AAAA\].
 
 ### Exemple pour la liste des ressources
 
-GASNAULT Jean, "Quel logiciel de veille pour une direction juridique ?" \[courriel\], sur _Jurisconnexion_, 5 juin 2017, \[consulté le 6 juin 2017\], https://jurisconnexion.fr
+GASNAULT Jean, _Quel logiciel de veille pour une direction juridique ?_ \[courriel\], sur _Jurisconnexion_, 5 juin 2017, \[consulté le 6 juin 2017\], https://jurisconnexion.fr
 
 [Exemple VHQTPB6X dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/VHQTPB6X)
 
