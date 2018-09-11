@@ -150,7 +150,7 @@
       </else-if>
       <else-if type="post">
         <group delimiter=" ">
-          <text variable="title" text-case="capitalize-first" quotes="true"/>
+          <text variable="title" text-case="capitalize-first" font-style="italic"/>
           <text value="[courriel]"/>
         </group>
       </else-if>
@@ -268,7 +268,7 @@
   <macro name="container-title-short">
     <choose>
       <if type="post">
-        <text variable="container-title" form="short" font-style="italic" prefix=" sur"/>
+        <text variable="container-title" form="short" font-style="italic" prefix="sur "/>
       </if>
       <else-if type="article-journal article-newspaper article-magazine" match="any">
         <group delimiter=", ">
