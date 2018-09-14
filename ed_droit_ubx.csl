@@ -537,6 +537,10 @@
           <group delimiter=", ">
             <text macro="author"/>
             <text term="cited" font-style="italic"/>
+            <group delimiter="&#160;">
+              <label variable="locator" form="short"/>
+              <text variable="locator"/>
+            </group>
           </group>
         </else-if>
         <else>
