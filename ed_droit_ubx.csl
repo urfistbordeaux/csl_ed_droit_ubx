@@ -519,7 +519,7 @@
     </choose>
   </macro>
   <citation et-al-min="3" et-al-use-first="3" et-al-subsequent-min="3" et-al-subsequent-use-first="1" near-note-distance="7">
-    <layout suffix="." delimiter="&#160;; ">
+    <layout suffix="." delimiter=" ">
       <choose>
         <if position="ibid-with-locator">
           <group delimiter=", ">
