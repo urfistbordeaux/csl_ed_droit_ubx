@@ -518,10 +518,10 @@
   <macro name="sort-key">
     <choose>
       <if type="interview personal_communication post" match="none">
-        <text value="1"/>
+        <text value="2"/>
       </if>
       <else>
-        <text value="2"/>
+        <text value="1"/>
       </else>
     </choose>
   </macro>
