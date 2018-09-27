@@ -230,6 +230,9 @@
       <else-if type="patent personal_communication post interview bill" match="any">
         <text macro="title"/>
       </else-if>
+      <else-if type="paper-conference">
+        <text variable="title" text-case="capitalize-first"/>
+      </else-if>
       <else>
         <text variable="title" form="short" text-case="capitalize-first" quotes="true"/>
       </else>
@@ -255,13 +258,20 @@
       </else-if>
       <else-if type="webpage post-weblog" match="any">
         <choose>
-          <if variable="title"/>
+          <if variable="title">
+            <group delimiter=" ">
+              <text term="at"/>
+              <text variable="container-title" text-case="capitalize-first" font-style="italic"/>
+              <text term="online" prefix="[" suffix="]"/>
+            </group>
+          </if>
+          <else>
+            <group delimiter=" ">
+              <text variable="container-title" text-case="capitalize-first" font-style="italic"/>
+              <text term="online" prefix="[" suffix="]"/>
+            </group>
+          </else>
         </choose>
-        <group delimiter=" ">
-          <text term="at"/>
-          <text variable="container-title" text-case="capitalize-first" font-style="italic"/>
-          <text term="online" prefix="[" suffix="]"/>
-        </group>
       </else-if>
       <else>
         <text variable="container-title"/>
@@ -310,13 +320,20 @@
       </else-if>
       <else-if type="webpage post-weblog" match="any">
         <choose>
-          <if variable="title"/>
+          <if variable="title">
+            <group delimiter=" ">
+              <text term="at"/>
+              <text variable="container-title" text-case="capitalize-first" font-style="italic"/>
+              <text term="online" prefix="[" suffix="]"/>
+            </group>
+          </if>
+          <else>
+            <group delimiter=" ">
+              <text variable="container-title" text-case="capitalize-first" font-style="italic"/>
+              <text term="online" prefix="[" suffix="]"/>
+            </group>
+          </else>
         </choose>
-        <group delimiter=" ">
-          <text term="at"/>
-          <text variable="container-title" form="short" text-case="capitalize-first" font-style="italic"/>
-          <text term="online" prefix="[" suffix="]"/>
-        </group>
       </else-if>
       <else>
         <text variable="container-title"/>
