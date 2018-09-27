@@ -342,7 +342,7 @@ Auteur \[NOM prénom\], « Titre de l’article, complément du titre », _Titre
 Auteur \[NOM prénom\], « Titre de l’article », _Titre du journal ou du magazine_, JJ mois AAAA, numéro de paragraphe ou des pages concernées.
 
 ### Exemples pour la bibliographie
-DUCOURTIEUX Cécile, « État de droit : l'UE incapable de sanctionner Budapest et Varsovie », _Le Monde_, 20 septembre 2018, n° 22920, p. 3.
+DUCOURTIEUX Cécile, « État de droit : l'UE incapable de sanctionner Budapest et Varsovie », _Le Monde_, 20 septembre 2018, p. 3.
 
 [Exemple RSBZ3Y9L dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/RSBZ3Y9L)
 
@@ -352,9 +352,9 @@ DAVERAT Xavier, « Un arrêt de la CJUE ouvre la porte à la création d'un nouv
 
 
 ### Exemples pour les notes de bas de page
-DUCOURTIEUX Cécile, « État de droit : l'UE incapable de sanctionner Budapest et Varsovie », _Le Monde_, 20 septembre 2018, n° 22920.
+DUCOURTIEUX Cécile, « État de droit : l'UE incapable de sanctionner Budapest et Varsovie », _Le Monde_, 20 septembre 2018.
 
-DAVERAT Xavier, « Un arrêt de la CJUE ouvre la porte à la création d'un nouveau droit voisin », _Les Petites Affiches_, 22 décembre 2016, n° 255.
+DAVERAT Xavier, « Un arrêt de la CJUE ouvre la porte à la création d'un nouveau droit voisin », _Les Petites Affiches_, 22 décembre 2016.
 
 
 ---
@@ -383,7 +383,7 @@ DAVERAT Xavier, « Un arrêt de la CJUE ouvre la porte à la création d'un nouv
 DUCOURTIEUX Cécile, « État de droit : l'UE incapable de sanctionner Budapest et Varsovie » \[en ligne\], _Le Monde_, 19 septembre 2018, \[consulté le 26 septembre 2018\].
 
 
-DAVERAT Xavier, « Un arrêt de la CJUE ouvre la porte à la création d'un nouveau droit voisin » \[en ligne\], _Les Petites Affiches_, 22 décembre 2016, n° 255, \[consulté le 26 septembre 2018\].
+DAVERAT Xavier, « Un arrêt de la CJUE ouvre la porte à la création d'un nouveau droit voisin » \[en ligne\], _Les Petites Affiches_, 22 décembre 2016, \[consulté le 26 septembre 2018\].
 ---
 
 
