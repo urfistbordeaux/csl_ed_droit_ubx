@@ -1,4 +1,9 @@
 # Modèles de citation des différents types de documents
+<!--
+à faire
+*check url
+*check notes globales
+* redécoupage types de doc-->
 
 ## Notes CSL globales
 ### Titre et complément de titre
@@ -9,16 +14,36 @@ Si on souhaite mentionner en note de bas de page seulement un _Titre_ et en bibl
 
 [Exemple KSE9EUTP dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/KSE9EUTP)
 
+### Titre des mélanges
+On saisira selon un modèle analogue les titre des mélanges, lorsque l'on cite globalement le volume.
+
+* le titre complet sera saisi dans le champ `Titre` et apparaîtra en bibliographie,
+* le titre abrégé du type _Mélanges XX_ sera saisi dans le champ  `XXX` et apparaîtra dans les notes de bas de page.
+
+
+#### Mélange dans un volume de mélanges
+= à faire
+[Exemple N8ZRTXUF dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/N8ZRTXUF)
+
+
 ### Mention de page, de pagination et de nombre de pages
 La mention de la pagination (articles, chapitres, etc.) ou du nombre de pages (livre, thèse, etc.) est effectuée uniquement dans la bibliographie.
 
 Dans les notes de bas de page, on affiche seulement la mention de page ou de section précisée comme `locator`. En l'absence de `locator`, rien n'est affiché, _i. e._ on n'affiche pas la pagination ni le nombre de pages ; ces éléments sont réservés à la bibliographie.
+
+### Citations de références multiples
+= améliorer rédaction
+Seule ponctuation insérée automatiquement = ` `
+Cas du texte à insérer : préconiser préfixe et suffixe/ sauf pour notes longues
+https://forums.zotero.org/discussion/33069/adding-text-excerpts-to-footnotes et https://forums.zotero.org/discussion/61387/how-can-i-add-text-to-a-footnote-with-references-from-zotero
 
 ### Mentions ajoutées à une référence en note de bas de page (préfixe et suffixe, mention de page, de partie, etc.)
 Lorsque l'on souhaite ajouter une mention à une référence bibliographique en note de bas de page , il convient de recourir à la boîte de dialogue de l'extension de traitement de texte pour ce faire.
 Cela permet d'intégrer le contenu au champ Zotero et de le conserver au fil des mises à jour du document.
 
 Voir la [page plugin sur le site de Zotero](https://www.zotero.org/support/word_processor_plugin_usage)
+
+---
 
 ## Citer un ouvrage imprimé
 
@@ -53,12 +78,7 @@ DUGUIT Léon, _L’État‎, le droit objectif et la loi positive_, Dalloz, 2003
 
 BAUDRY-LACANTINERIE Gabriel, _Précis de droit civil_, Sirey, 1926, p. 8-12.
 
-DALLOZ Édouard, VERGÉ Charles, VERGÉ Charles fils _et al._, _Code des lois politiques et administratives_, Bureau de la Jurisprudence
-Générale, 1891, p. 686-712.
-
-### Notes
-
-Pour tous les types de documents, les noms des responsabilités secondaires (préfacier, traducteur, directeur, éditeur…) sont en minuscules.
+DALLOZ Édouard, VERGÉ Charles, VERGÉ Charles fils _et al._, _Code des lois politiques et administratives_, Bureau de la Jurisprudence Générale, 1891, p. 686-712.
 
 ### Notes CSL
 * Ne pas mentionner d'URL, c'est un critère d'affichage pour la mention `[en ligne]` pour les ouvrages numériques - voir _infra_.
@@ -84,8 +104,7 @@ Auteur \[NOM prénom\], *Titre de l’ouvrage, complément du titre* \[en ligne\
 
 ### Modèle pour les notes de bas de page
 
-Auteur \[NOM prénom\], *Titre de l’ouvrage* \[en ligne\], éditeur, année d’édition, numéro des pages
-concernées \[consulté le JJ mois AAAA\].
+Auteur \[NOM prénom\], *Titre de l’ouvrage* \[en ligne\], éditeur, année d’édition, numéro des pages concernées \[consulté le JJ mois AAAA\].
 
 ### Exemples pour la bibliographie
 
@@ -100,16 +119,9 @@ MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*\[en lign
 
 ### Exemples pour les notes de bas de page
 
-COURBE Patrick et GOUTTENOIRE Adeline, *Droit de la famille* \[[en ligne](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_de_la_famille-58206.htm)\], Sirey, 2017, p. 98-105, \[consulté le 9 janvier 2017\].
+COURBE Patrick et GOUTTENOIRE Adeline, *Droit de la famille* \[en ligne\], Sirey, 2017, p. 98-105, \[consulté le 9 janvier 2017\].
 
-MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*\[[en ligne](http://www.dalloz-bibliotheque.fr/bibliotheque/Droit_constitutionnel-38072.htm)\], Sirey, 2015, p. 18, 54 et 101-103 spéc., \[consulté le 20 janvier 2017\].
-
-### Notes
-* lorsque le document dispose d’un DOI, il se substitue à l’URL
-
-### Notes CSL
-* Il n'est pas possible d'afficher un lien hypertexte dont l'intitulé soit différent de l'URL à laquelle il renvoie : c'est Word qui génèrera l'affichage du lien hypertexte à partir du libellé.
-*L' affichage du DOI n'est pas paramétré : champ `DOI` pas prévu pour livre + peu probable que DOI soit assigné au niveau d'un livre (plutôt chapitre ; si au niveau document = plutôt rapport). -->
+MÉLIN-SOUCRAMANIEN Ferdinand et PACTET Pierre, *Droit constitutionnel*\[en ligne\], Sirey, 2015, p. 18, 54 et 101-103 spéc., \[consulté le 20 janvier 2017\].
 
 ---
 
@@ -160,8 +172,7 @@ director: Jaubert || Pierre
 ## Citer des travaux universitaires numériques (thèses et mémoires)
 
 ### Modèle pour la bibliographie
-Auteur \[NOM Prénom\], *Titre, complément du titre* \[en ligne\], nom du/des directeur(s) \[Nom Prénom (dir.)\], intitulé du diplôme,
-discipline, nom de l’université, année, pagination globale, \[consulté le JJ mois AAAA\]. URL
+Auteur \[NOM Prénom\], *Titre, complément du titre* \[en ligne\], nom du/des directeur(s) \[Nom Prénom (dir.)\], intitulé du diplôme, discipline, nom de l’université, année, pagination globale, \[consulté le JJ mois AAAA\]. URL
 
 ### Modèle pour les notes de bas de page
 Auteur \[NOM Prénom\], *Titre* \[en ligne\], intitulé du diplôme, discipline, nom de l’université, année, numéro des pages concernées, \[consulté le JJ mois AAAA\].
@@ -179,17 +190,16 @@ LESTRADE Éric, _Les principes directeurs du procès dans la jurisprudence du Co
 
 ### Exemples pour les notes de bas de page
 
-MANGEMATIN Céline, _La faute de fonction en droit privé_ \[en ligne](http://www.theses.fr/2012BOR40027)\], thèse, droit, université
+MANGEMATIN Céline, _La faute de fonction en droit privé_ \[en ligne\], thèse, droit, université
 Montesquieu-Bordeaux IV, 2012, p. 88, \[consulté le 20 janvier 2017\].
 
-LESTRADE Éric, _Les principes directeurs du procès dans la jurisprudence du Conseil Constitutionnel_ \[en ligne](http://www.theses.fr/2013BOR40033)\], thèse, droit, université Montesquieu-Bordeaux IV, 2013, p. 105-120 et 178, \[consulté le 9 janvier 2017\].
+LESTRADE Éric, _Les principes directeurs du procès dans la jurisprudence du Conseil Constitutionnel_ \[en ligne\], thèse, droit, université Montesquieu-Bordeaux IV, 2013, p. 105-120 et 178, \[consulté le 9 janvier 2017\].
 
 ### Notes
 Les URL du site *theses.fr*, portail de diffusion de l’ensemble des thèses numériques en France, sont uniques et pérennes.
 
 ### Notes CSL
-* Il n'est pas possible d'afficher un lien hypertexte dont l'intitulé soit différent de l'URL à laquelle il renvoie : c'est Word qui génèrera l'affichage du lien hypertexte à partir du libellé.
-* Il n'est pas possible que la mention `[en ligne]` en note de bas de page soit un lien hypertexte reprenant l'URL complète.
+
 * Mentionner obligatoirement le nombre de pages, l'absence du nombre de pages est le critère d'affichage pour la mention `[microfiche]` - voir _infra_.
 
 ---
@@ -221,60 +231,41 @@ MAUBLANC Jean-Pierre, _L’interprétation de la loi fiscale par le juge de l’
 Pas de mention de la pagination.
 
 ### Note CSL
-* Ne pas mentionner le nombre de pages, l'absence du nombre de pages est le critère d'affichage pour la mention `[microfiche]`.
+* Ne pas mentionner le nombre de pages ni d'URL, l'absence du nombre de pages ET l'absence d'URL sont les critère d'affichage pour la mention `[microfiche]`.
 
 ---
 ## Citer des contributions à un ouvrage (articles de mélanges, d’ouvrage collectif…)
 
-Deux modèles sont proposés, avec ou sans guillemets encadrant le titre de la contribution.
-
 ### Modèles pour la bibliographie
-Contributeur \[NOM Prénom\], Titre de la contribution, complément du titre, in responsabilité du document principal \[Nom Prénom (éd.)\], _Titre du document principal_, édition, ville d’édition, éditeur, année d’édition, pages de la contribution \[p. X-X\].
-
-ou
 
 Contributeur \[NOM Prénom\], « Titre de la contribution, complément du titre », in responsabilité du document principal \[Nom Prénom (éd.)\], *Titre du document principal*, édition, ville d’édition, éditeur, année d’édition, pages de la contribution \[p. X-X\].
 
 ### Modèles pour les notes de bas de page
-Contributeur \[NOM Prénom\], Titre de la contribution, in _Titre du document principal_, éditeur, année d’édition, pages de la contribution \[p. X-X\].
 
-ou
+Contributeur \[NOM Prénom\], « Titre de la contribution », in _Titre du document principal_, éditeur, année d’édition, numéro des pages concernées.
 
-Contributeur \[NOM Prénom\], « Titre de la contribution », in _Titre du document principal_, éditeur, année d’édition, pages de la contribution \[p. X-X\].
-
-### Note CSL
-Le style correspond à la variante avec guillemets
 
 ### Exemple pour la bibliographie
 
-BOIS DE GAUDUSSON Jean (du), « Réflexions sur les nouveaux développements du constitutionalisme en Afrique », in Aubin Gérard
-(éd.), _Liber amicorum, études offertes à Pierre Jaubert_, Talence, Presses universitaires de Bordeaux, 1992, p. 179-187.
+BOIS DE GAUDUSSON Jean (du), « Réflexions sur les nouveaux développements du constitutionalisme en Afrique », in Aubin Gérard (éd.), _Liber amicorum, études offertes à Pierre Jaubert_, Talence, Presses universitaires de Bordeaux, 1992, p. 179-187.
 
 [Exemple N8ZRTXUF dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/N8ZRTXUF)
 
 ### Exemple pour les notes de bas de page
 
-BOIS DE GAUDUSSON Jean (du), « Réflexions sur les nouveaux développements du constitutionalisme en Afrique », in _Liber amicorum, études offertes à Pierre Jaubert_, Presses universitaires de Bordeaux, 1992, p. 179-187.
+BOIS DE GAUDUSSON Jean (du), « Réflexions sur les nouveaux développements du constitutionalisme en Afrique », in _Mélanges Jaubert_, Presses universitaires de Bordeaux, 1992.
 
+<!--ajouter spécifications mélange-->
+---
 
 ## Citer un article de revue imprimée
-
-Deux modèles sont proposés, avec ou sans guillemets encadrant le titre de l’article.
 
 ### Modèle pour la bibliographie
 Auteur \[NOM prénom\], « Titre de l’article, complément du titre », _Titre de la revue_, partie, mois année, numéro, pagination globale.
 
-ou
-
-Auteur \[NOM prénom\], Titre de l’article, complément du titre, _Titre de la revue_, partie, mois année, numéro, pagination globale.
-
 ### Modèle pour les notes de bas de page
 
 Auteur \[NOM prénom\], « Titre de l’article », _Titre de la revue abrégé_, partie, année, numéro de paragraphe ou des pages concernées.
-
-ou
-
-Auteur \[NOM prénom\], Titre de l’article, _Titre de la revue abrégé_, partie, année, numéro de paragraphe ou des pages concernées.
 
 ### Exemples pour la bibliographie
 
@@ -302,26 +293,21 @@ NB : on se réfèrera utilement à la façon dont chaque revue prescrit de réf
 
 [Exemple RI3TNQIV dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/RI3TNQIV)
 
+---
 
 ## Citer un article de revue numérique
-Deux modèles sont proposés, avec ou sans guillemets encadrant le titre de l’article.
 
 ### Modèles pour la bibliographie
 Auteur \[NOM prénom\], « Titre de l’article, complément du titre » \[en ligne\], _Titre de la revue_, partie, mois année, numéro, pagination globale, \[consulté le JJ mois AAAA\]. URL
 
-ou
-
-Auteur \[NOM prénom\], Titre de l’article, complément du titre  \[en ligne\], _Titre de la revue_, partie, mois année, numéro, pagination globale, \[consulté le JJ mois AAAA\]. URL
 
 ### Modèles pour les notes de bas de page
 
 Auteur \[NOM prénom\], « Titre de l’article »  \[en ligne\], _Titre de la revue abrégé_, partie, année, numéro de paragraphe ou des pages concernées, \[consulté le JJ mois AAAA\].
 
-ou
 
-Auteur \[NOM prénom\], Titre de l’article  \[en ligne\], _Titre de la revue abrégé_, partie, année, numéro de paragraphe ou des pages concernées, \[consulté le JJ mois AAAA\].
 
-### Note CSL
+### Note CSL <!--à remonter notes globales?-->
 Par défaut, Zotero ignore les champs  `URL` et `Consulté le` lorsqu'une **pagination** est renseignée. Ainsi, afin que la date de consultation et l'URL soient bien affichées, vous devez activer l'option "Inclure les adresses URL des articles de journaux dans les références" depuis le gestionnaire de styles Zotero. La procédure est détaillée dans la [page "Citer" de la documentation Zotero](https://www.zotero.org/support/fr/preferences/cite).
 
 ### Exemples pour la bibliographie
@@ -340,6 +326,67 @@ DAUGAREILH Isabelle, « L’audace retenue du Comité européen des droits soci
 
 DUPRAT Jean-Pierre, « Le parlement évaluateur »  \[en ligne\], _RIDC_, 1998, p. 555, \[consulté le 16 mars 2017\].
 
+---
+
+## Citer un article de presse ou de magazine imprimé
+<!-- découper presse et magazine -->
+
+* jour = si applicable = pour les articles de journal et non de magazine
+* on n'abrège pas les titres de journal ni de magazine
+
+### Modèle pour la bibliographie
+Auteur \[NOM prénom\], « Titre de l’article, complément du titre », _Titre du journal ou du magazine_, JJ mois AAAA, numéro, pagination globale.
+
+### Modèle pour les notes de bas de page
+
+Auteur \[NOM prénom\], « Titre de l’article », _Titre du journal ou du magazine_, JJ mois AAAA, numéro de paragraphe ou des pages concernées.
+
+### Exemples pour la bibliographie
+DUCOURTIEUX Cécile, « État de droit : l'UE incapable de sanctionner Budapest et Varsovie », _Le Monde_, 20 septembre 2018, n° 22920, p. 3.
+
+[Exemple RSBZ3Y9L dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/RSBZ3Y9L)
+
+DAVERAT Xavier, « Un arrêt de la CJUE ouvre la porte à la création d'un nouveau droit voisin », _Les Petites Affiches_, 22 décembre 2016, n° 255, p. 13.
+
+[Exemple 2STBMD26 dans la bib Zotero de groupe]https://www.zotero.org/groups/2190104/items/2STBMD26
+
+
+### Exemples pour les notes de bas de page
+DUCOURTIEUX Cécile, « État de droit : l'UE incapable de sanctionner Budapest et Varsovie », _Le Monde_, 20 septembre 2018, n° 22920.
+
+DAVERAT Xavier, « Un arrêt de la CJUE ouvre la porte à la création d'un nouveau droit voisin », _Les Petites Affiches_, 22 décembre 2016, n° 255.
+
+
+---
+
+## Citer un article de presse ou de magazine numérique
+
+### Modèles pour la bibliographie
+Auteur \[NOM prénom\], « Titre de l’article, complément du titre » \[en ligne\], _Titre du journal ou du magazine_, JJ mois AAAA, numéro, pagination globale, \[consulté le JJ mois AAAA\]. URL
+
+
+### Modèles pour les notes de bas de page
+
+Auteur \[NOM prénom\], « Titre de l’article »  \[en ligne\], _Titre du journal ou du magazine_, JJ mois AAAA, numéro de paragraphe ou des pages concernées, \[consulté le JJ mois AAAA\].
+
+### Exemples pour la bibliographie
+DUCOURTIEUX Cécile, « État de droit : l'UE incapable de sanctionner Budapest et Varsovie » \[en ligne\], _Le Monde_, 19 septembre 2018, \[consulté le 26 septembre 2018\]. https://www.lemonde.fr/europe/article/2018/09/19/etat-de-droit-une-procedure-article-7-symbolique-mais-quasi-inapplicable_5357222_3214.html
+
+[Exemple 8Y3QA4YK dans la bib Zotero de groupe]https://www.zotero.org/groups/2190104/items/8Y3QA4YK
+
+DAVERAT Xavier, « Un arrêt de la CJUE ouvre la porte à la création d'un nouveau droit voisin » \[en ligne\], _Les Petites Affiches_, 22 décembre 2016, n° 255, p. 13 \[consulté le 26 septembre 2018\]. https://www-lextenso-fr.docelec.u-bordeaux.fr/petites-affiches/LPA121r1
+
+[Exemple 5X4XHJ94 dans la bib Zotero de groupe]https://www.zotero.org/groups/2190104/items/5X4XHJ94
+
+
+### Exemples pour les notes de bas de page
+DUCOURTIEUX Cécile, « État de droit : l'UE incapable de sanctionner Budapest et Varsovie » \[en ligne\], _Le Monde_, 19 septembre 2018, \[consulté le 26 septembre 2018\].
+
+
+DAVERAT Xavier, « Un arrêt de la CJUE ouvre la porte à la création d'un nouveau droit voisin » \[en ligne\], _Les Petites Affiches_, 22 décembre 2016, n° 255, \[consulté le 26 septembre 2018\].
+---
+
+
 ## Citer les actes publiés d’un colloque
 ### Modèle pour la bibliographie
 Responsabilité du colloque \[NOM prénom (dir.)\], _Titre du colloque_, lieu d’édition, éditeur, année, pagination globale.
@@ -353,8 +400,7 @@ BONIS-GARÇON Évelyne (dir.), _Pour une refonte du droit des peines: quels chan
 
 [Exemple JZSAUCG7 dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/JZSAUCG7)
 
-ALLINNE Jean-Pierre et SOULA Mathieu (dir.), _La mort pénale : les enjeux historiques et contemporains de la peine de mort_, Rennes,
-Presses Universitaires de Rennes, 2015, 208 p.
+ALLINNE Jean-Pierre et SOULA Mathieu (dir.), _La mort pénale : les enjeux historiques et contemporains de la peine de mort_, Rennes, Presses Universitaires de Rennes, 2015, 208 p.
 
 [Exemple 4NKQTQRQ dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/4NKQTQRQ)
 
@@ -362,8 +408,7 @@ SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL (dir.), _Droit international et
 
 [Exemple KBMA75AS dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/KBMA75AS)
 
-CENTRE D’ÉTUDES ET DE RECHERCHES SUR LE DROIT DE LA MER (dir.), _L'immobilisation forcée des navires_, Talence, Presses Universitaires
-de Bordeaux, 1990, 175 p.
+CENTRE D’ÉTUDES ET DE RECHERCHES SUR LE DROIT DE LA MER (dir.), _L'immobilisation forcée des navires_, Talence, Presses Universitaires de Bordeaux, 1990, 175 p.
 
 [Exemple 47NCZPCL dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/47NCZPCL)
 
@@ -376,6 +421,8 @@ ALLINNE Jean-Pierre et SOULA Mathieu (dir.), _La mort pénale : les enjeux hist
 SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL (dir.), _Droit international et droit communautaire, perspectives actuelles_, Pedone, 2000, p. 37.
 
 CENTRE D’ÉTUDES ET DE RECHERCHES SUR LE DROIT DE LA MER (dir.),_L'immobilisation forcée des navires_, Presses Universitaires de Bordeaux, 1990, p. 3.
+
+---
 
 ## Citer une contribution parmi les actes publiés d’un colloque
 ### Modèle pour la bibliographie
@@ -402,17 +449,19 @@ MALABAT Valérie, Simplifier mais comment ?, in BONIS-GARÇON Évelyne (dir.), 
 
 GAUTRON Jean-Claude et GRARD Loïc, Le droit international dans la construction de l’Union européenne, in SOCIÉTÉ FRANÇAISE POUR LE DROIT INTERNATIONAL (dir.), _Droit international et droit communautaire, perspectives actuelles_, 2000, p. 57.
 
+----
+
 ## Citer une norme juridique
 
 ### Modèle pour la bibliographie
-PAYS, AUTEUR, _Intitulé de la norme_, Journal Officiel / Bulletin Officiel, n°, date de publication, page de départ, numéro NOR.
+PAYS, AUTEUR, _Intitulé de la norme_, Journal Officiel / Bulletin Officiel, n° XXX, date de publication, page de départ, numéro NOR.
 
 ### Modèle pour les notes de bas de page
-AUTEUR, _Intitulé de la norme_, Journal Officiel / Bulletin Officiel, n°, date de publication, page de départ, numéro NOR.
+PAYS, AUTEUR, _Intitulé de la norme_, Journal Officiel / Bulletin Officiel, n° XXX, date de publication.
 
 ### Exemples pour la bibliographie
 
-FRANCE, MINISTÈRE DE L’ENSEIGNEMENT SUPÉRIEUR ET DE LA RECHERCHE, _Décret n° 2013-805 du 3 septembre 2013 portant création de l’Université de Bordeaux_, Journal officiel, n°206, 5 septembre 2013, p. 15020, ESRS1317830D.
+FRANCE, MINISTÈRE DE L’ENSEIGNEMENT SUPÉRIEUR ET DE LA RECHERCHE, _Décret n° 2013-805 du 3 septembre 2013 portant création de l’Université de Bordeaux_, Journal officiel, n° 206, 5 septembre 2013, p. 15020, ESRS1317830D.
 
 [Exemple AU2GMBDG dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/AU2GMBDG)
 
@@ -422,7 +471,7 @@ FRANCE, MINISTÈRE DE L’ÉDUCATION NATIONALE, _Décret du 13 juillet 1949 appr
 
 ### Exemples pour les notes de bas de page
 
-MINISTÈRE DE L’ENSEIGNEMENT SUPÉRIEUR ET DE LA RECHERCHE, _Décret n° 2013-805 du 3 septembre 2013 portant création de l’Université de Bordeaux_, Journal officiel, n°206, 5 septembre 2013.
+FRANCE, MINISTÈRE DE L’ENSEIGNEMENT SUPÉRIEUR ET DE LA RECHERCHE, _Décret n° 2013-805 du 3 septembre 2013 portant création de l’Université de Bordeaux_, Journal officiel, n°206, 5 septembre 2013.
 
 MINISTÈRE DE L’ÉDUCATION NATIONALE, _Décret du 13 juillet 1949 approuvant une délibération du conseil de l’université de Bordeaux portant création à Fort-de-France d’un institut d’études juridiques, politiques et économiques de cette université_, Journal officiel, 16 juillet 1949.
 
@@ -432,6 +481,7 @@ NB : le pays n’est indiqué que s’il est utile pour différencier des insti
 ### Note CSL
 Se référer aux modèles dans la bibliothèque Zotero ; le champ "Pays" n'est prévu ni par CSL ni par Zotero, aussi le champ `Corps législatif` est-il utilisé pour renseigner le pays.
 
+---
 
 ## Citer un site en ligne, un blogue
 ### Modèle pour la bibliographie
@@ -461,25 +511,17 @@ GROUPE D’INFORMATION ET DE SOUTIEN DES IMMIGRÉ.E.S, _Gisti_ \[en ligne\], \[c
 * Type = page web
 * Laisser les champs `Titre` et `Date` vides
 
+---
+
 ## Citer un article ou une page d’un site en ligne, un blogue
-Deux modèles sont proposés, avec ou sans guillemets encadrant le titre de l’article.
 
 ### Modèles pour la bibliographie
-AUTEUR, « Titre de l’article ou de la page », sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le JJ mois AAAA\]. URL
+AUTEUR, « Titre de l’article ou de la page », sur _Titre de la page d'accueil_ \[en ligne\], publié le JJ mois AAAA, \[consulté le JJ mois AAAA\]. URL
 
-ou
-
-AUTEUR, Titre de l’article ou de la page, sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le JJ mois AAAA\]. URL
 
 ### Modèles pour les  notes de bas de page
-AUTEUR, « Titre de l’article ou de la page », sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le JJ mois AAAA\].
+AUTEUR, « Titre de l’article ou de la page », sur _Titre de la page d'accueil_ \[en ligne\], publié le JJ mois AAAA, \[consulté le JJ mois AAAA\].
 
-ou
-
-AUTEUR, Titre de l’article ou de la page, sur _Titre de la page d'accueil_ \[en ligne\], publié le …, \[consulté le JJ mois AAAA\].
-
-### Note CSL
-Variante créé = avec guillemets
 
 ### Exemples pour la bibliographie
 
@@ -499,6 +541,8 @@ GROUPE D’INFORMATION ET DE SOUTIEN DES IMMIGRÉ.E.S, « Pour en finir avec le 
 
 ### Note
 Pour les sites d’institutions, le nom de la page d’accueil du site sera souvent le même que celui de l’institution.
+
+---
 
 ## Citer un brevet
 
@@ -522,6 +566,8 @@ Brevet européen n° EP3155925, _Boîtier d’attache sucette_, 19 avril 2017.
 ### Note CSL
 Veiller à bien respecter le modèle fourni dans la bibliothèque ; tous les champs Zotero n'ont pas de variable équivalente en CSL, ce qui a contraint à des adaptations.
 
+---
+
 ## Citer un courriel
 
 ### Modèle pour la liste des ressources et les notes de bas de page
@@ -536,15 +582,16 @@ HOURQUEBIE Fabrice, _Re: Guide de la rédaction biblio : projet confirmé_ \[co
 ### Note
 Ce type de références rejoint préférentiellement la liste des ressources utilisées, plutôt que la bibliographie.
 
-### Note CSL
+### Note CSL <!-- à remonter notes globales-->
 * Le style est paramétré pour générer automatiquement une liste des ressources à la suite de la bibliographie ; il conviendra d'ajouter un saut de page, un intertitre ou autre lorsque le document sera entièrement finalisé et que la bibliographie ne sera plus mise à jour (sinon il faudra recommencer après chaque mise à jour...).
 
+---
 
 ## Citer une contribution à une liste de diffusion
 
 ### Modèle pour la liste des ressources
 
-Auteur \[NOM Prénom\], _Sujet du courriel_ \[courriel\], sur \[_Nom de la liste de diffusion ou du forum_\], date de l’envoi \[JJ mois AAAA], \[consulté le JJ mois AAAA\]. \[URL de la liste de diffusion ou du forum\]
+Auteur \[NOM Prénom\], _Sujet du courriel_ \[courriel\], sur \[_Nom de la liste de diffusion ou du forum_\], date de l’envoi \[JJ mois AAAA], \[consulté le JJ mois AAAA\]. URL
 
 ### Modèle pour les notes de bas de page
 
@@ -552,13 +599,13 @@ Auteur \[NOM Prénom\], _Sujet du courriel_ \[courriel\], sur \[_Nom de la liste
 
 ### Exemple pour la liste des ressources
 
-GASNAULT Jean, _Quel logiciel de veille pour une direction juridique ?_ \[courriel\], sur _Jurisconnexion_, 5 juin 2017, \[consulté le 6 juin 2017\], https://jurisconnexion.fr
+GASNAULT Jean, _Quel logiciel de veille pour une direction juridique ?_ \[courriel\], sur _Jurisconnexion_, 5 juin 2017, \[consulté le 6 juin 2017\]. https://fr.groups.yahoo.com/neo/groups/juriconnexion/conversations/messages
 
 [Exemple VHQTPB6X dans la bib Zotero de groupe](https://www.zotero.org/groups/2190104/items/VHQTPB6X)
 
 ### Exemple pour les notes de bas de page
 
-GASNAULT Jean, _Quel logiciel de veille pour une direction juridique ?_ \[courriel\], 5 juin 2017,  \[consulté le 6 juin 2017\].
+GASNAULT Jean, _Quel logiciel de veille pour une direction juridique ?_ \[courriel\], sur _Jurisconnexion_, 5 juin 2017, \[consulté le 6 juin 2017\].
 
 ### Note
 ce type de références rejoint préférentiellement la liste des ressources utilisées, plutôt que la bibliographie.
@@ -566,11 +613,15 @@ ce type de références rejoint préférentiellement la liste des ressources uti
 ### Note CSL
 Le style est paramétré pour générer automatiquement une liste des ressources à la suite de la bibliographie ; il conviendra d'ajouter un saut de page, un intertitre ou autre lorsque le document sera entièrement finalisé et que la bibliographie ne sera plus mise à jpour (sinon il faudra recommencer après chaque mise à jour...).
 
+---
 
 ## Citer un entretien oral
 
-### Modèle pour la liste des ressources et les notes de bas de page
+### Modèle pour la liste des ressources
 Personne interrogée \[NOM Prénom\], _Titre ou sujet de l’entretien_ \[entretien\] mené par Nom Prénom, lieu, date \[JJ mois AAAA\], éventuellement pagination de la transcription si elle est jointe en annexe au travail de recherche.
+
+### Modèle pour  les notes de bas de page
+Personne interrogée \[NOM Prénom\], _Titre ou sujet de l’entretien_ \[entretien\] mené par Nom Prénom, lieu, date \[JJ mois AAAA\].
 
 ### Exemple pour la liste des ressources
 
@@ -588,6 +639,7 @@ Ce type de références rejoint préférentiellement la liste des ressources uti
 ### Note CSL
 * Le style est paramétré pour générer automatiquement une liste des ressources à la suite de la bibliographie ; il conviendra d'ajouter un saut de page, un intertitre ou autre lorsque le document sera entièrement finalisé et que la bibliographie ne sera plus mise à jpour (sinon il faudra recommencer après chaque mise à jour...).
 * Veiller à bien respecter le modèle fourni dans la bibliothèque ; Zotero ne prévoit pas de champ `Lieu` pour les entretiens oraux, ce qui a contraint à quelques adaptations. Il faut ainsi saisir le lieu dans le champ `Loc. dans l'archive`.
+* La pagination de la transcription est reportée dans le champ `Cote`
 
 # Recommandations particulières
 ## Citation de documents en langue étrangère
@@ -597,11 +649,6 @@ Si un texte en langue étrangère doit être cité, il est plus approprié de le
 ### Note CSL
 La mention  \[nous traduisons\] doit être insérée en tant que suffixe à la référence bibliographique dans la boîte de dialogue de l'extension de traitement de texte Zotero.
 
-## Citation de références multiples
-Lorsque plusieurs références sont citées dans une même note, elles sont séparées par un ` ;`.
-
-### Note CSL
-Le style génère automatiquement la ponctuation.
 
 ## Cas particuliers concernant les auteurs
 
