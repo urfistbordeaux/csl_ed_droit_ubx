@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="note" default-locale="fr-FR" version="1.0" page-range-format="expanded" demote-non-dropping-particle="never">
   <info>
-    <title>ED Droit UBx - French</title>
-    <title-short>EDDBx</title-short>
+    <title>Université de Bordeaux - École doctorale de droit (French)</title>
     <id>http://www.zotero.org/styles/ed_droit_ubx</id>
     <link href="http://www.zotero.org/styles/ed_droit_ubx" rel="self"/>
     <link href="http://weburfist.univ-bordeaux.fr/wp-content/uploads/2017/12/20171208-R%C3%A9dux-Guide-de-r%C3%A9daction-des-r%C3%A9f%C3%A9rences-bibliographiques-version-num%C3%A9rique.pdf" rel="documentation"/>
@@ -57,14 +56,14 @@
   <!-- Mise en forme des éditeurs scientifiques de colloque = livre sans auteur -->
   <macro name="proceeding-editor">
     <group delimiter=" ">
-    <names variable="editor">
-      <name and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" name-as-sort-order="all" sort-separator=" ">
-        <name-part name="family" text-case="uppercase"/>
-      </name>
-      <et-al font-style="italic"/>
-    </names>
-    <text term="director" form="short" prefix="(" suffix=")"/>
-  </group>
+      <names variable="editor">
+        <name and="text" delimiter-precedes-et-al="never" delimiter-precedes-last="never" name-as-sort-order="all" sort-separator=" ">
+          <name-part name="family" text-case="uppercase"/>
+        </name>
+        <et-al font-style="italic"/>
+      </names>
+      <text term="director" form="short" prefix="(" suffix=")"/>
+    </group>
   </macro>
   <!-- Mise en forme des éditeurs scientifiques de livres  (= sauf colloque) et de chapitres de livre-->
   <macro name="editor">
@@ -256,7 +255,7 @@
       </else-if>
       <else-if type="webpage post-weblog" match="any">
         <choose>
-          <if variable="title"></if>
+          <if variable="title"/>
         </choose>
         <group delimiter=" ">
           <text term="at"/>
@@ -274,8 +273,8 @@
     <choose>
       <if type="post">
         <group delimiter=" ">
-          <text variable="container-title" form="short" font-style="italic"/>
           <text term="at"/>
+          <text variable="container-title" form="short" font-style="italic"/>
         </group>
       </if>
       <else-if type="article-journal article-newspaper article-magazine" match="any">
@@ -285,10 +284,20 @@
         </group>
       </else-if>
       <else-if type="chapter">
-        <group delimiter=" ">
-          <text term="in"/>
-          <text variable="container-title" form="short" text-case="capitalize-first" font-style="italic"/>
-        </group>
+        <choose>
+          <if variable="call-number">
+            <group delimiter=" ">
+              <text term="in"/>
+              <text variable="call-number" text-case="capitalize-first" font-style="italic"/>
+            </group>
+          </if>
+          <else>
+            <group delimiter=" ">
+              <text term="in"/>
+              <text variable="container-title" text-case="capitalize-first" font-style="italic"/>
+            </group>
+          </else>
+        </choose>
       </else-if>
       <else-if type="paper-conference" match="any">
         <group delimiter=", ">
@@ -301,7 +310,7 @@
       </else-if>
       <else-if type="webpage post-weblog" match="any">
         <choose>
-          <if variable="title"></if>
+          <if variable="title"/>
         </choose>
         <group delimiter=" ">
           <text term="at"/>
@@ -402,9 +411,22 @@
           </else>
         </choose>
       </else-if>
-      <else-if type="article-journal article-newspaper article-magazine" match="any">
+      <else-if type="article-journal" match="any">
         <group delimiter=", ">
           <date variable="issued" delimiter="&#160;">
+            <date-part name="month"/>
+            <date-part name="year"/>
+          </date>
+          <group delimiter="&#160;">
+            <text term="issue" form="short"/>
+            <text variable="issue"/>
+          </group>
+        </group>
+      </else-if>
+      <else-if type="article-newspaper article-magazine" match="any">
+        <group delimiter=", ">
+          <date variable="issued" delimiter="&#160;">
+            <date-part name="day"/>
             <date-part name="month"/>
             <date-part name="year"/>
           </date>
@@ -424,7 +446,7 @@
   <!--Mise en forme de l'année en note de bas de page-->
   <macro name="issued-short">
     <choose>
-      <if type="webpage post-weblog patent personal_communication post interview bill book chapter paper-conference" match="any">
+      <if type="webpage post-weblog patent personal_communication post interview bill book chapter paper-conference article-newspaper article-magazine" match="any">
         <text macro="issued"/>
       </if>
       <else>
@@ -444,7 +466,7 @@
   <!-- Mise en forme de la pagination / du nombre de pages en bibliographie-->
   <macro name="pages">
     <choose>
-      <if type="article-journal chapter paper-conference" match="any">
+      <if type="article-journal chapter paper-conference article-newspaper article-magazine" match="any">
         <group delimiter="&#160;">
           <text term="page" form="short"/>
           <text variable="page"/>
@@ -462,6 +484,12 @@
       <else-if type="book thesis" match="any">
         <group delimiter="&#160;">
           <text variable="number-of-pages"/>
+          <text term="page" form="short"/>
+        </group>
+      </else-if>
+      <else-if type="interview" match="any">
+        <group delimiter="&#160;">
+          <text variable="call-number"/>
           <text term="page" form="short"/>
         </group>
       </else-if>
