@@ -446,9 +446,16 @@
   <!--Mise en forme de l'année en note de bas de page-->
   <macro name="issued-short">
     <choose>
-      <if type="webpage post-weblog patent personal_communication post interview bill book chapter paper-conference article-newspaper article-magazine" match="any">
+      <if type="webpage post-weblog patent personal_communication post interview bill book chapter paper-conference" match="any">
         <text macro="issued"/>
       </if>
+      <else-if type="article-newspaper article-magazine" match="any">
+        <date variable="issued" delimiter="&#160;">
+          <date-part name="day"/>
+          <date-part name="month"/>
+          <date-part name="year"/>
+        </date>
+      </else-if>
       <else>
         <date variable="issued">
           <date-part name="year"/>
