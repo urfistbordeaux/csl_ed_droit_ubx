@@ -71,7 +71,10 @@
       <if type="paper-conference">
         <group delimiter=" ">
           <text term="in"/>
-          <text macro="proceeding-editor"/>
+          <names variable="editor">
+            <name and="text" delimiter-precedes-last="never" name-as-sort-order="all" sort-separator=" "/>
+          </names>
+          <text term="director" form="short" prefix="(" suffix=")"/>
         </group>
       </if>
       <else-if type="chapter">
@@ -168,7 +171,6 @@
       </else-if>
       <else-if type="article-journal article-newspaper article-magazine" match="any">
         <choose>
-          <!--<if variable="archive_location">-->
           <if variable="URL">
             <group delimiter=" ">
               <text variable="title" text-case="capitalize-first" quotes="true"/>
@@ -215,7 +217,6 @@
       </if>
       <else-if type="article-journal article-newspaper article-magazine" match="any">
         <choose>
-          <!--<if variable="archive_location">-->
           <if variable="URL">
             <group delimiter=" ">
               <text variable="title" form="short" text-case="capitalize-first" quotes="true"/>
@@ -311,10 +312,7 @@
       </else-if>
       <else-if type="paper-conference" match="any">
         <group delimiter=", ">
-          <group delimiter=" ">
-            <text term="in"/>
-            <text macro="proceeding-editor"/>
-          </group>
+          <text macro="editor"/>
           <text variable="container-title" form="short" text-case="capitalize-first" font-style="italic"/>
         </group>
       </else-if>
@@ -566,7 +564,7 @@
       </if>
     </choose>
   </macro>
-  <!-- critère de tri primaire permettant de distinguer la liste de ressources et la biblbiographie - la liste de ressources est affichée en 1er-->
+  <!-- critère de tri primaire permettant de distinguer la liste de ressources et la biblbiographie - la liste de ressources est affichée en 2nd-->
   <macro name="sort-key">
     <choose>
       <if type="interview personal_communication post" match="none">
