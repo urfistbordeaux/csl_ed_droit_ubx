@@ -1,7 +1,7 @@
 # Style CSL pour Zotero : Université de Bordeaux - École doctorale de droit (French)
 Création d'un style CSL correspondant aux consignes de l'ED de droit de l'université de Bordeaux.
 
-Le style doit répondre aux consignes de l 2ème édition du guide [Citer des
+Le style doit répondre aux consignes de la 2ème édition du guide [Citer des
 références bibliographiques juridiques](http://www.sudoc.fr/224348256).
 
 Le style est disponible dans l'entrepôt des styles Zotero à l'adresse suivante : [Université de Bordeaux - École doctorale
