@@ -2,7 +2,7 @@
 name: Demande de prise en compte d'un nouveau type de document
 about: Ce modèle vous permet de soumettre une demande de prise en compte d'un nouveau
   type de document, en fournissant toutes les informations nécessaires à son examen.
-title: "[NOUVEAU_TYPE_DOC]"
+title: "[NOUVEAU_TYPE_DOC] indiquez ici le type de document demandé"
 labels: ''
 assignees: ''
 
