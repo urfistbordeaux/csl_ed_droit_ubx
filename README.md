@@ -14,6 +14,6 @@ de droit (French)](https://www.zotero.org/styles/universite-de-bordeaux-ecole-do
 
 :book: Une bibliothèque Zotero d'exemples utilisés pour écrire et tester le style est disponible sous la forme d'une bibliothèque de groupe, accessible en lecture pour tous [ici](https://www.zotero.org/groups/2190104/style_csl_ed_droit_bx).
 
-**Si vous souhaitez contribuer au projet**, merci de prendre connaissance au préalable de la page [Contribuer au projet](https://github.com/fflamerie/csl_ed_droit_ubx/wiki/Contribuer-au-projet).
+:point_up: **Si vous souhaitez contribuer au projet**, merci de prendre connaissance au préalable de la page [Contribuer au projet](https://github.com/fflamerie/csl_ed_droit_ubx/wiki/Contribuer-au-projet).
 
 ![logo_urfist](logo-urfist-bordeaux.png)
