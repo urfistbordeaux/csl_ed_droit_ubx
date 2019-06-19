@@ -1,0 +1,435 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#">
+    <bib:Thesis rdf:about="http://www.theses.fr/2015PA100080">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>université Paris Nanterre</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dalil</foaf:surname>
+                        <foaf:givenname>Brahim</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.theses.fr/2015PA100080</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2015</dc:date>
+        <dc:description>director: Brunet || Pierre</dc:description>
+        <dcterms:dateSubmitted>2019-06-11</dcterms:dateSubmitted>
+        <z:libraryCatalog>Library Catalog - www.sudoc.abes.fr</z:libraryCatalog>
+        <z:type>thèse de doctorat, histoire du droit</z:type>
+        <z:language>français</z:language>
+        <dc:title>Le droit administratif face au principe de la sécurité juridique</dc:title>
+        <z:numPages>431</z:numPages>
+    </bib:Thesis>
+    <bib:Legislation rdf:about="#item_1339">
+        <z:itemType>bill</z:itemType>
+        <z:sponsors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ministère de l’enseignement supérieur et de la recherche</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:sponsors>
+        <dc:date>21/03/2019</dc:date>
+        <z:code>Journal officiel</z:code>
+        <z:legislativeBody>France</z:legislativeBody>
+        <prism:number>ESRS1317830D</prism:number>
+        <prism:volume>209</prism:volume>
+        <dc:title>Décret n° 2019-209 du 20 mars 2019 portant création de l'université de Paris et approbation de ses statuts</dc:title>
+    </bib:Legislation>
+    <bib:Article rdf:about="#item_1351">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:number>1</prism:number>
+                <dc:title>Revue de la recherche juridique. Droit prospectif</dc:title>
+                <dcterms:alternative>Rev. rech. jurid., droit prospect.</dcterms:alternative>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gogos-Gintrand</foaf:surname>
+                        <foaf:givenname>Amélie</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:pages>401-422</bib:pages>
+        <dc:date>09/2011</dc:date>
+        <dc:title>Le pacte commissoire : une institution dangereuse par nature</dc:title>
+    </bib:Article>
+    <bib:Document rdf:about="http://koubi.fr/spip.php?article476">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Droit CriTIC</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Koubi</foaf:surname>
+                        <foaf:givenname>Geneviève</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://koubi.fr/spip.php?article476</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2010-12-07</dc:date>
+        <dcterms:dateSubmitted>2019-06-11</dcterms:dateSubmitted>
+        <z:language>fr-FR</z:language>
+        <dc:title>Les « sélections » de citations… - ... en marge du séminaire du CERSA sur &quot;Le plagiat de la recherche&quot;</dc:title>
+    </bib:Document>
+    <bib:BookSection rdf:about="urn:isbn:2-7111-2846-6">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:identifier>ISBN 2-7111-2846-6</dc:identifier>
+                <dc:title>Droit et vie des affaires : études à la mémoire d'Alain Sayag</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Litec</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sebat</foaf:surname>
+                        <foaf:givenname>Henri</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Alexandre-Caselli</foaf:surname>
+                        <foaf:givenname>Claudine</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Centre de recherche sur le droit des affaires</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:pages>83-96</bib:pages>
+        <dc:date>1997</dc:date>
+        <dc:subject>
+           <dcterms:LCC><rdf:value>Mélanges Alain Sayag</rdf:value></dcterms:LCC>
+        </dc:subject>
+        <z:language>fr-FR</z:language>
+        <dc:title>De l'incompréhension réductible entre recherche juridique et sciences économiques : ou plus de 20 ans de collaboration juristes-économistes au CREDA</dc:title>
+        <z:shortTitle>De l'incompréhension réductible entre recherche juridique et sciences économiques</z:shortTitle>
+    </bib:BookSection>
+    <bib:Book rdf:about="urn:isbn:978-2-247-15036-6">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Dalloz</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pacteau</foaf:surname>
+                        <foaf:givenname>Bernard</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.dalloz-bibliotheque.fr/bibliotheque/Jean_Baptiste_Sirey_(1762_1845)-39566.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:identifier>ISBN 978-2-247-15036-6</dc:identifier>
+        <dc:date>2014</dc:date>
+        <dcterms:dateSubmitted>2019-06-11</dcterms:dateSubmitted>
+        <z:libraryCatalog>Library Catalog - www.sudoc.abes.fr</z:libraryCatalog>
+        <z:language>français</z:language>
+        <dc:title>Jean-Baptiste Sirey (1762-1845) : un père de l'étude et de l'édition du contentieux moderne</dc:title>
+        <z:shortTitle>Jean-Baptiste Sirey (1762-1845)</z:shortTitle>
+        <z:numPages>138</z:numPages>
+    </bib:Book>
+    <bib:Book rdf:about="urn:isbn:978-2-13-062817-0">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Presses universitaires de France</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pacteau</foaf:surname>
+                        <foaf:givenname>Bernard</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <prism:edition>3</prism:edition>
+        <dc:identifier>ISBN 978-2-13-062817-0</dc:identifier>
+        <dc:date>2006</dc:date>
+        <z:libraryCatalog>Library Catalog - www.sudoc.abes.fr</z:libraryCatalog>
+        <z:language>français</z:language>
+        <dc:title>Manuel de contentieux administratif</dc:title>
+        <z:numPages>304</z:numPages>
+    </bib:Book>
+    <bib:Article rdf:about="https://doi.org/10.1007/s11196-018-9590-9">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:number>2</prism:number>
+                <dc:title>International Journal for the Semiotics of Law</dc:title>
+                <dcterms:alternative>IJSL</dcterms:alternative>
+                <dc:identifier>DOI 10.1007/s11196-018-9590-9</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paturet</foaf:surname>
+                        <foaf:givenname>Arnaud</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>https://doi.org/10.1007/s11196-018-9590-9</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>485-504</bib:pages>
+        <dc:date>2019</dc:date>
+        <dcterms:dateSubmitted>2019-06-11</dcterms:dateSubmitted>
+        <z:libraryCatalog>Scopus</z:libraryCatalog>
+        <dc:title>Sujet, objet, res et nature: un aperçu historique de l’évolution du concept de chose de l’Antiquité au droit contemporain</dc:title>
+        <z:shortTitle>Sujet, objet, res et nature</z:shortTitle>
+        <z:archive>Scopus</z:archive>
+    </bib:Article>
+    <bib:Book rdf:about="urn:isbn:978-2-84934-356-2">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>mare &amp; martin</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ayad-Bergounioux</foaf:surname>
+                        <foaf:givenname>Soulef</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:identifier>ISBN 978-2-84934-356-2</dc:identifier>
+        <dc:date>2018</dc:date>
+        <z:libraryCatalog>Library Catalog - www.sudoc.abes.fr</z:libraryCatalog>
+        <z:language>français</z:language>
+        <dc:title>Les logiques du droit: science de la norme et des régimes de domination : 2-3 avril 2015, Faculté Jean Monnet - Université Paris-Sud</dc:title>
+        <z:shortTitle>Les logiques du droit</z:shortTitle>
+        <z:numPages>313</z:numPages>
+    </bib:Book>
+    <bib:Document rdf:about="http://www.precisement.org/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+            <z:Website>
+                <dc:title>Precisement.org - Documentation. Droit. Internet. Blog</dc:title>
+            </z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barthe</foaf:surname>
+                        <foaf:givenname>Emmanuel</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.precisement.org/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-06-11 10:22:55</dcterms:dateSubmitted>
+    </bib:Document>
+    <rdf:Description rdf:about="#item_1683">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Au coeur des combats juridiques. Pensées et témoignages de juristes engagés</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Dalloz</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Manciaux</foaf:surname>
+                        <foaf:givenname>Sébastien</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dockès</foaf:surname>
+                        <foaf:givenname>Emmanuel</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <bib:pages>355-370</bib:pages>
+        <dc:date>2007</dc:date>
+        <dcterms:dateSubmitted>2019-06-11 10:47:16</dcterms:dateSubmitted>
+        <z:libraryCatalog>halshs.archives-ouvertes.fr</z:libraryCatalog>
+        <z:language>fr</z:language>
+        <dc:title>L'implication d'investisseurs étrangers dans certaines violations des droits de l'homme</dc:title>
+    </rdf:Description>
+    <bib:Article rdf:about="https://www.lemonde.fr/idees/article/2019/06/09/comment-engager-les-entreprises-sur-la-voie-de-la-neutralite-plastique_5473925_3232.html">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Newspaper><dc:title>Le Monde</dc:title></bib:Newspaper>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Laville</foaf:surname>
+                        <foaf:givenname>Elisabeth</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.lemonde.fr/idees/article/2019/06/09/comment-engager-les-entreprises-sur-la-voie-de-la-neutralite-plastique_5473925_3232.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2019-06-09</dc:date>
+        <dcterms:dateSubmitted>2019-06-11 10:58:09</dcterms:dateSubmitted>
+        <z:libraryCatalog>Le Monde</z:libraryCatalog>
+        <z:language>fr</z:language>
+        <dc:title>Comment « engager les entreprises sur la voie de la neutralité plastique »</dc:title>
+    </bib:Article>
+    <bib:Thesis rdf:about="http://www.theses.fr/2010STRA4024">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+               <foaf:name>université de Strasbourg</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Matringe</foaf:surname>
+                        <foaf:givenname>Eve</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.theses.fr/2010STRA4024</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2010/01/01</dc:date>
+        <dc:description>director: Flauss-Diem || Jacqueline</dc:description>
+        <dcterms:dateSubmitted>2019-06-11 13:05:23</dcterms:dateSubmitted>
+        <z:libraryCatalog>www.theses.fr</z:libraryCatalog>
+        <z:type>thèse de doctorat, droit privé</z:type>
+        <dc:title>La réforme de la responsabilité civile en droit suisse : modèle pour le droit français?</dc:title>
+        <z:shortTitle>La réforme de la responsabilité civile en droit suisse</z:shortTitle>
+        <z:numPages>629</z:numPages>
+    </bib:Thesis>
+    <bib:Article rdf:about="https://www.zotero.org/support/kb/italics_in_word_bibliographies">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Aaargghhh</foaf:surname>
+                        <foaf:givenname>Word</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.zotero.org/support/kb/italics_in_word_bibliographies</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:title>Fausse référence pour pallier les dysfonctionnements de Word</dc:title>
+    </bib:Article>
+</rdf:RDF>

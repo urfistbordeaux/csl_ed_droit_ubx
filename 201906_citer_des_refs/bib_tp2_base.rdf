@@ -1,0 +1,407 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:vcard="http://nwalsh.com/rdf/vCard#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Thesis rdf:about="http://www.theses.fr/2010STRA4024">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Strasbourg</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Strasbourg</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Eve</foaf:surname>
+                        <foaf:givenname>Matringe</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.theses.fr/2010STRA4024</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2010/01/01</dc:date>
+        <z:type>Thèse</z:type>
+        <dc:title>La réforme de la responsabilité civile en droit suisse : modèle pour le droit français?</dc:title>
+        <z:shortTitle>La réforme de la responsabilité civile en droit suisse</z:shortTitle>
+    </bib:Thesis>
+    <bib:Article rdf:about="https://hal.archives-ouvertes.fr/hal-00200552">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>Au coeur des combats juridiques. Pensées et témoignages de juristes engagés</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Manciaux</foaf:surname>
+                        <foaf:givenname>Sébastien</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://hal.archives-ouvertes.fr/hal-00200552</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2007</dc:date>
+        <dcterms:dateSubmitted>2019-06-11 10:47:16</dcterms:dateSubmitted>
+        <z:libraryCatalog>halshs.archives-ouvertes.fr</z:libraryCatalog>
+        <z:language>fr</z:language>
+        <dc:title>&quot;L'implication d'investisseurs étrangers dans certaines violations des droits de l'homme&quot;</dc:title>
+    </bib:Article>
+    <bib:Document rdf:about="http://www.precisement.org/">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+            <z:Website>
+                <dc:title>Precisement.org - Documentation. Droit. Internet. Blog</dc:title>
+            </z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Barthe</foaf:surname>
+                        <foaf:givenname>Emmanuel</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.precisement.org/</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2019-06-11 10:22:55</dcterms:dateSubmitted>
+        <dc:title>Precisement.org - Documentation. Droit. Internet. Blog</dc:title>
+    </bib:Document>
+    <bib:Article rdf:about="#item_1702">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:volume>32</prism:volume>
+                <prism:number>2</prism:number>
+                <dc:title>IJSL</dc:title>
+                <dcterms:alternative>IJSL</dcterms:alternative>
+                <dc:identifier>DOI 10.1007/s11196-018-9590-9</dc:identifier>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Paturet</foaf:surname>
+                        <foaf:givenname>A.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:pages>485-504</bib:pages>
+        <dc:date>2019</dc:date>
+        <dcterms:dateSubmitted>2019-06-11</dcterms:dateSubmitted>
+        <z:libraryCatalog>Scopus</z:libraryCatalog>
+        <dc:title>Sujet, objet, res et nature: un aperçu historique de l’évolution du concept de chose de l’Antiquité au droit contemporain</dc:title>
+        <z:shortTitle>Sujet, objet, res et nature</z:shortTitle>
+        <z:archive>Scopus</z:archive>
+    </bib:Article>
+    <bib:Book rdf:about="urn:isbn:978-2-247-15036-6">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris, France</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Dalloz</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pacteau</foaf:surname>
+                        <foaf:givenname>B.</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.dalloz-bibliotheque.fr/bibliotheque/Jean_Baptiste_Sirey_(1762_1845)-39566.htm</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:identifier>ISBN 978-2-247-15036-6</dc:identifier>
+        <dc:date>DL 2014</dc:date>
+        <z:libraryCatalog>Library Catalog - www.sudoc.abes.fr</z:libraryCatalog>
+        <z:language>français</z:language>
+        <dc:title>Jean-Baptiste Sirey (1762-1845) : un père de l'étude et de l'édition du contentieux moderne</dc:title>
+        <z:shortTitle>Jean-Baptiste Sirey (1762-1845)</z:shortTitle>
+    </bib:Book>
+    <bib:BookSection rdf:about="urn:isbn:2-7111-2846-6">
+        <z:itemType>bookSection</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Book>
+                <dc:identifier>ISBN 2-7111-2846-6</dc:identifier>
+                <dc:title>Droit et vie des affaires : études à la mémoire d'Alain Sayag</dc:title>
+            </bib:Book>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris, France</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Litec</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sebat</foaf:surname>
+                        <foaf:givenname>Henri</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Alexandre-Caselli</foaf:surname>
+                        <foaf:givenname>Claudine</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:contributors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Centre de recherche sur le droit des affaires</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:contributors>
+        <bib:pages>83-96</bib:pages>
+        <dc:date>1997</dc:date>
+        <z:language>fr-FR</z:language>
+        <dc:title>De l'incompréhension réductible entre recherche juridique et sciences économiques : ou plus de 20 ans de collaboration juristes-économistes au CREDA</dc:title>
+        <z:shortTitle>De l'incompréhension réductible entre recherche juridique et sciences économiques</z:shortTitle>
+    </bib:BookSection>
+    <bib:Document rdf:about="http://koubi.fr/spip.php?article476">
+        <z:itemType>webpage</z:itemType>
+        <dcterms:isPartOf>
+           <z:Website><dc:title>Droit CriTIC</dc:title></z:Website>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Koubi</foaf:surname>
+                        <foaf:givenname>Geneviève</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://koubi.fr/spip.php?article476</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2010-12-07</dc:date>
+        <dcterms:dateSubmitted>2019-06-11</dcterms:dateSubmitted>
+        <z:language>fr-FR</z:language>
+        <dc:title>Les « sélections » de citations… - ... en marge du séminaire du CERSA sur &quot;Le plagiat de la recherche&quot;</dc:title>
+    </bib:Document>
+    <bib:Legislation rdf:about="#item_1707">
+        <z:itemType>bill</z:itemType>
+        <z:sponsors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ministère de l’enseignement supérieur et de la recherche</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </z:sponsors>
+        <dc:date>2019</dc:date>
+        <z:code>Journal officiel</z:code>
+        <z:legislativeBody>France</z:legislativeBody>
+        <prism:volume>209</prism:volume>
+        <dc:title>Décret n° 2019-209 du 20 mars 2019 portant création de l'université de Paris et approbation de ses statuts</dc:title>
+    </bib:Legislation>
+    <bib:Article rdf:about="#item_1708">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <prism:number>1</prism:number>
+                <dc:title>Revue de la recherche juridique. Droit prospectif</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Gogos-Gintrand</foaf:surname>
+                        <foaf:givenname>Amélie</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:pages>p. 401-422</bib:pages>
+        <dc:date>09/2011</dc:date>
+        <dc:title>Le Pacte Commissoire: Une Institution Dangereuse Par Nature</dc:title>
+    </bib:Article>
+    <bib:Book rdf:about="urn:isbn:978-2-13-062817-0">
+        <z:itemType>book</z:itemType>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pacteau</foaf:surname>
+                        <foaf:givenname>Bernard</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>ISBN 978-2-13-062817-0</dc:identifier>
+        <dc:date>2014</dc:date>
+        <dc:description>OCLC: 894000819</dc:description>
+        <z:libraryCatalog>Open WorldCat</z:libraryCatalog>
+        <z:language>French</z:language>
+        <dc:title>Manuel de contentieux administratif</dc:title>
+    </bib:Book>
+    <bib:Article rdf:about="https://www.lemonde.fr/idees/article/2019/06/09/comment-engager-les-entreprises-sur-la-voie-de-la-neutralite-plastique_5473925_3232.html">
+        <z:itemType>newspaperArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Newspaper></bib:Newspaper>
+        </dcterms:isPartOf>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.lemonde.fr/idees/article/2019/06/09/comment-engager-les-entreprises-sur-la-voie-de-la-neutralite-plastique_5473925_3232.html</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2019-06-09</dc:date>
+        <dcterms:dateSubmitted>2019-06-11 16:08:19</dcterms:dateSubmitted>
+        <z:libraryCatalog>Le Monde</z:libraryCatalog>
+        <z:language>fr</z:language>
+        <dcterms:abstract>TRIBUNE. Sur le modèle de la « compensation carbone », les entreprises peuvent compenser par des actions diverses leur utilisation de matière plastique, observe la consultante Elisabeth Laville dans une tribune au « Monde ».</dcterms:abstract>
+        <dc:title>Comment « engager les entreprises sur la voie de la neutralité plastique »</dc:title>
+    </bib:Article>
+    <rdf:Description rdf:about="#item_1714">
+        <z:itemType>conferencePaper</z:itemType>
+        <dcterms:isPartOf>
+            <bib:Journal>
+                <dc:title>”Pratique du droit, pensée du droit et engagement social”, colloque organisé par le Credimi les 11 et 12 mai 2006</dc:title>
+            </bib:Journal>
+        </dcterms:isPartOf>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Dijon, France</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Dalloz</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Manciaux</foaf:surname>
+                        <foaf:givenname>Sébastien</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <bib:editors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dockès</foaf:surname>
+                        <foaf:givenname>Emmanuel</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:editors>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://hal.archives-ouvertes.fr/hal-00200552</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <bib:pages>355-370</bib:pages>
+        <dc:date>May 2006</dc:date>
+        <dcterms:dateSubmitted>2019-06-11 16:10:35</dcterms:dateSubmitted>
+        <z:libraryCatalog>HAL Archives Ouvertes</z:libraryCatalog>
+        <dc:title>”L'implication d'investisseurs étrangers dans certaines violations des droits de l'homme”</dc:title>
+    </rdf:Description>
+    <bib:Thesis rdf:about="http://www.theses.fr/2015PA100080">
+        <z:itemType>thesis</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>Paris 10</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dalil</foaf:surname>
+                        <foaf:givenname>Brahim</foaf:givenname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://www.theses.fr/2015PA100080</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dc:date>2015/07/03</dc:date>
+        <z:libraryCatalog>www.theses.fr</z:libraryCatalog>
+        <z:type>thesis</z:type>
+        <dcterms:abstract>Le droit est devenu de plus en plus illisible et compliqué. Les causes de ce mal juridique sont multiples, il s’agit d’une part, de ce qu’on a appelé une inflation législative où le rythme d’élaboration et de modification des textes juridiques bat tous les records. D’autre part, cette complexité normative a été renforcée par l’apparition de matières juridiques nouvelles faisant appel à des concepts techniques et scientifiques, il s’agit par exemple du droit des nouvelles technologies. Enfin, la crise de la norme juridique est due aussi à la dégradation de la qualité rédactionnelle des textes. Pouvoirs publics et personnes privées s’accordaient pour dénoncer un phénomène d’insécurité juridique. C’est dans ce contexte que le Conseil d’Etat a consacré un principe de sécurité juridique comme moyen de remédier à ce phénomène. Au lendemain de cette consécration la doctrine dans sa majorité estimait qu’il s’agissait d’un principe qui respecte la portée objective de notre droit administratif. Nous avons estimé, avec d’autres, qu’il s’agit en revanche d’un principe inspiré du principe de protection de la confiance légitime. Celui-ci d’origine allemande, et adopté par le droit Communautaire et celui de tous les Etats européens, est de portée subjective. Ainsi nous avons développé l’idée qu’à travers le principe de sécurité juridique, le Conseil d’ Etat consacre un droit public subjectif à la sécurité juridique qui rompt avec cette tradition objective du droit administratif français. En effet, depuis la consécration du principe de sécurité juridique, notre droit administratif prend une tournure subjective.</dcterms:abstract>
+        <dc:title>Le droit administratif face au principe de la sécurité juridique</dc:title>
+    </bib:Thesis>
+    <bib:Book rdf:about="urn:isbn:978-2-84934-356-2">
+        <z:itemType>book</z:itemType>
+        <dc:publisher>
+            <foaf:Organization>
+                <vcard:adr>
+                    <vcard:Address>
+                       <vcard:locality>Paris</vcard:locality>
+                    </vcard:Address>
+                </vcard:adr>
+                <foaf:name>Paris : mare &amp; martin</foaf:name>
+            </foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Ayad-Bergounioux Soulef 1978-...</foaf:surname>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <dc:identifier>ISBN 978-2-84934-356-2</dc:identifier>
+        <dc:date>2018</dc:date>
+        <dcterms:abstract>La 4e de couverture indique : &quot;Qu'est-ce que le droit ? Un fait social, une science, un pouvoir ? Peut-on réduire le droit à sa force de coercition et partant, le considérer comme un instrument disciplinaire qui contraint sans violence apparente, les agents sociaux à l'obéissance ? Les logiques du droit constituent une invitation à s'interroger sur les logiques sociales et historiques du droit, donc sur les enjeux de pouvoir qu'il enferme, les rapports de domination qu'il objective, naturalise et par-là neutralise. En somme, cet ouvrage collectif rassemblant historiens, juristes, sociologues et politistes, proposent une définition renouvelée de la sociologie historique du droit, pensée à la fois comme science des normes, des faits sociaux et des régimes de domination.&quot;</dcterms:abstract>
+        <dc:title>Les logiques du droit : science de la norme et des régimes de domination 2-3 avril 2015, Faculté Jean Monnet - Université Paris-Sud</dc:title>
+    </bib:Book>
+</rdf:RDF>
