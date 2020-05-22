@@ -10,12 +10,12 @@ Intervenants : Pierre Gravier et Frédérique Flamerie
 Pour les 3 références bibliographiques présentées, il s'agit identifier les types de document cités et de repérer d'éventuelles erreurs dans l'application des consignes du style École doctorale Droit de Bordeaux.
 
 * Format PowerPoint incluant les paramétrages pour une utilisation avec des boîtiers de réponse Quizzbox - [TP1 .pttx](https://github.com/urfistbordeaux/csl_ed_droit_ubx/blob/master/201906_citer_des_refs/2019_06_citer_des_refs_tp1.pptx)
-* Format PDF - [TP1 .pdf](https://github.com/urfistbordeaux/csl_ed_droit_ubx/blob/master/201906_citer_des_refs/2019_06_citer_des_refs_tp1.pptx)
+* Format PDF - [TP1 .pdf](https://github.com/urfistbordeaux/csl_ed_droit_ubx/blob/master/201906_citer_des_refs/2019_06_citer_des_refs_tp1.pdf)
 
 ### Créer un style pour Zotero correspondant à des consignes bibliographiques : méthodes et outils
 
 * [Diaporama au format .md](https://github.com/urfistbordeaux/csl_ed_droit_ubx/blob/master/201906_citer_des_refs/2019_06_citer_des_refs_outils_methodes.md) - inclut les consignes du TP2
-* [Diaporama au format .pdf](https://github.com/urfistbordeaux/csl_ed_droit_ubx/blob/master/201906_citer_des_refs/2019_06_citer_des_refs_outils_methodes.md) - inclut les consignes du TP2
+* [Diaporama au format .pdf](https://github.com/urfistbordeaux/csl_ed_droit_ubx/blob/master/201906_citer_des_refs/2019_06_citer_des_refs_outils_methodes.pdf) - inclut les consignes du TP2
 
 ### TP2 : produire un document avec notes et bas de page conforme à un modèle
 
@@ -29,7 +29,7 @@ Pour les 3 références bibliographiques présentées, il s'agit identifier les 
 
 :book: [références bibliographiques au format Zotero rdf](https://github.com/urfistbordeaux/csl_ed_droit_ubx/blob/master/201906_citer_des_refs/bib_tp2_corrige.rdf)
 
-:page_facing_up: [fichier texte intermédiaire au format .docx](https://github.com/urfistbordeaux/csl_ed_droit_ubx/blob/master/201906_citer_des_refs/2019_06_citer_des_refs_tp2_CORRIGE_texte.docx) : comporte toutes les références, à l'exception de la référence leurre créée et utilisée pour pallier [cette difficulté très spécifique de Word à gérer correctement l'italique](https://www.zotero.org/support/kb/italics_in_word_bibliographies)
+:page_facing_up: [fichier texte intermédiaire au format .docx](https://github.com/urfistbordeaux/csl_ed_droit_ubx/blob/master/201906_citer_des_refs/2019_06_citer_des_refs_tp2_CORRIGE_texte.docx) : comporte toutes les références, à l'exception de la référence leurre créée et utilisée pour pallier [cette difficulté très spécifique de Word à gérer correctement l'italique](https://www.zotero.org/support/fr/kb/italics_in_word_bibliographies)
 
 :page_facing_up: [fichier texte définitif au format .docx](https://github.com/urfistbordeaux/csl_ed_droit_ubx/blob/master/201906_citer_des_refs/2019_06_citer_des_refs_tp2_CORRIGE_texte.docx) : fichier conforme au modèle : pour le produire il convient d'insérer la référence leurre dans le fichier Word intermédiaire, de :warning: retirer les codes de champ Zotero, supprimer la référence leurre en note et en bibliographie.
 
