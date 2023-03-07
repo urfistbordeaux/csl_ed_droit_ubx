@@ -16,4 +16,4 @@ de droit (Français)](https://www.zotero.org/styles/universite-de-bordeaux-ecole
 
 :point_up: **Si vous souhaitez contribuer au projet**, merci de prendre connaissance au préalable de la page [Contribuer au projet](https://github.com/fflamerie/csl_ed_droit_ubx/wiki/Contribuer-au-projet).
 
-![logo_urfist](logo-urfist-bordeaux.png)
+![logo_urfist](logo-urfist-bordeaux.jpg)
