@@ -1,4 +1,4 @@
-# Style CSL pour Zotero : Université de Bordeaux - École doctorale de droit (French)
+# Style CSL pour Zotero : Université de Bordeaux - École doctorale de droit (Français)
 
 _Un projet de l'Urfist de Bordeaux : consulter [la page du projet sur le site de l'Urfist](http://weburfist.univ-bordeaux.fr/citer-des-references-juridiques-guide-et-style-zotero/)._
 
@@ -8,7 +8,7 @@ références bibliographiques juridiques](http://www.sudoc.fr/233120807).
 :inbox_tray: [Télécharger la version numérique du guide](https://hal.archives-ouvertes.fr/hal-02157703) 
 
 Le style est disponible dans l'entrepôt des styles Zotero à l'adresse suivante : [Université de Bordeaux - École doctorale
-de droit (French)](https://www.zotero.org/styles/universite-de-bordeaux-ecole-doctorale-de-droit).
+de droit (Français)](https://www.zotero.org/styles/universite-de-bordeaux-ecole-doctorale-de-droit).
 
 :notebook_with_decorative_cover: La documentation associée au style est disponible en ligne sur Read the Docs : [consulter la documentation](https://documentation-style-csl-ed-droit-ubx.readthedocs.io).
 
